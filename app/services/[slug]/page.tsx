@@ -32,34 +32,42 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
     };
   }
 
-  const title = `${service.title} | Zavera.Tech — Abbottabad, Pakistan`;
-  const description = `${service.shortDesc} Professional ${service.primaryKeyword} delivered by Zavera.Tech in Abbottabad, Pakistan and worldwide.`;
+  const title = (service as any).metaTitle || `${service.title} | Zavera.Tech — Abbottabad, Pakistan`;
+  const description = (service as any).metaDescription || `${service.shortDesc} Professional ${service.primaryKeyword} delivered by Zavera.Tech in Abbottabad, Pakistan and worldwide.`;
 
   return {
     title,
     description,
     keywords: [
       service.primaryKeyword,
-      ...service.secondaryKeywords,
-      ...service.localKeywords,
+      ...(service.secondaryKeywords || []),
+      ...((service as any).supportingKeywords || []),
+      ...((service as any).longTailKeywords || []),
+      ...((service as any).localKeywords || []),
       "Zavera.Tech Abbottabad",
     ],
     alternates: {
-      canonical: `/services/${service.slug}`,
+      canonical: `https://zavera-tech.vercel.app/services/${service.slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `${siteConfig.url}/services/${service.slug}`,
+      url: `https://zavera-tech.vercel.app/services/${service.slug}`,
       type: "website",
       images: [
         {
           url: service.image,
           width: 1200,
           height: 630,
-          alt: service.title,
+          alt: (service as any).imageAlt || service.title,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [service.image],
     },
   };
 }
@@ -173,7 +181,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[440px] rounded-3xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900">
                 <Image
                   src={service.image}
-                  alt={`${service.title} - Zavera.Tech Abbottabad Pakistan`}
+                  alt={(service as any).imageAlt || `${service.title} - Zavera.Tech Abbottabad Pakistan`}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 550px"
@@ -182,6 +190,21 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Contextual Cross-Discipline Recommendations */}
+        <div className="mb-12 p-6 rounded-2xl bg-neutral-50 border border-neutral-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <h3 className="text-sm font-bold text-neutral-900">
+              Explore Complementary Digital Disciplines
+            </h3>
+            <p className="text-xs text-neutral-600 mt-1 leading-relaxed">
+              Enhance this service with our integrated <Link href="/services/web-development" className="text-[#F07825] font-semibold hover:underline">Web Development</Link>, <Link href="/services/seo-services" className="text-[#F07825] font-semibold hover:underline">SEO Services</Link>, <Link href="/services/digital-marketing" className="text-[#F07825] font-semibold hover:underline">Digital Marketing</Link>, and <Link href="/services/graphic-designing" className="text-[#F07825] font-semibold hover:underline">Graphic Designing</Link>.
+            </p>
+          </div>
+          <Button variant="outline" size="sm" href="/services">
+            All Services
+          </Button>
         </div>
 
         {/* Key Features & Value Proposition */}

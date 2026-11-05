@@ -17,17 +17,33 @@ export interface SubServiceDetail {
   heroDescription: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
+  supportingKeywords?: string[];
+  longTailKeywords?: string[];
+  localKeywords?: string[];
+  metaTitle?: string;
+  metaDescription?: string;
+  imageAlt?: string;
   shortDesc: string;
   image: string;
-  features: string[];
-  deliverables: string[];
-  techStack: string[];
+  features:
+    | {
+        title: string;
+        description: string;
+      }[]
+    | string[];
+  deliverables?: string[];
+  techStack?: string[];
   process: {
     step: string;
     title: string;
-    description: string;
+    desc?: string;
+    description?: string;
   }[];
-  faq: {
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
+  faq?: {
     question: string;
     answer: string;
   }[];
@@ -41,4 +57,3 @@ export interface ServiceCategory {
   icon: string;
   services: SubServiceDetail[];
 }
-

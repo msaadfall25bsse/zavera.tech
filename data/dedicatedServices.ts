@@ -7,9 +7,14 @@ export interface SubServiceDetail {
   heroHeadline: string;
   heroDescription: string;
   image: string;
+  imageAlt?: string;
+  metaTitle?: string;
+  metaDescription?: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
-  localKeywords: string[];
+  supportingKeywords?: string[];
+  longTailKeywords?: string[];
+  localKeywords?: string[];
   features: {
     title: string;
     description: string;
