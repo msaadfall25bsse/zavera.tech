@@ -4,7 +4,7 @@
 
 ## Primary Location & Contact
 - City: Abbottabad, Khyber Pakhtunkhwa, Pakistan
-- Website: https://zavera.tech
+- Website: https://zavera-tech.vercel.app
 - Email: contact@zavera.tech
 
 ## Core Services & Capabilities
@@ -35,9 +35,9 @@ Zavera.Tech operates a 100% free, open-source educational academy covering 9 com
 - Principles of Impactful Brand Identity Design
 
 ## Key Website Routes
-- Homepage: https://zavera.tech/
-- About Us: https://zavera.tech/about
-- Services Directory: https://zavera.tech/services
-- Learning Academy: https://zavera.tech/learning
-- Contact & Inquiries: https://zavera.tech/contact
+- Homepage: https://zavera-tech.vercel.app/
+- About Us: https://zavera-tech.vercel.app/about
+- Services Directory: https://zavera-tech.vercel.app/services
+- Learning Academy: https://zavera-tech.vercel.app/learning
+- Contact & Inquiries: https://zavera-tech.vercel.app/contact
 

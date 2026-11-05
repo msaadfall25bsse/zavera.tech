@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     "About Zavera.Tech",
   ],
   alternates: {
-    canonical: "https://zavera-tech-seo.vercel.app/about",
+    canonical: "https://zavera-tech.vercel.app/about",
   },
   openGraph: {
     title: "About Zavera.Tech | Digital Agency in Abbottabad",
     description:
       "Discover Zavera.Tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
-    url: "https://zavera-tech-seo.vercel.app/about",
+    url: "https://zavera-tech.vercel.app/about",
     type: "website",
     images: [
       {
