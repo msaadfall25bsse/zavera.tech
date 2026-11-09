@@ -727,26 +727,20 @@ export const servicesCatalogList: SubServiceDetail[] = [
     slug: "digital-marketing",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "Digital Marketing Services",
-    metaTitle: "Digital Marketing Services in Abbottabad | Zavera.Tech",
-    metaDescription: "Discover digital marketing services from Zavera.Tech, including social media marketing, online advertising, content marketing and campaign management.",
-    imageAlt: "Zavera.Tech digital marketing strategists analyzing social media advertising campaigns in Abbottabad",
-    shortDesc: "Discover digital marketing services from Zavera.Tech, including social media marketing, online advertising, content marketing and campaign management.",
-    heroHeadline: "Digital Marketing Solutions for Growing Businesses",
-    heroDescription: "We develop integrated digital marketing campaigns combining social media management, targeted advertising, and content strategies to help businesses build audience trust and drive inquiries.",
+    title: "Digital Marketing",
+    metaTitle: "Digital Marketing in Abbottabad | Zavera Tech",
+    metaDescription: "Digital Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    imageAlt: "Zavera Tech digital marketing strategists analyzing social media advertising campaigns in Abbottabad",
+    shortDesc: "Digital Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "Digital Marketing",
+    heroDescription: "Digital Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "/digital-marketing-hero.jpg",
-    primaryKeyword: "Digital Marketing Services in Abbottabad",
+    primaryKeyword: "digital marketing agency Abbottabad",
     secondaryKeywords: [
-      "Digital Marketing Agency in Abbottabad",
-      "Digital Marketing Company in Abbottabad",
-      "Digital Marketing Services in Pakistan",
-      "Online Marketing Services",
-      "Professional Digital Marketing Agency",
-      "Business Digital Marketing Solutions",
-      "Digital Advertising Services",
-      "Online Business Promotion Services",
-      "Digital Marketing for Small Businesses",
-      "Internet Marketing Services in Pakistan"
+      "digital marketing services Pakistan",
+      "online marketing company",
+      "digital marketing company Abbottabad",
+      "internet marketing services"
     ],
     supportingKeywords: [
       "Social Media Marketing Services",
@@ -761,11 +755,8 @@ export const servicesCatalogList: SubServiceDetail[] = [
       "Conversion Rate Optimization"
     ],
     longTailKeywords: [
-      "Affordable Digital Marketing Services in Abbottabad",
-      "Digital Marketing Solutions for Small Businesses",
-      "Social Media Marketing for Local Businesses",
-      "Online Advertising Services for Businesses in Pakistan",
-      "Professional Digital Marketing Agency for Business Growth"
+      "digital marketing agency for small businesses in Abbottabad",
+      "online marketing services Pakistan"
     ],
     features: [
       { title: "Social Media Marketing (SMM)", description: "Building community engagement and consistent brand storytelling across major social channels including Facebook and Instagram." },
@@ -781,7 +772,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Refinement & Reporting", desc: "Reviewing campaign insights, optimizing audience parameters, and transparent reporting." },
     ],
     faqs: [
-      { question: "What digital marketing services does Zavera.Tech provide?", answer: "Our services include social media marketing (Facebook and Instagram), online advertising, content marketing, campaign management, and digital growth strategy." },
+      { question: "What digital marketing services does Zavera Tech provide?", answer: "Our services include social media marketing (Facebook and Instagram), online advertising, content marketing, campaign management, and digital growth strategy." },
       { question: "Do you guarantee specific lead volumes or sales figures?", answer: "No, we do not make unrealistic sales or lead guarantees. Digital marketing performance depends on market demand, product pricing, and business offer appeal. We focus on structured campaigns that maximize reach and engagement." },
       { question: "How does digital marketing work alongside SEO?", answer: "Digital marketing delivers immediate targeted reach through ads and social platforms, while SEO builds long-term organic search authority. Combining both creates a comprehensive digital acquisition strategy." },
       { question: "Can small businesses in Abbottabad afford digital marketing?", answer: "Yes, digital campaigns can be tailored to match modest marketing budgets, focusing on local geographic targeting within Abbottabad and Hazara Division." },
@@ -789,15 +780,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "social-media-marketing",
+    metaTitle: "Social Media Marketing in Abbottabad | Zavera Tech",
+    metaDescription: "Social Media Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "Social Media Marketing (SMM)",
-    shortDesc: "Strategic audience engagement, creative visual storytelling, and community growth across Facebook, Instagram, LinkedIn, and YouTube.",
-    heroHeadline: "Social Media Marketing & Brand Growth Services",
-    heroDescription: "Build an active, loyal community around your brand. We design thumb-stopping graphics, write engaging copy, and manage targeted social advertising.",
+    title: "Social Media Marketing",
+    shortDesc: "Social Media Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "Social Media Marketing",
+    heroDescription: "Social Media Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "social media marketing services",
-    secondaryKeywords: ["social media agency Pakistan", "SMM services Abbottabad", "Instagram marketing agency", "Facebook ads management", "social media management Pakistan"],
+    primaryKeyword: "social media marketing services Abbottabad",
+    secondaryKeywords: [
+      "social media management",
+      "social media agency Pakistan",
+      "social media marketing company",
+      "social media campaigns"
+    ],
+    longTailKeywords: [
+      "social media marketing for businesses in Abbottabad",
+      "social media management services Pakistan"
+    ],
     localKeywords: ["social media marketing Abbottabad", "social media management KPK"],
     features: [
       { title: "Custom Content Calendars", description: "Strategically planned weekly post schedules aligning with promotions and business milestones." },
@@ -818,15 +820,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "facebook-marketing",
+    metaTitle: "Facebook Marketing | Zavera Tech",
+    metaDescription: "Facebook Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "Facebook Marketing & Advertising",
-    shortDesc: "Targeted Facebook ad campaigns, custom audience lookalikes, and retargeting funnels that convert clicks into paying customers.",
-    heroHeadline: "Facebook Marketing & Paid Ad Management",
-    heroDescription: "Leverage the massive reach of Meta's advertising platform to generate high-volume qualified leads and scalable online sales.",
+    title: "Facebook Marketing",
+    shortDesc: "Facebook Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "Facebook Marketing",
+    heroDescription: "Facebook Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "Facebook marketing services",
-    secondaryKeywords: ["Facebook ads agency Pakistan", "Facebook lead generation", "Facebook marketing Abbottabad", "Meta ads management", "Facebook retargeting ads"],
+    primaryKeyword: "Facebook marketing services Pakistan",
+    secondaryKeywords: [
+      "Facebook ads management",
+      "Facebook advertising agency",
+      "Facebook business marketing",
+      "Meta ads campaigns"
+    ],
+    longTailKeywords: [
+      "Facebook ads agency for small businesses Pakistan",
+      "Facebook marketing services Abbottabad"
+    ],
     localKeywords: ["Facebook advertising Abbottabad", "Facebook ads expert KPK"],
     features: [
       { title: "Lead Generation Forms", description: "Frictionless instant lead forms that capture customer details directly inside Facebook." },
@@ -847,15 +860,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "instagram-marketing",
+    metaTitle: "Instagram Marketing | Zavera Tech",
+    metaDescription: "Instagram Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "Instagram Marketing & Growth",
-    shortDesc: "Aesthetic feed curation, engaging video reels, influencer collaborations, and high-converting shopping promotions.",
-    heroHeadline: "Instagram Marketing & Visual Brand Growth",
-    heroDescription: "Transform your Instagram profile into a visually stunning, customer-attracting digital storefront with curated feeds and high-performing reel campaigns.",
+    title: "Instagram Marketing",
+    shortDesc: "Instagram Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "Instagram Marketing",
+    heroDescription: "Instagram Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "Instagram marketing services",
-    secondaryKeywords: ["Instagram agency Pakistan", "Instagram growth services", "Instagram reels marketing", "Instagram ads management", "visual social branding"],
+    primaryKeyword: "Instagram marketing services Pakistan",
+    secondaryKeywords: [
+      "Instagram ads management",
+      "Instagram account marketing",
+      "Instagram growth strategy",
+      "Instagram content strategy"
+    ],
+    longTailKeywords: [
+      "Instagram marketing services for small businesses Pakistan",
+      "Instagram marketing Abbottabad"
+    ],
     localKeywords: ["Instagram marketing Abbottabad", "Instagram management Pakistan"],
     features: [
       { title: "Aesthetic Grid Curation", description: "Designing harmonious feed layouts that create an immediate premium brand impression." },
@@ -876,15 +900,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "google-ads",
+    metaTitle: "Google Ads | Zavera Tech",
+    metaDescription: "Google Ads can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "Google Ads Management",
-    shortDesc: "High-ROI Google Search, Display, and Performance Max campaigns putting your business at the very top of Google when buyers search.",
-    heroHeadline: "Certified Google Ads Management Services in Pakistan",
-    heroDescription: "Capture high-intent buyers ready to purchase right now. We optimize keyword targeting, ad copy, negative keywords, and landing page conversions.",
+    title: "Google Ads",
+    shortDesc: "Google Ads can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "Google Ads",
+    heroDescription: "Google Ads can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "Google ads management services",
-    secondaryKeywords: ["Google AdWords agency Pakistan", "PPC management services", "Google search ads management", "Google shopping ads", "hire Google ads expert"],
+    primaryKeyword: "Google Ads management services Pakistan",
+    secondaryKeywords: [
+      "Google advertising agency",
+      "Google Ads campaign management",
+      "Google search ads",
+      "PPC campaign management"
+    ],
+    longTailKeywords: [
+      "hire Google Ads expert Pakistan",
+      "Google Ads services in Abbottabad"
+    ],
     localKeywords: ["Google ads Abbottabad", "PPC agency Abbottabad Pakistan"],
     features: [
       { title: "High-Intent Search Campaigns", description: "Bidding on exact commercial search queries so your ad appears when users want to hire or buy." },
@@ -905,15 +940,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "ppc-advertising",
+    metaTitle: "PPC Advertising | Zavera Tech",
+    metaDescription: "PPC Advertising can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "PPC Advertising Services",
-    shortDesc: "Multi-platform pay-per-click management across Google, Bing, Facebook, and LinkedIn for predictable lead generation.",
-    heroHeadline: "Performance Pay-Per-Click (PPC) Advertising Services",
-    heroDescription: "Scale your revenue predictably with performance-driven pay-per-click advertising tailored to minimize acquisition costs and maximize ROI.",
+    title: "PPC Advertising",
+    shortDesc: "PPC Advertising can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "PPC Advertising",
+    heroDescription: "PPC Advertising can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "PPC advertising services",
-    secondaryKeywords: ["pay per click management", "PPC marketing agency", "paid search advertising", "PPC campaign management Pakistan", "ROI focused PPC"],
+    primaryKeyword: "PPC advertising services Pakistan",
+    secondaryKeywords: [
+      "pay per click advertising",
+      "paid search management",
+      "PPC agency Pakistan",
+      "paid advertising services"
+    ],
+    longTailKeywords: [
+      "PPC management services for businesses",
+      "pay per click advertising company Pakistan"
+    ],
     localKeywords: ["PPC services Abbottabad", "PPC expert Pakistan"],
     features: [
       { title: "Cross-Platform Optimization", description: "Coordinating search, display, and social pay-per-click campaigns to capture users at all funnel stages." },
@@ -934,15 +980,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "content-marketing",
+    metaTitle: "Content Marketing | Zavera Tech",
+    metaDescription: "Content Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "Content Marketing & Editorial Strategy",
-    shortDesc: "Authoritative industry articles, educational guides, whitepapers, and infographics that position your brand as a market leader.",
-    heroHeadline: "Strategic Content Marketing & Thought Leadership",
-    heroDescription: "Attract, educate, and retain high-value customers through well-researched, authoritative content that ranks on search engines and builds lasting trust.",
+    title: "Content Marketing",
+    shortDesc: "Content Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "Content Marketing",
+    heroDescription: "Content Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "content marketing services",
-    secondaryKeywords: ["content marketing strategy Pakistan", "SEO blog writing services", "content marketing agency", "thought leadership content", "b2b content marketing"],
+    primaryKeyword: "content marketing services Pakistan",
+    secondaryKeywords: [
+      "content strategy",
+      "content creation services",
+      "business content marketing",
+      "content planning"
+    ],
+    longTailKeywords: [
+      "content marketing agency for small businesses Pakistan",
+      "content strategy services Pakistan"
+    ],
     localKeywords: ["content marketing Abbottabad", "content writers Pakistan"],
     features: [
       { title: "In-Depth Educational Guides", description: "Comprehensive, bookmark-worthy articles that answer customer questions and build trust." },
@@ -963,15 +1020,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "email-marketing",
+    metaTitle: "Email Marketing | Zavera Tech",
+    metaDescription: "Email Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     categorySlug: "digital-marketing",
     categoryTitle: "Digital Marketing",
-    title: "Email Marketing & Lead Nurturing",
-    shortDesc: "Automated welcome sequences, promotional newsletters, and retention drip campaigns that convert subscribers into repeat clients.",
-    heroHeadline: "Automated Email Marketing & Lead Nurturing Services",
-    heroDescription: "Turn casual subscribers into loyal, repeat customers. We design clean, responsive email templates, author compelling copy, and set up automated drip workflows.",
+    title: "Email Marketing",
+    shortDesc: "Email Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
+    heroHeadline: "Email Marketing",
+    heroDescription: "Email Marketing can help a business communicate with the people it wants to reach online. The right approach depends on the audience, campaign goal, available budget and content. Zavera Tech can discuss your requirements and help identify a suitable plan before any campaign work begins.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "email marketing services",
-    secondaryKeywords: ["email marketing agency Pakistan", "email automation services", "newsletter marketing", "drip campaign management", "lead nurturing email sequences"],
+    primaryKeyword: "email marketing services Pakistan",
+    secondaryKeywords: [
+      "email campaign management",
+      "email automation services",
+      "email marketing agency",
+      "newsletter marketing"
+    ],
+    longTailKeywords: [
+      "email marketing services for small businesses Pakistan",
+      "email automation setup services"
+    ],
     localKeywords: ["email marketing Abbottabad", "email marketing Pakistan"],
     features: [
       { title: "Automated Drip Sequences", description: "Triggered onboarding, welcome, and lead qualification workflows that run 24/7." },
