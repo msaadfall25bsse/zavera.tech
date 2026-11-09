@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Logo from "@/components/common/Logo";
 import { navigationLinks, siteConfig } from "@/data/navigation";
-import { servicesData } from "@/data/services";
-import { Mail, Phone, MapPin, ArrowUpRight, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -77,17 +76,51 @@ export default function Footer() {
               Our Services
             </h3>
             <ul className="space-y-2.5 text-sm">
-              {servicesData.map((service) => (
-                <li key={service.id}>
-                  <Link
-                    href={`/services#${service.id}`}
-                    className="hover:text-[#F07825] transition-colors flex items-center group"
-                  >
-                    <span>{service.title}</span>
-                    <ArrowUpRight className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#F07825]" />
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  href="/services/web-development"
+                  className="hover:text-[#F07825] transition-colors flex items-center group"
+                >
+                  <span>Web Development</span>
+                  <ArrowUpRight className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#F07825]" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/seo-services"
+                  className="hover:text-[#F07825] transition-colors flex items-center group"
+                >
+                  <span>SEO Services</span>
+                  <ArrowUpRight className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#F07825]" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/digital-marketing"
+                  className="hover:text-[#F07825] transition-colors flex items-center group"
+                >
+                  <span>Digital Marketing</span>
+                  <ArrowUpRight className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#F07825]" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services/graphic-designing"
+                  className="hover:text-[#F07825] transition-colors flex items-center group"
+                >
+                  <span>Graphic Designing</span>
+                  <ArrowUpRight className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#F07825]" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/learning"
+                  className="hover:text-[#F07825] transition-colors flex items-center group"
+                >
+                  <span>Learning Hub</span>
+                  <ArrowUpRight className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity text-[#F07825]" />
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/services#faq"
@@ -147,6 +180,9 @@ export default function Footer() {
             </Link>
             <Link href="/contact" className="hover:text-neutral-400 transition-colors">
               Contact
+            </Link>
+            <Link href="/sitemap" className="hover:text-[#F07825] transition-colors font-medium">
+              HTML Sitemap
             </Link>
           </div>
         </div>
