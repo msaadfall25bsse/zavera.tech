@@ -2,22 +2,26 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 
 export const course4: BootcampCourse = {
   slug: "building-scalable-uis-with-react",
-  title: "Building Scalable User Interfaces with React",
-  subtitle: "Master Components, Props, State, Hooks, and Component Architecture for Production React Apps",
+  title: "Building Scalable UIs with React",
+  metaTitle: "Building Scalable UIs with React | Zavera Tech",
+  metaDescription: "This guide introduces building scalable uis with react in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces building scalable uis with react in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "React.js",
   difficulty: "Intermediate",
   duration: "5 Weeks (Intensive Bootcamp Curriculum)",
-  summary: "Transition from imperative DOM manipulation to declarative, component-driven UI engineering. Learn component lifecycle, useState, useEffect, custom reusable hooks, and scalable folder architectures.",
+  summary: "This guide introduces building scalable uis with react in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-08",
-  primaryKeyword: "React JS Tutorial",
+  primaryKeyword: "React JS tutorial",
   secondaryKeywords: [
-    "Learn React JS",
     "React components",
-    "React hooks",
+    "scalable React applications",
     "React UI development",
-    "Reusable React components",
-    "Scalable React applications",
+    "React state management"
+  ],
+  longTailKeywords: [
+    "scalable React application tutorial",
+    "React component architecture guide"
   ],
   overview: {
     about: "This comprehensive React course guides you through declarative UI engineering. You will learn how the Virtual DOM works, compose reusable components, manage state effectively, and build fast, maintainable applications.",
@@ -130,7 +134,7 @@ export function Counter() {
     deliverables: [
       "Modular component hierarchy with separate presentation and container components",
       "Custom useLocalStorage hook for saving completed lessons",
-      "Responsive layout styled with Tailwind CSS conforming to Zavera.Tech design standards",
+      "Responsive layout styled with Tailwind CSS conforming to Zavera Tech design standards",
     ],
   },
   relatedCourseSlugs: [

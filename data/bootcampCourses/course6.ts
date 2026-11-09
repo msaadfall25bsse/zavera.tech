@@ -3,21 +3,25 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course6: BootcampCourse = {
   slug: "type-safe-web-applications-with-typescript",
   title: "Type-Safe Web Applications with TypeScript",
-  subtitle: "Eliminate Runtime Errors, Master Generics, and Build Robust Enterprise Web Apps",
+  metaTitle: "Type-Safe Web Applications with TypeScript | Zavera Tech",
+  metaDescription: "This guide introduces type-safe web applications with typescript in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces type-safe web applications with typescript in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "TypeScript",
   difficulty: "Intermediate",
   duration: "4 Weeks (Strict Engineering Labs)",
-  summary: "Transform JavaScript into a strictly-typed, scalable language. Learn TypeScript interfaces, type aliases, union & intersection types, generics, utility types, and runtime validation with Zod.",
+  summary: "This guide introduces type-safe web applications with typescript in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "/learning-typescript.jpg",
   publishedAt: "2026-03-12",
-  primaryKeyword: "TypeScript Tutorial",
+  primaryKeyword: "TypeScript tutorial",
   secondaryKeywords: [
-    "Learn TypeScript",
-    "TypeScript for web development",
-    "Type-safe web applications",
-    "TypeScript interfaces",
+    "type-safe web development",
+    "TypeScript for beginners",
     "TypeScript types",
-    "TypeScript with React",
+    "TypeScript web applications"
+  ],
+  longTailKeywords: [
+    "TypeScript tutorial for React and Next.js",
+    "building type-safe web applications"
   ],
   overview: {
     about: "This comprehensive course guides you through static typing in modern web engineering. You will learn how TypeScript's compiler checks types at compile time, eliminating null pointer exceptions and type mismatch crashes before code is deployed.",

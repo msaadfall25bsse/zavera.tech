@@ -3,23 +3,25 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course7: BootcampCourse = {
   slug: "actionable-technical-seo-for-modern-websites",
   title: "Actionable Technical SEO for Modern Websites",
-  subtitle: "Master Crawlability, Core Web Vitals, Structured Data, Sitemaps & Search Console Optimization",
+  metaTitle: "Actionable Technical SEO for Modern Websites | Zavera Tech",
+  metaDescription: "This guide introduces actionable technical seo for modern websites in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces actionable technical seo for modern websites in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "SEO",
   difficulty: "Intermediate",
   duration: "4 Weeks (Hands-on SEO Lab Curriculum)",
-  summary: "A rigorous, step-by-step masterclass in technical search engine optimization. Learn how search spiders crawl websites, optimize Core Web Vitals, construct XML sitemaps, inject rich JSON-LD schema, and debug indexing in Google Search Console.",
+  summary: "This guide introduces actionable technical seo for modern websites in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-14",
-  primaryKeyword: "Technical SEO",
+  primaryKeyword: "technical SEO guide",
   secondaryKeywords: [
-    "Technical SEO guide",
-    "Technical SEO checklist",
-    "Website indexing",
-    "Website crawlability",
-    "Core Web Vitals",
-    "XML sitemap SEO",
-    "Robots.txt optimization",
-    "Website speed optimization",
+    "technical SEO checklist",
+    "website SEO optimization",
+    "crawlability and indexing",
+    "Core Web Vitals"
+  ],
+  longTailKeywords: [
+    "technical SEO guide for modern websites",
+    "website technical SEO checklist"
   ],
   overview: {
     about: "This comprehensive technical SEO course takes you deep into the infrastructure of organic search. You will master crawling mechanics, canonical link standards, XML sitemaps, schema structured data, and Google Core Web Vitals performance tuning.",
@@ -101,7 +103,7 @@ export const course7: BootcampCourse = {
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Zavera.Tech",
+  "name": "Zavera Tech",
   "url": "https://zavera.tech",
   "address": {
     "@type": "PostalAddress",

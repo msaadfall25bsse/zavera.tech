@@ -2,22 +2,26 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 
 export const course3: BootcampCourse = {
   slug: "javascript-es6-and-asynchronous-patterns",
-  title: "Modern JavaScript ES6+ & Asynchronous Mastery",
-  subtitle: "Master Destructuring, Arrow Functions, Promises, Async/Await, and the Event Loop",
+  title: "JavaScript ES6 and Asynchronous Patterns",
+  metaTitle: "JavaScript ES6 and Asynchronous Patterns | Zavera Tech",
+  metaDescription: "This guide introduces javascript es6 and asynchronous patterns in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces javascript es6 and asynchronous patterns in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "JavaScript",
   difficulty: "Intermediate",
   duration: "4 Weeks (Hands-on Coding Labs)",
-  summary: "Upgrade your JavaScript skills from basic DOM scripting to professional ES6+ patterns, functional array methods, asynchronous data pipelines, and error handling for modern application engineering.",
+  summary: "This guide introduces javascript es6 and asynchronous patterns in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-05",
-  primaryKeyword: "JavaScript ES6",
+  primaryKeyword: "JavaScript ES6 tutorial",
   secondaryKeywords: [
-    "Modern JavaScript tutorial",
-    "JavaScript ES6 features",
-    "JavaScript asynchronous programming",
+    "JavaScript async await",
     "JavaScript promises",
-    "Async await JavaScript",
-    "JavaScript modules",
+    "ES6 features",
+    "asynchronous JavaScript"
+  ],
+  longTailKeywords: [
+    "JavaScript ES6 features explained",
+    "async await and promises tutorial"
   ],
   overview: {
     about: "This comprehensive course dives into modern ECMAScript specifications, from immutable functional patterns (map, filter, reduce) to concurrency mechanics, asynchronous Promise pipelines, and native ES modules.",

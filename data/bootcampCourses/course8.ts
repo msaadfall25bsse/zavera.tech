@@ -3,21 +3,25 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course8: BootcampCourse = {
   slug: "crafting-sustainable-digital-marketing-strategies",
   title: "Crafting Sustainable Digital Marketing Strategies",
-  subtitle: "Build Data-Driven Acquisition Funnels, Map Search Intent, and Drive Measurable Business ROI",
+  metaTitle: "Crafting Sustainable Digital Marketing Strategies | Zavera Tech",
+  metaDescription: "This guide introduces crafting sustainable digital marketing strategies in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces crafting sustainable digital marketing strategies in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "Digital Marketing",
   difficulty: "Beginner",
   duration: "4 Weeks (Strategy & Growth Labs)",
-  summary: "Move beyond vanity metrics. Discover how to create an integrated marketing funnel that aligns organic search, high-converting content authority, social distribution, and conversion rate optimization (CRO).",
+  summary: "This guide introduces crafting sustainable digital marketing strategies in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-16",
-  primaryKeyword: "Digital Marketing Strategy",
+  primaryKeyword: "digital marketing strategy guide",
   secondaryKeywords: [
-    "Digital marketing strategies",
-    "Online marketing strategy",
-    "Content marketing strategy",
-    "Social media marketing strategy",
-    "SEO marketing strategy",
-    "Digital marketing for businesses",
+    "digital marketing planning",
+    "online marketing strategy",
+    "marketing channel strategy",
+    "sustainable marketing"
+  ],
+  longTailKeywords: [
+    "how to create a digital marketing strategy",
+    "digital marketing plan for small businesses"
   ],
   overview: {
     about: "This comprehensive digital marketing strategy course equips you to formulate, execute, and measure multi-channel growth campaigns. You will learn customer persona mapping, full-funnel content architectures, multi-channel synergy, and ROI analytics.",

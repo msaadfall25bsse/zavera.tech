@@ -28,12 +28,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!course) {
     return {
-      title: "Course Not Found | Zavera.Tech",
+      title: "Course Not Found | Zavera Tech",
     };
   }
 
-  const title = `${course.title} — Complete Bootcamp Curriculum | Zavera.Tech`;
-  const description = `${course.summary} Learn ${course.primaryKeyword} through structured modules, practical projects, and code examples.`;
+  const title = (course as any).metaTitle || `${course.title} | Zavera Tech`;
+  const description = (course as any).metaDescription || `${course.summary}`;
 
   return {
     title,
@@ -41,18 +41,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     keywords: [
       course.primaryKeyword,
       ...course.secondaryKeywords,
-      "Zavera.Tech Learning",
-      "bootcamp curriculum",
+      ...((course as any).longTailKeywords || []),
+      "Zavera Tech Learning",
+      "web development tutorials",
     ],
     alternates: {
-      canonical: `/learning/${course.slug}`,
+      canonical: `https://zavera-tech.vercel.app/learning/${course.slug}`,
     },
     openGraph: {
       title,
       description,
       type: "article",
       publishedTime: course.publishedAt,
-      url: `${siteConfig.url}/learning/${course.slug}`,
+      url: `https://zavera-tech.vercel.app/learning/${course.slug}`,
       images: [
         {
           url: course.image,
@@ -89,8 +90,8 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
     description: course.summary,
     provider: {
       "@type": "Organization",
-      name: "Zavera.Tech",
-      sameAs: siteConfig.url,
+      name: "Zavera Tech",
+      sameAs: "https://zavera-tech.vercel.app",
     },
     educationalLevel: course.difficulty,
   };
@@ -183,7 +184,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
                 Course Overview
               </span>
               <h2 className="text-3xl font-bold text-neutral-900 tracking-tight">
-                About This Educational Journey
+                Introduction and Key Ideas
               </h2>
               <p className="text-neutral-700 text-base leading-relaxed">
                 {course.overview.about}
@@ -258,7 +259,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
               Learning Outcomes
             </span>
             <h2 className="text-3xl font-bold text-neutral-900 tracking-tight mt-3">
-              What You Will Master in This Curriculum
+              How It Works & Core Concepts
             </h2>
           </div>
 
@@ -288,7 +289,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
               Full Syllabus
             </span>
             <h2 className="text-3xl font-bold text-neutral-900 tracking-tight mt-3">
-              Comprehensive Course Curriculum
+              Comprehensive Curriculum & Practical Examples
             </h2>
             <p className="text-neutral-600 text-sm mt-2">
               Click any module to expand its lessons, and click any lesson to open its interactive learning view below.
@@ -338,7 +339,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
                 Expand Your Knowledge
               </span>
               <h2 className="text-2xl font-bold text-neutral-900 mt-1">
-                Related Educational Programs
+                What to Learn Next
               </h2>
             </div>
             <Link
@@ -421,7 +422,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
         <CTASection
           badge="Empower your technical capability"
           title="Ready to Apply These Skills to Real Projects?"
-          description="Explore our full curriculum or consult directly with the Zavera.Tech engineering team in Abbottabad."
+          description="Contact Zavera Tech to discuss your requirements and confirm the right scope for your project."
           buttonText="Explore All Courses"
           buttonHref="/learning"
         />

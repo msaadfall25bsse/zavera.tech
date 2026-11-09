@@ -2,22 +2,26 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 
 export const course1: BootcampCourse = {
   slug: "introduction-to-modern-web-development",
-  title: "Modern Web Development Fundamentals",
-  subtitle: "A Complete Beginner-to-Builder Roadmap to HTML5, CSS3, Modern JavaScript & Full-Stack Principles",
+  title: "Introduction to Modern Web Development",
+  metaTitle: "Introduction to Modern Web Development | Zavera Tech",
+  metaDescription: "This guide introduces introduction to modern web development in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces introduction to modern web development in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "Web Development",
   difficulty: "Beginner",
   duration: "4 Weeks (Self-Paced Curriculum)",
-  summary: "Master the foundational pillars of the web. Learn how the internet functions, write semantic HTML, style responsive layouts with modern CSS, program reactive logic with JavaScript, and deploy your first live web project.",
+  summary: "This guide introduces introduction to modern web development in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-01",
-  primaryKeyword: "Modern Web Development",
+  primaryKeyword: "introduction to web development",
   secondaryKeywords: [
-    "Introduction to web development",
-    "Web development basics",
-    "Modern web technologies",
-    "Frontend and backend development",
-    "Web development fundamentals",
-    "Web development for beginners",
+    "modern web development",
+    "web development for beginners",
+    "how websites are built",
+    "frontend and backend basics"
+  ],
+  longTailKeywords: [
+    "web development explained for beginners",
+    "modern web development roadmap"
   ],
   overview: {
     about: "This comprehensive course demystifies the software engineering behind the modern web. From DNS resolution and browser rendering engines to modular code authoring in VS Code and version control with Git, you gain hands-on proficiency in building clean, responsive web pages from scratch.",
@@ -162,7 +166,7 @@ async function getCompanyServices() {
     </article>
   </main>
   <footer>
-    <p>&copy; 2026 Zavera.Tech</p>
+    <p>&copy; 2026 Zavera Tech</p>
   </footer>
 </body>
 </html>`,
@@ -282,7 +286,7 @@ contactForm.addEventListener("submit", (event) => {
     description: "Combine all skills learned in this course to build a multi-section digital agency landing page with semantic HTML5, responsive CSS flexbox/grid, an interactive mobile navigation menu, and a validated contact form.",
     deliverables: [
       "Semantic HTML5 document with structured landmarks and meta tags",
-      "Mobile-first responsive CSS stylesheet styled with the Zavera.Tech orange & white theme",
+      "Mobile-first responsive CSS stylesheet styled with the Zavera Tech orange & white theme",
       "JavaScript-powered mobile navigation toggle and interactive modal dialog",
       "Live deployment hosted on Vercel or GitHub Pages with verified zero console errors",
     ],

@@ -3,22 +3,25 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course9: BootcampCourse = {
   slug: "principles-of-impactful-brand-identity-design",
   title: "Principles of Impactful Brand Identity Design",
-  subtitle: "Craft Distinctive Vector Logos, Harmonious Color Systems & Enduring Corporate Brand Guidelines",
+  metaTitle: "Principles of Impactful Brand Identity Design | Zavera Tech",
+  metaDescription: "This guide introduces principles of impactful brand identity design in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces principles of impactful brand identity design in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "Graphic Designing",
   difficulty: "Beginner",
   duration: "3 Weeks (Design Studio Labs)",
-  summary: "Move beyond superficial decoration. Learn how professional design agencies build memorable brand identities: typography hierarchies, deliberate color psychology, geometric vector logos, and complete corporate style guidelines.",
+  summary: "This guide introduces principles of impactful brand identity design in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-18",
-  primaryKeyword: "Brand Identity Design",
+  primaryKeyword: "brand identity design principles",
   secondaryKeywords: [
-    "Brand identity principles",
-    "Branding design",
-    "Visual brand identity",
-    "Logo design principles",
-    "Brand guidelines",
-    "Business branding",
-    "Graphic design for branding",
+    "brand identity guide",
+    "visual branding principles",
+    "brand consistency",
+    "branding basics"
+  ],
+  longTailKeywords: [
+    "principles of effective brand identity design",
+    "how to build a consistent visual identity"
   ],
   overview: {
     about: "This comprehensive brand design course guides you through the strategic creation of visual identity systems. You will learn the science of color psychology, typographic contrast, vector logo craftsmanship in Adobe Illustrator/Figma, and professional brand guideline documentation.",
@@ -59,9 +62,9 @@ export const course9: BootcampCourse = {
             "Establish a mathematical type scale (1.250 Major Third or 1.333 Perfect Fourth)",
             "Ensure accessibility compliance (WCAG AA 4.5:1 text-to-background contrast)",
           ],
-          explanation: "In the Zavera.Tech design system, high-energy orange (#F07825) conveys innovation and forward momentum ('Where Ideas Find Wings'), grounded by clean white and deep charcoal (#171717) for readability and trust. Strict typographic hierarchies guide the human eye effortlessly.",
+          explanation: "In the Zavera Tech design system, high-energy orange (#F07825) conveys innovation and forward momentum ('Where Ideas Find Wings'), grounded by clean white and deep charcoal (#171717) for readability and trust. Strict typographic hierarchies guide the human eye effortlessly.",
           concepts: ["Color Harmony & 60-30-10 Rule", "Modular Typographic Scales", "WCAG Contrast Ratios"],
-          codeSnippet: `/* Zavera.Tech Design System Palette */
+          codeSnippet: `/* Zavera Tech Design System Palette */
 :root {
   --primary-orange: #F07825;    /* 10% Accents & CTAs */
   --neutral-dark: #171717;      /* 30% Headings & Body */

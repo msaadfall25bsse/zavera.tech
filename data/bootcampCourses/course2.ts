@@ -2,22 +2,26 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 
 export const course2: BootcampCourse = {
   slug: "mastering-css-flexbox-and-grid",
-  title: "Mastering CSS Flexbox and Grid Layouts",
-  subtitle: "Build Complex, Responsive 1D and 2D Modern Web Layouts with CSS Flexbox, Grid & Subgrid",
+  title: "Mastering CSS Flexbox and Grid",
+  metaTitle: "Mastering CSS Flexbox and Grid | Zavera Tech",
+  metaDescription: "This guide introduces mastering css flexbox and grid in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces mastering css flexbox and grid in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "HTML & CSS",
   difficulty: "Beginner",
   duration: "3 Weeks (Hands-on Lab Curriculum)",
-  summary: "Stop struggling with broken layouts. Master one-dimensional alignments with Flexbox, two-dimensional page framing with CSS Grid, and responsive auto-fit cards that adapt effortlessly to any device screen.",
+  summary: "This guide introduces mastering css flexbox and grid in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-03",
-  primaryKeyword: "CSS Flexbox and Grid",
+  primaryKeyword: "CSS Flexbox and Grid tutorial",
   secondaryKeywords: [
-    "CSS Flexbox tutorial",
-    "CSS Grid tutorial",
-    "Responsive CSS layouts",
-    "CSS layout techniques",
-    "Flexbox vs Grid",
-    "Responsive web design",
+    "CSS Grid guide",
+    "Flexbox layout tutorial",
+    "CSS responsive layouts",
+    "CSS layout techniques"
+  ],
+  longTailKeywords: [
+    "CSS Flexbox vs Grid tutorial",
+    "responsive layout with CSS Grid and Flexbox"
   ],
   overview: {
     about: "This comprehensive layout bootcamp takes you from CSS display basics to advanced grid template areas and responsive fluid cards without needing media query overrides everywhere.",

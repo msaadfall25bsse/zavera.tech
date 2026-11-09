@@ -34,6 +34,9 @@ export interface BootcampCourse {
   publishedAt: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
+  metaTitle?: string;
+  metaDescription?: string;
+  longTailKeywords?: string[];
   overview: {
     about: string;
     whyItMatters: string;

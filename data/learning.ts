@@ -38,7 +38,7 @@ export const learningArticles: LearningArticle[] = [
     category: "Web Development",
     difficulty: "Beginner",
     duration: "10 min read",
-    summary: "Discover the core building blocks of modern web engineering: how browsers render pages, how the client-server architecture functions, and how modern toolchains operate.",
+    summary: "This guide introduces introduction to modern web development in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-02-15",
     content: {
@@ -66,11 +66,11 @@ export const learningArticles: LearningArticle[] = [
   },
   {
     slug: "mastering-css-flexbox-and-grid",
-    title: "Mastering CSS Flexbox and Grid Layouts",
+    title: "Mastering CSS Flexbox and Grid",
     category: "HTML & CSS",
     difficulty: "Beginner",
     duration: "12 min read",
-    summary: "Learn when to deploy Flexbox for one-dimensional alignments and CSS Grid for two-dimensional architectures to create fluid, responsive web designs.",
+    summary: "This guide introduces mastering css flexbox and grid in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-02-18",
     content: {
@@ -109,11 +109,11 @@ export const learningArticles: LearningArticle[] = [
   },
   {
     slug: "javascript-es6-and-asynchronous-patterns",
-    title: "JavaScript ES6+ and Asynchronous Patterns",
+    title: "JavaScript ES6 and Asynchronous Patterns",
     category: "JavaScript",
     difficulty: "Intermediate",
     duration: "15 min read",
-    summary: "A practical deep dive into modern JavaScript syntax, destructuring, modules, Promises, and async/await for resilient application logic.",
+    summary: "This guide introduces javascript es6 and asynchronous patterns in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-02-22",
     content: {
@@ -154,11 +154,11 @@ const updatedClient = { ...client, status: "Active" };`,
   },
   {
     slug: "building-scalable-uis-with-react",
-    title: "Building Scalable User Interfaces with React",
+    title: "Building Scalable UIs with React",
     category: "React.js",
     difficulty: "Intermediate",
     duration: "14 min read",
-    summary: "Understand React state management, hooks lifecycle, component composition, and best practices for creating maintainable design systems.",
+    summary: "This guide introduces building scalable uis with react in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-02-26",
     content: {
@@ -191,11 +191,11 @@ const updatedClient = { ...client, status: "Active" };`,
   },
   {
     slug: "nextjs-app-router-and-server-components",
-    title: "Next.js App Router and React Server Components",
+    title: "Next.js App Router and Server Components",
     category: "Next.js",
     difficulty: "Advanced",
     duration: "16 min read",
-    summary: "A practical guide to leveraging React Server Components, streaming, nested layouts, and hybrid rendering in Next.js for high-speed performance.",
+    summary: "This guide introduces nextjs app router and server components in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-03-01",
     content: {
@@ -234,7 +234,7 @@ export default function MobileMenuToggle() {
     category: "TypeScript",
     difficulty: "Intermediate",
     duration: "13 min read",
-    summary: "Eliminate runtime errors and streamline team collaboration by adopting TypeScript interfaces, generics, and strict type checking in your projects.",
+    summary: "This guide introduces type-safe web applications with typescript in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "/learning-typescript.jpg",
     publishedAt: "2026-03-05",
     content: {
@@ -273,7 +273,7 @@ export default function MobileMenuToggle() {
     category: "SEO",
     difficulty: "Intermediate",
     duration: "14 min read",
-    summary: "A comprehensive checklist covering Core Web Vitals, JSON-LD Schema markup, robots.txt, sitemaps, and mobile indexing best practices.",
+    summary: "This guide introduces actionable technical seo for modern websites in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-03-08",
     content: {
@@ -290,7 +290,7 @@ export default function MobileMenuToggle() {
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Zavera.Tech",
+  "name": "Zavera Tech",
   "url": "https://zavera.tech"
 }
 </script>`,
@@ -313,7 +313,7 @@ export default function MobileMenuToggle() {
     category: "Digital Marketing",
     difficulty: "Beginner",
     duration: "11 min read",
-    summary: "Move beyond vanity metrics. Discover how to create an integrated marketing funnel that aligns organic search, content authority, and conversion optimization.",
+    summary: "This guide introduces crafting sustainable digital marketing strategies in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-03-12",
     content: {
@@ -345,7 +345,7 @@ export default function MobileMenuToggle() {
     category: "Graphic Designing",
     difficulty: "Beginner",
     duration: "13 min read",
-    summary: "Learn how professional design agencies build memorable visual systems: typography hierarchies, deliberate color palettes, and balanced layouts.",
+    summary: "This guide introduces principles of impactful brand identity design in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80",
     publishedAt: "2026-03-16",
     content: {
@@ -353,7 +353,7 @@ export default function MobileMenuToggle() {
       sections: [
         {
           heading: "1. Color Psychology and Contrast",
-          body: "Colors evoke distinct psychological associations. In the Zavera.Tech design system, high-energy orange conveys innovation and creativity, balanced by crisp white and grounding dark tones to maintain readability and trust.",
+          body: "Colors evoke distinct psychological associations. In the Zavera Tech design system, high-energy orange conveys innovation and creativity, balanced by crisp white and grounding dark tones to maintain readability and trust.",
         },
         {
           heading: "2. Typographic Hierarchy",

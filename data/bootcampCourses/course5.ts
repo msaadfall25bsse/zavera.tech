@@ -2,23 +2,26 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 
 export const course5: BootcampCourse = {
   slug: "nextjs-app-router-and-server-components",
-  title: "Next.js App Router & Server Components Mastery",
-  subtitle: "Architect Production Web Applications with React Server Components, Streaming, and Dynamic Routes",
+  title: "Next.js App Router and Server Components",
+  metaTitle: "Next.js App Router and Server Components | Zavera Tech",
+  metaDescription: "This guide introduces nextjs app router and server components in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  subtitle: "This guide introduces nextjs app router and server components in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   category: "Next.js",
   difficulty: "Advanced",
   duration: "5 Weeks (Production Full-Stack Curriculum)",
-  summary: "Master the paradigm shift of modern web engineering. Learn the Next.js App Router, React Server Components (RSC), Client Component boundaries, data fetching, streaming, metadata SEO, and production deployment.",
+  summary: "This guide introduces nextjs app router and server components in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
   image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-10",
-  primaryKeyword: "Next.js App Router",
+  primaryKeyword: "Next.js App Router tutorial",
   secondaryKeywords: [
-    "Next.js tutorial",
     "Next.js Server Components",
-    "Next.js App Router tutorial",
-    "React Server Components",
     "Next.js routing",
-    "Next.js server-side rendering",
-    "Next.js architecture",
+    "Next.js app directory",
+    "Next.js rendering"
+  ],
+  longTailKeywords: [
+    "Next.js App Router tutorial for beginners",
+    "React Server Components explained Next.js"
   ],
   overview: {
     about: "This comprehensive course covers production engineering with Next.js App Router. You will explore Server Components by default, streaming with Suspense, dynamic route segments, metadata SEO APIs, route handlers, and performance optimization.",
@@ -104,7 +107,7 @@ export default async function CoursesPage() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const course = await getCourseBySlug(params.slug);
   return {
-    title: \`\${course.title} | Zavera.Tech Learning\`,
+    title: \`\${course.title} | Zavera Tech Learning\`,
     description: course.summary,
     alternates: {
       canonical: \`/learning/\${course.slug}\`,
