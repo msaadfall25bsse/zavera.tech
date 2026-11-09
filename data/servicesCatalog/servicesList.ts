@@ -1066,26 +1066,20 @@ export const servicesCatalogList: SubServiceDetail[] = [
     slug: "graphic-designing",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
-    title: "Graphic Designing Services",
-    metaTitle: "Graphic Designing Services in Abbottabad | Zavera.Tech",
-    metaDescription: "Explore graphic designing services from Zavera.Tech, including logo design, brand identity, social media graphics and creative marketing designs.",
-    imageAlt: "Zavera.Tech graphic design studio crafting brand identity systems and vector logos in Abbottabad",
-    shortDesc: "Explore graphic designing services from Zavera.Tech, including logo design, brand identity, social media graphics and creative marketing designs.",
-    heroHeadline: "Creative Graphic Designing Services for Businesses",
-    heroDescription: "We create distinctive visual identities, custom vector logos, marketing collateral, and digital graphics that help businesses in Abbottabad and across Pakistan communicate their brand clearly.",
+    title: "Graphic Designing",
+    metaTitle: "Graphic Designing in Abbottabad | Zavera Tech",
+    metaDescription: "Graphic Designing helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    imageAlt: "Zavera Tech graphic design studio crafting brand identity systems and vector logos in Abbottabad",
+    shortDesc: "Graphic Designing helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "Graphic Designing",
+    heroDescription: "Graphic Designing helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "/graphic-design-hero.jpg",
-    primaryKeyword: "Graphic Designing Services in Abbottabad",
+    primaryKeyword: "graphic design services Abbottabad",
     secondaryKeywords: [
-      "Graphic Design Company in Abbottabad",
-      "Graphic Design Services in Pakistan",
-      "Professional Graphic Designer in Abbottabad",
-      "Creative Graphic Design Services",
-      "Graphic Designing Agency in Pakistan",
-      "Business Graphic Design Services",
-      "Custom Graphic Design Solutions",
-      "Professional Visual Design Services",
-      "Digital Graphic Design Services",
-      "Graphic Design for Small Businesses"
+      "graphic design company Pakistan",
+      "professional graphic designer Abbottabad",
+      "creative design services",
+      "graphic design agency"
     ],
     supportingKeywords: [
       "Logo Design Services",
@@ -1100,11 +1094,8 @@ export const servicesCatalogList: SubServiceDetail[] = [
       "Promotional Graphic Design"
     ],
     longTailKeywords: [
-      "Affordable Graphic Designing Services in Abbottabad",
-      "Professional Logo Design for Businesses in Pakistan",
-      "Complete Brand Identity Design Services",
-      "Social Media Graphic Design for Businesses",
-      "Creative Branding and Graphic Design Solutions"
+      "graphic design services for businesses in Abbottabad",
+      "hire a graphic designer Pakistan"
     ],
     features: [
       { title: "Custom Logo Design", description: "Crafting distinctive, scalable vector logos and brand emblems that convey trust and authority across print and digital media." },
@@ -1120,23 +1111,34 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Final Deliverable Handoff", desc: "Providing master source files and complete web/print asset packages (SVG, PNG, JPG, PDF)." },
     ],
     faqs: [
-      { question: "What graphic design services does Zavera.Tech offer?", answer: "We offer custom logo design, complete brand identity development, social media graphics, promotional banner design, brochures, flyers, business cards, and digital UI design." },
+      { question: "What graphic design services does Zavera Tech offer?", answer: "We offer custom logo design, complete brand identity development, social media graphics, promotional banner design, brochures, flyers, business cards, and digital UI design." },
       { question: "In what formats will I receive the final design files?", answer: "You will receive production-ready files in all standard formats, including vector files (AI, EPS, SVG) and high-resolution digital files (PNG, JPG, print-ready PDF)." },
       { question: "Do you offer revisions on graphic design concepts?", answer: "Yes, our creative process includes structured review stages where we refine concepts based on your direct feedback." },
-      { question: "Can Zavera.Tech design complete marketing materials for events or product launches?", answer: "Yes, we design unified marketing collateral packages including banners, brochures, flyers, and digital ad graphics for promotional campaigns." },
+      { question: "Can Zavera Tech design complete marketing materials for events or product launches?", answer: "Yes, we design unified marketing collateral packages including banners, brochures, flyers, and digital ad graphics for promotional campaigns." },
     ],
   },
   {
     slug: "logo-design",
+    metaTitle: "Logo Design in Abbottabad | Zavera Tech",
+    metaDescription: "Logo Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
-    title: "Professional Logo Design",
-    shortDesc: "Distinctive, vector-crafted emblems and wordmarks that embody your brand vision with timeless simplicity and memorability.",
-    heroHeadline: "Custom Logo Design Services in Abbottabad, Pakistan",
-    heroDescription: "Your logo is your company's immediate handshake with the world. We design memorable, timeless logos that communicate trust and authority across all media.",
+    title: "Logo Design",
+    shortDesc: "Logo Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "Logo Design",
+    heroDescription: "Logo Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "logo design services Abbottabad",
-    secondaryKeywords: ["custom logo design Pakistan", "professional logo designer", "corporate logo design", "vector logo designer", "creative logo design agency"],
+    secondaryKeywords: [
+      "custom logo design",
+      "business logo designer Pakistan",
+      "professional logo design",
+      "brand logo design"
+    ],
+    longTailKeywords: [
+      "custom logo designer in Abbottabad",
+      "business logo design services Pakistan"
+    ],
     localKeywords: ["logo designer in Abbottabad", "best logo design company Abbottabad KPK"],
     features: [
       { title: "100% Original Vector Art", description: "Zero generic stock icons or clip art; every logo concept is custom-drawn from scratch." },
@@ -1157,15 +1159,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "brand-identity-design",
+    metaTitle: "Brand Identity Design | Zavera Tech",
+    metaDescription: "Brand Identity Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
     title: "Brand Identity Design",
-    shortDesc: "Cohesive brand design systems comprising typography, color theory, iconography, and brand guidelines.",
-    heroHeadline: "Creative Logo Design & Brand Identity in Abbottabad",
-    heroDescription: "We craft iconic, enduring brand visual identities that communicate your company's core values and distinguish you from competitors.",
+    shortDesc: "Brand Identity Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "Brand Identity Design",
+    heroDescription: "Brand Identity Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "logo design company in Abbottabad",
-    secondaryKeywords: ["brand identity designer Pakistan", "corporate branding agency", "vector logo design Abbottabad", "business stationery design KPK", "visual design system Pakistan"],
+    primaryKeyword: "brand identity design services Pakistan",
+    secondaryKeywords: [
+      "branding agency",
+      "visual identity design",
+      "business branding",
+      "brand guidelines design"
+    ],
+    longTailKeywords: [
+      "brand identity designer for businesses Pakistan",
+      "complete visual brand identity services"
+    ],
     localKeywords: ["graphic designer in Abbottabad", "branding services Abbottabad KPK", "creative agency Abbottabad"],
     features: [
       { title: "Original Vector Logo Creation", description: "Precision-engineered vector marks and wordmarks designed from scratch to scale clearly from favicons to building billboards." },
@@ -1186,15 +1199,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "social-media-design",
+    metaTitle: "Social Media Design | Zavera Tech",
+    metaDescription: "Social Media Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
-    title: "Social Media Post & Banner Design",
-    shortDesc: "High-retention feed post designs, promotional carousels, and story templates optimized for social engagement.",
-    heroHeadline: "Social Media Graphic Design Services",
-    heroDescription: "Stop the scroll with eye-catching, brand-aligned social media graphics, carousels, and promotional templates designed to drive clicks.",
+    title: "Social Media Design",
+    shortDesc: "Social Media Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "Social Media Design",
+    heroDescription: "Social Media Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "social media post design services",
-    secondaryKeywords: ["social media graphic design Pakistan", "Instagram post designer", "Facebook banner design", "social media creative agency", "social post templates"],
+    primaryKeyword: "social media design services Pakistan",
+    secondaryKeywords: [
+      "social media post design",
+      "Instagram post design",
+      "Facebook creatives",
+      "social media graphics"
+    ],
+    longTailKeywords: [
+      "social media graphic designer for businesses Pakistan",
+      "creative social media post design services"
+    ],
     localKeywords: ["social media design Abbottabad", "graphic designer Abbottabad Pakistan"],
     features: [
       { title: "Thumb-Stopping Visuals", description: "Bold typography and strategic color contrast that captures user attention in crowded feeds." },
@@ -1215,15 +1239,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "business-card-design",
+    metaTitle: "Business Card Design | Zavera Tech",
+    metaDescription: "Business Card Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
-    title: "Business Card & Corporate Stationery Design",
-    shortDesc: "Premium, executive business cards, corporate letterheads, presentation folders, and print collateral.",
-    heroHeadline: "Executive Business Card & Stationery Design",
-    heroDescription: "Leave an unforgettable physical impression. We craft sophisticated business cards and corporate stationery designed for premium print finishes.",
+    title: "Business Card Design",
+    shortDesc: "Business Card Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "Business Card Design",
+    heroDescription: "Business Card Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "business card design services",
-    secondaryKeywords: ["corporate stationery design Pakistan", "luxury business card designer", "letterhead design company", "professional print design", "business branding collateral"],
+    primaryKeyword: "business card design services Pakistan",
+    secondaryKeywords: [
+      "professional business card design",
+      "custom visiting cards",
+      "corporate business cards",
+      "business card graphics"
+    ],
+    longTailKeywords: [
+      "custom visiting card designer Pakistan",
+      "professional corporate business card design"
+    ],
     localKeywords: ["business card design Abbottabad", "stationery printing Abbottabad"],
     features: [
       { title: "Print-Ready Vector Layouts", description: "Designed in 300 DPI CMYK with exact bleed lines, trim margins, and safe zones." },
@@ -1244,15 +1279,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "banner-design",
+    metaTitle: "Banner Design | Zavera Tech",
+    metaDescription: "Banner Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
-    title: "Digital Banner & Display Ad Design",
-    shortDesc: "High-converting Google Display banners, website hero graphics, and promotional web banners that maximize click-through rates.",
-    heroHeadline: "Custom Web Banner & Digital Display Ad Design",
-    heroDescription: "Attract attention and drive high click-through rates with custom digital banner graphics engineered for marketing campaigns and website hero areas.",
+    title: "Banner Design",
+    shortDesc: "Banner Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "Banner Design",
+    heroDescription: "Banner Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "banner design services",
-    secondaryKeywords: ["Google display ads design", "website banner design Pakistan", "promotional web banners", "digital ad designer", "hero banner graphics"],
+    primaryKeyword: "banner design services Pakistan",
+    secondaryKeywords: [
+      "advertising banner design",
+      "digital banner design",
+      "website banner design",
+      "promotional banner graphics"
+    ],
+    longTailKeywords: [
+      "digital advertising banner designer Pakistan",
+      "web promotional banner design services"
+    ],
     localKeywords: ["banner design Abbottabad", "digital graphic design Pakistan"],
     features: [
       { title: "All Standard Ad Dimensions", description: "Covering 300x250, 728x90, 160x600, 300x600, and responsive web hero sizes." },
@@ -1273,15 +1319,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "brochure-design",
+    metaTitle: "Brochure Design | Zavera Tech",
+    metaDescription: "Brochure Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
-    title: "Brochure & Corporate Profile Design",
-    shortDesc: "Professional company profiles, bi-fold & tri-fold marketing brochures, product flyers, and digital PDF portfolios.",
-    heroHeadline: "Corporate Brochure & Company Profile Design",
-    heroDescription: "Present your services, case studies, and corporate capabilities with beautifully formatted bi-fold, tri-fold, and multi-page company profiles.",
+    title: "Brochure Design",
+    shortDesc: "Brochure Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "Brochure Design",
+    heroDescription: "Brochure Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "brochure design services",
-    secondaryKeywords: ["company profile design Pakistan", "corporate brochure designer", "tri fold brochure design", "product catalog design", "print marketing collateral"],
+    primaryKeyword: "brochure design services Pakistan",
+    secondaryKeywords: [
+      "business brochure design",
+      "company profile design",
+      "corporate brochure design",
+      "marketing brochure"
+    ],
+    longTailKeywords: [
+      "professional brochure designer Pakistan",
+      "company profile and brochure design services"
+    ],
     localKeywords: ["brochure design Abbottabad", "printing and design Abbottabad"],
     features: [
       { title: "Multiple Fold Formats", description: "Bi-fold, tri-fold, z-fold, gate-fold, and multi-page bound booklet layouts." },
@@ -1302,15 +1359,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "ui-ux-design",
+    metaTitle: "UI UX Design | Zavera Tech",
+    metaDescription: "UI/UX Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     categorySlug: "graphic-designing",
     categoryTitle: "Graphic Designing",
-    title: "UI/UX Design & Prototyping",
-    shortDesc: "Human-centric user interface designs, user journeys, wireframes, and interactive Figma prototypes for web and mobile apps.",
-    heroHeadline: "Modern UI/UX Design & Figma Prototyping Services",
-    heroDescription: "We design clean, intuitive, and conversion-optimized digital interfaces that users love. From wireframing to interactive Figma design systems.",
+    title: "UI/UX Design",
+    shortDesc: "UI/UX Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
+    heroHeadline: "UI/UX Design",
+    heroDescription: "UI/UX Design helps businesses present information and communicate with customers in a clear visual format. The design should fit the brand, audience and place where it will be used. Zavera Tech can discuss the required format, content and design direction before the work begins.",
     image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "UI UX design services",
-    secondaryKeywords: ["Figma UI designer Pakistan", "web application UI UX", "mobile app interface design", "wireframing & prototyping agency", "user experience design Pakistan"],
+    primaryKeyword: "UI UX design services Pakistan",
+    secondaryKeywords: [
+      "UI design agency",
+      "UX design services",
+      "website interface design",
+      "app interface design"
+    ],
+    longTailKeywords: [
+      "UI UX designer for web applications Pakistan",
+      "professional website UI UX design services"
+    ],
     localKeywords: ["UI UX designer Abbottabad", "software UI design Pakistan"],
     features: [
       { title: "User Journey & Wireframing", description: "Mapping low-fidelity user flows that solve friction points before writing any code." },
