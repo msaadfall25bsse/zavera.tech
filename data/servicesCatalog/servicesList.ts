@@ -348,26 +348,20 @@ export const servicesCatalogList: SubServiceDetail[] = [
     slug: "seo-services",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Search Engine Optimization (SEO) Services",
-    metaTitle: "SEO Services in Abbottabad | Zavera.Tech",
-    metaDescription: "Improve your website's search visibility with SEO services from Zavera.Tech. Explore technical SEO, on-page SEO, off-page SEO and local SEO solutions.",
-    imageAlt: "Zavera.Tech SEO specialists conducting technical website audit and keyword ranking optimization in Abbottabad",
-    shortDesc: "Improve your website's search visibility with SEO services from Zavera.Tech. Explore technical SEO, on-page SEO, off-page SEO and local SEO solutions.",
-    heroHeadline: "Professional SEO Services to Improve Your Online Visibility",
-    heroDescription: "We implement data-driven search engine optimization strategies that help businesses in Abbottabad and across Pakistan improve organic search presence and connect with active buyers.",
+    title: "SEO Services",
+    metaTitle: "SEO Services in Abbottabad | Zavera Tech",
+    metaDescription: "SEO Services is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    imageAlt: "Zavera Tech SEO specialists conducting technical website audit and keyword ranking optimization in Abbottabad",
+    shortDesc: "SEO Services is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "SEO Services",
+    heroDescription: "SEO Services is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "/seo-services-hero.jpg",
-    primaryKeyword: "SEO Services in Abbottabad",
+    primaryKeyword: "SEO services Abbottabad",
     secondaryKeywords: [
-      "SEO Agency in Abbottabad",
-      "SEO Company in Abbottabad",
-      "Search Engine Optimization Services",
-      "Professional SEO Services in Pakistan",
-      "SEO Expert in Abbottabad",
-      "Local SEO Services in Abbottabad",
-      "Website SEO Services",
-      "Affordable SEO Services in Pakistan",
-      "Organic SEO Services",
-      "Business SEO Solutions"
+      "SEO company Abbottabad",
+      "SEO agency Pakistan",
+      "search engine optimization services",
+      "SEO consultant Abbottabad"
     ],
     supportingKeywords: [
       "Technical SEO Services",
@@ -382,11 +376,8 @@ export const servicesCatalogList: SubServiceDetail[] = [
       "Link Building Services"
     ],
     longTailKeywords: [
-      "Professional SEO Services for Small Businesses",
-      "How to Improve Website Ranking on Google",
-      "Local SEO Company for Businesses in Abbottabad",
-      "Technical SEO Audit and Optimization Services",
-      "Search Engine Optimization for Business Websites"
+      "SEO services for small businesses in Abbottabad",
+      "hire an SEO agency in Pakistan"
     ],
     features: [
       { title: "Technical SEO & Crawl Optimization", description: "Resolving indexing obstacles, XML sitemap validation, canonical tags, and Core Web Vitals to ensure search engines easily crawl and index your site." },
@@ -402,7 +393,7 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Ongoing Monitoring & Reporting", desc: "Tracking organic visibility, indexing status, and traffic trends using Google Search Console." },
     ],
     faqs: [
-      { question: "What is included in Zavera.Tech SEO services?", answer: "Our SEO services cover technical SEO audits, on-page optimization, keyword research, local SEO for Abbottabad, structured data implementation, and website indexing support." },
+      { question: "What is included in Zavera Tech SEO services?", answer: "Our SEO services cover technical SEO audits, on-page optimization, keyword research, local SEO for Abbottabad, structured data implementation, and website indexing support." },
       { question: "Do you guarantee number 1 rankings on Google?", answer: "No ethical SEO agency guarantees specific ranking positions, as search algorithms involve hundreds of dynamic variables. We focus on proven, industry-standard white-hat SEO practices that steadily build organic visibility and search credibility." },
       { question: "How long does it take for SEO to show measurable results?", answer: "SEO is a progressive strategy. Technical fixes and crawl improvements often show initial effects in 3 to 6 weeks, while competitive organic ranking improvements typically build over 3 to 6 months of consistent effort." },
       { question: "Can local businesses in Abbottabad benefit from Local SEO?", answer: "Yes, local SEO helps nearby customers find your business when searching for products or services in Abbottabad and Hazara Division." },
@@ -410,15 +401,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "technical-seo",
+    metaTitle: "Technical SEO | Zavera Tech",
+    metaDescription: "Technical SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Technical SEO Services",
-    shortDesc: "Deep crawl optimization, canonical architecture, XML sitemap validation, and Core Web Vitals speed tuning.",
-    heroHeadline: "Technical SEO Consulting & Audit Services",
-    heroDescription: "Fix underlying crawl errors, indexing obstacles, slow loading speeds, and rendering bottlenecks that prevent search engines from ranking your site.",
+    title: "Technical SEO",
+    shortDesc: "Technical SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "Technical SEO",
+    heroDescription: "Technical SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "technical SEO services",
-    secondaryKeywords: ["technical SEO audit", "Core Web Vitals optimization", "crawlability & indexing SEO", "XML sitemap optimization", "robots.txt configuration"],
+    secondaryKeywords: [
+      "technical SEO audit",
+      "website technical optimization",
+      "website crawlability",
+      "indexing optimization"
+    ],
+    longTailKeywords: [
+      "technical SEO services for business websites",
+      "technical SEO audit Pakistan"
+    ],
     localKeywords: ["technical SEO consultant Pakistan", "SEO expert Abbottabad"],
     features: [
       { title: "Crawl & Indexability Auditing", description: "Eliminating 404 loops, incorrect 301 redirect chains, and accidental noindex directives." },
@@ -439,15 +441,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "on-page-seo",
+    metaTitle: "On-Page SEO | Zavera Tech",
+    metaDescription: "On-Page SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "On-Page SEO Optimization",
-    shortDesc: "Strategic keyword mapping, heading hierarchies, meta tags, descriptive alt text, and internal link architecture.",
-    heroHeadline: "On-Page SEO & Content Architecture Services",
-    heroDescription: "Maximize the organic relevance of every page. We optimize titles, headings, content structure, and internal links to rank for valuable search queries.",
+    title: "On-Page SEO",
+    shortDesc: "On-Page SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "On-Page SEO",
+    heroDescription: "On-Page SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "on-page SEO services",
-    secondaryKeywords: ["on-page SEO optimization", "meta tag optimization", "keyword optimization", "internal linking strategy", "content SEO services"],
+    secondaryKeywords: [
+      "on-page optimization",
+      "website content SEO",
+      "meta tags optimization",
+      "heading optimization"
+    ],
+    longTailKeywords: [
+      "on-page SEO services Pakistan",
+      "optimize website pages for Google"
+    ],
     localKeywords: ["on-page SEO Pakistan", "content optimization Abbottabad"],
     features: [
       { title: "Keyword-Mapped Title Tags", description: "Writing compelling, high-CTR meta titles within Google character display limits." },
@@ -468,15 +481,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "off-page-seo",
+    metaTitle: "Off-Page SEO | Zavera Tech",
+    metaDescription: "Off-Page SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Off-Page SEO & Authority Building",
-    shortDesc: "Ethical link building, digital PR, brand mentions, and domain authority enhancement across reputable industry platforms.",
-    heroHeadline: "Off-Page SEO & High-Trust Link Building",
-    heroDescription: "Build domain authority and search engine trust through natural, editorial backlinks, industry directory listings, and brand mentions.",
+    title: "Off-Page SEO",
+    shortDesc: "Off-Page SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "Off-Page SEO",
+    heroDescription: "Off-Page SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "off-page SEO services",
-    secondaryKeywords: ["link building agency Pakistan", "domain authority improvement", "backlink acquisition", "white hat link building", "digital PR services"],
+    secondaryKeywords: [
+      "off-page optimization",
+      "website authority building",
+      "backlink strategy",
+      "digital PR SEO"
+    ],
+    longTailKeywords: [
+      "off-page SEO company Pakistan",
+      "build domain authority for business websites"
+    ],
     localKeywords: ["SEO authority building Pakistan", "off-page SEO Abbottabad"],
     features: [
       { title: "White-Hat Link Acquisition", description: "Cultivating editorial links from genuine, authoritative websites without spammy link farms." },
@@ -497,15 +521,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "local-seo",
+    metaTitle: "Local SEO in Abbottabad | Zavera Tech",
+    metaDescription: "Local SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Local SEO & Regional Optimization",
-    shortDesc: "Dominate local searches in Abbottabad and Khyber Pakhtunkhwa to capture foot traffic and inbound customer calls.",
-    heroHeadline: "Local SEO Services for Abbottabad Businesses",
-    heroDescription: "Connect with nearby customers searching 'near me' in Abbottabad. We optimize your geographic search footprint to drive real-world calls and store visits.",
+    title: "Local SEO",
+    shortDesc: "Local SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "Local SEO",
+    heroDescription: "Local SEO is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "local SEO services in Abbottabad",
-    secondaryKeywords: ["Abbottabad business SEO", "local search optimization KPK", "Google map ranking Pakistan", "near me search optimization", "local citations Abbottabad"],
+    primaryKeyword: "local SEO services Abbottabad",
+    secondaryKeywords: [
+      "local SEO company Abbottabad",
+      "Google Maps SEO",
+      "Google Business Profile optimization",
+      "local search optimization Pakistan"
+    ],
+    longTailKeywords: [
+      "local SEO services for businesses in Abbottabad",
+      "rank on Google Maps in Abbottabad"
+    ],
     localKeywords: ["Abbottabad local SEO company", "local marketing Abbottabad Pakistan", "Google Business Profile optimization Abbottabad"],
     features: [
       { title: "Localized Schema Markup", description: "Structured LocalBusiness, PostalAddress, and geographic coordinates signaling your physical location clearly to search engines." },
@@ -526,15 +561,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "keyword-research",
+    metaTitle: "Keyword Research | Zavera Tech",
+    metaDescription: "Keyword Research is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Keyword Research & Search Intent Strategy",
-    shortDesc: "In-depth search volume analysis, competitor keyword intelligence, and intent classification driving high-converting organic traffic.",
-    heroHeadline: "Data-Driven Keyword Research & Search Intent Mapping",
-    heroDescription: "Discover the exact search queries your prospective clients use. We identify high-volume, low-competition keywords with clear commercial intent.",
+    title: "Keyword Research",
+    shortDesc: "Keyword Research is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "Keyword Research",
+    heroDescription: "Keyword Research is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "keyword research services",
-    secondaryKeywords: ["search intent analysis", "commercial keyword research", "competitor keyword intelligence", "long tail keyword strategy", "SEO keyword mapping"],
+    secondaryKeywords: [
+      "SEO keyword research",
+      "local keyword research",
+      "keyword analysis Pakistan",
+      "keyword strategy"
+    ],
+    longTailKeywords: [
+      "keyword research services for small businesses",
+      "keyword strategy for websites in Pakistan"
+    ],
     localKeywords: ["keyword research Pakistan", "local keyword research Abbottabad"],
     features: [
       { title: "Search Intent Classification", description: "Categorizing queries into informational, commercial, transactional, and navigational intents." },
@@ -555,15 +601,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "website-seo-audit",
+    metaTitle: "Website SEO Audit | Zavera Tech",
+    metaDescription: "Website SEO Audit is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Website SEO Audit Services",
-    shortDesc: "Comprehensive health check evaluating crawl errors, on-page optimization, backlink health, mobile vitals, and indexation.",
-    heroHeadline: "Comprehensive Website SEO Audit & Diagnosis",
-    heroDescription: "Uncover technical roadblocks holding back your organic search traffic. Receive an actionable, prioritized roadmap to fix errors and accelerate rankings.",
+    title: "Website SEO Audit",
+    shortDesc: "Website SEO Audit is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "Website SEO Audit",
+    heroDescription: "Website SEO Audit is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "website SEO audit services",
-    secondaryKeywords: ["technical SEO audit", "comprehensive SEO health check", "SEO site review", "website ranking audit", "Google Search Console audit"],
+    secondaryKeywords: [
+      "SEO website audit",
+      "technical website audit",
+      "SEO audit report",
+      "website SEO analysis"
+    ],
+    longTailKeywords: [
+      "SEO audit services for business websites",
+      "website SEO audit report Pakistan"
+    ],
     localKeywords: ["SEO audit Pakistan", "website audit Abbottabad"],
     features: [
       { title: "100+ Point Technical Checklist", description: "Inspecting crawlability, indexation, status codes, sitemaps, robots.txt, and redirects." },
@@ -584,15 +641,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "link-building",
+    metaTitle: "Link Building | Zavera Tech",
+    metaDescription: "Link Building is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Link Building Services",
-    shortDesc: "Ethical, white-hat backlink acquisition from authoritative industry publications to elevate search engine domain trust.",
-    heroHeadline: "High-Authority White-Hat Link Building Services",
-    heroDescription: "Earn powerful editorial backlinks that strengthen your domain authority, outrank competitors, and drive referral traffic.",
+    title: "Link Building",
+    shortDesc: "Link Building is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "Link Building",
+    heroDescription: "Link Building is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "link building services",
-    secondaryKeywords: ["white hat link building Pakistan", "backlink acquisition agency", "editorial link outreach", "domain authority growth", "guest post link building"],
+    primaryKeyword: "link building services Pakistan",
+    secondaryKeywords: [
+      "quality backlinks",
+      "white hat link building",
+      "link building strategy",
+      "ethical link acquisition"
+    ],
+    longTailKeywords: [
+      "white hat link building services Pakistan",
+      "backlink strategy for business websites"
+    ],
     localKeywords: ["link building Pakistan", "SEO backlink expert Abbottabad"],
     features: [
       { title: "Strict Quality Standards", description: "Zero PBNs, automated spam links, or low-quality directories; only genuine authoritative websites." },
@@ -608,20 +676,31 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Ongoing Monitoring", desc: "Ensuring links remain live, indexed, and active." },
     ],
     faqs: [
-      { question: "Can bad backlinks harm my website's rankings?", answer: "Yes, spammy link schemes violate Google Webmaster Guidelines and can trigger algorithmic or manual ranking penalties. That is why Zavera.Tech exclusively practices manual, white-hat outreach." },
+      { question: "Can bad backlinks harm my website's rankings?", answer: "Yes, spammy link schemes violate Google Webmaster Guidelines and can trigger algorithmic or manual ranking penalties. That is why Zavera Tech exclusively practices manual, white-hat outreach." },
     ],
   },
   {
     slug: "content-optimization",
+    metaTitle: "Content Optimization | Zavera Tech",
+    metaDescription: "Content Optimization is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     categorySlug: "seo-services",
     categoryTitle: "SEO Services",
-    title: "Content Optimization for Search & Conversions",
-    shortDesc: "Refining on-site copy, article structures, and keyword semantics to capture higher rankings and engage readers.",
-    heroHeadline: "Search-Engine Content Optimization Services",
-    heroDescription: "Transform existing pages and new articles into authoritative, high-ranking assets that satisfy search intent and drive user action.",
+    title: "Content Optimization",
+    shortDesc: "Content Optimization is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
+    heroHeadline: "Content Optimization",
+    heroDescription: "Content Optimization is one part of improving how a website is understood and discovered through search. The right work depends on the website, its audience and its current condition. Zavera Tech can review your goals and discuss practical steps that fit the page, business and target location.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "content optimization services",
-    secondaryKeywords: ["SEO copywriting services", "on-page content optimization", "search intent content writing", "blog optimization SEO", "website copy refinement"],
+    primaryKeyword: "SEO content optimization services",
+    secondaryKeywords: [
+      "website content optimization",
+      "content SEO",
+      "on-page content improvement",
+      "content refresh services"
+    ],
+    longTailKeywords: [
+      "SEO content optimization for business websites",
+      "optimize existing website content for search"
+    ],
     localKeywords: ["content writing services Abbottabad", "SEO copywriter Pakistan"],
     features: [
       { title: "Search Intent Alignment", description: "Restructuring copy to directly answer the specific questions and sub-topics searchers want." },
