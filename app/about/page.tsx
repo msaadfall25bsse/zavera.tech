@@ -22,26 +22,25 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "About Zavera.Tech | Digital Agency in Abbottabad",
+  title: "About Zavera Tech | Digital Services in Abbottabad",
   description:
-    "Discover Zavera.Tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
+    "Zavera Tech is a digital services business based in Abbottabad, Pakistan. Our work covers website development, search engine optimization, digital marketing and graphic design.",
   keywords: [
-    "Digital Agency in Abbottabad",
-    "Technology Company in Abbottabad",
-    "Digital Solutions Company in Abbottabad",
-    "Web Development and Digital Marketing Agency",
-    "Creative Digital Agency in Pakistan",
-    "Software Development and Design Company",
-    "Professional Digital Services Company",
-    "About Zavera.Tech",
+    "Zavera Tech Abbottabad",
+    "about Zavera Tech",
+    "Zavera Tech digital services",
+    "Zavera Tech software company",
+    "IT company in Abbottabad",
+    "learn about Zavera Tech in Abbottabad",
+    "Zavera Tech web development and digital services",
   ],
   alternates: {
     canonical: "https://zavera-tech.vercel.app/about",
   },
   openGraph: {
-    title: "About Zavera.Tech | Digital Agency in Abbottabad",
+    title: "About Zavera Tech | Digital Services in Abbottabad",
     description:
-      "Discover Zavera.Tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
+      "Zavera Tech is a digital services business based in Abbottabad, Pakistan. Our work covers website development, search engine optimization, digital marketing and graphic design.",
     url: "https://zavera-tech.vercel.app/about",
     type: "website",
     images: [
@@ -49,15 +48,15 @@ export const metadata: Metadata = {
         url: "/about-team-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Zavera.Tech digital agency team collaborative workspace in Abbottabad",
+        alt: "Zavera Tech digital services team collaborative workspace in Abbottabad",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Zavera.Tech | Digital Agency in Abbottabad",
+    title: "About Zavera Tech | Digital Services in Abbottabad",
     description:
-      "Discover Zavera.Tech, a digital agency in Abbottabad offering software development, web development, digital marketing and creative design solutions.",
+      "Zavera Tech is a digital services business based in Abbottabad, Pakistan. Our work covers website development, search engine optimization, digital marketing and graphic design.",
     images: ["/about-team-hero.jpg"],
   },
 };
@@ -202,15 +201,11 @@ export default function AboutPage() {
               </span>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight">
-                Who We Are — A Digital Agency in Abbottabad
+                About Zavera Tech
               </h1>
 
               <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl font-normal">
-                Zavera.Tech is a digital agency focused on software development, web development, digital marketing, and graphic design. We bring technology, creativity, and strategic thinking together to help businesses establish and improve their digital presence.
-              </p>
-
-              <p className="text-base text-neutral-600 leading-relaxed max-w-2xl font-normal">
-                Our approach is centered on understanding business requirements and developing practical digital solutions that support communication, functionality, and online growth.
+                Zavera Tech is a digital services business based in Abbottabad, Pakistan. Our work covers website development, search engine optimization, digital marketing and graphic design. We aim to understand each project, explain the work clearly and plan around the needs of the business.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-2">
@@ -247,7 +242,7 @@ export default function AboutPage() {
               Our Journey
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-tight">
-              Our Story and the Vision Behind Zavera.Tech
+              Who We Are
             </h2>
             <p className="text-neutral-600 leading-relaxed text-base sm:text-lg">
               At Zavera.Tech, we believe that technology and creative design play an important role in how businesses connect with people and present themselves online.
@@ -300,7 +295,7 @@ export default function AboutPage() {
         <section className="py-16 border-t border-neutral-200/80">
           <SectionHeading
             badge="Our Foundation"
-            title="Our Core Values and Working Principles"
+            title="Our Approach to Projects"
             description="We maintain high standards across technology selection, client collaboration, and creative craftsmanship."
           />
 
@@ -336,7 +331,7 @@ export default function AboutPage() {
               Core Capabilities
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-              Our Expertise in Software Development, SEO and Creative Design
+              What We Work On
             </h2>
             <p className="text-neutral-600 text-base mt-2">
               Combining software engineering rigor with search engine visibility and creative visual identity.
@@ -419,7 +414,7 @@ export default function AboutPage() {
         <section className="py-16 border-t border-neutral-200/80">
           <SectionHeading
             badge="Practical Solutions"
-            title="How We Help Businesses Build Their Digital Presence"
+            title="Who We Help"
             description="Targeted solutions to establish, optimize, and expand your digital operations online."
           />
 
@@ -544,7 +539,7 @@ export default function AboutPage() {
         {/* ============================================================== */}
         <CTASection
           badge="Start your journey"
-          title="Let's Bring Your Vision to Life"
+          title="Talk to Our Team"
           description="Have a project or a digital idea in mind? Get in touch with Zavera.Tech to discuss your requirements and explore suitable software development, digital marketing, or creative design solutions."
           buttonText="Contact Us"
           buttonHref="/contact"

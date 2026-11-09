@@ -15,30 +15,29 @@ import { projectsData } from "@/data/projects";
 import { learningArticles } from "@/data/learning";
 
 export const metadata: Metadata = {
-  title: "IT Company in Abbottabad | Zavera.Tech",
+  title: "Zavera Tech | IT & Digital Services in Abbottabad",
   description:
-    "Zavera.Tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
+    "Zavera Tech helps businesses build and improve their online presence. Our services cover web development, SEO, digital marketing and graphic design.",
   keywords: [
-    "IT Company in Abbottabad",
-    "Software House in Abbottabad",
-    "Software Development Company in Abbottabad",
-    "Digital Marketing Agency in Abbottabad",
-    "Web Development Company in Abbottabad",
-    "Graphic Designing Services in Abbottabad",
-    "Custom Software Development",
-    "Professional Website Development",
-    "Search Engine Optimization",
-    "Zavera.Tech",
+    "IT company in Abbottabad",
+    "software house Abbottabad",
+    "web development company Abbottabad",
+    "IT services Abbottabad",
+    "software development company Pakistan",
+    "digital solutions Pakistan",
+    "best IT company in Abbottabad",
+    "software house for businesses in Abbottabad",
+    "Zavera Tech",
   ],
   alternates: {
-    canonical: "https://zavera-tech-seo.vercel.app/",
+    canonical: "https://zavera-tech.vercel.app/",
   },
   openGraph: {
-    title: "IT Company in Abbottabad | Zavera.Tech",
+    title: "Zavera Tech | IT & Digital Services in Abbottabad",
     description:
-      "Zavera.Tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
-    url: "https://zavera-tech-seo.vercel.app/",
-    siteName: "Zavera.Tech",
+      "Zavera Tech helps businesses build and improve their online presence. Our services cover web development, SEO, digital marketing and graphic design.",
+    url: "https://zavera-tech.vercel.app/",
+    siteName: "Zavera Tech",
     locale: "en_PK",
     type: "website",
   },
@@ -52,10 +51,10 @@ export default function HomePage() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": ["ProfessionalService", "ITCompany"],
-    name: "Zavera.Tech",
-    url: "https://zavera-tech-seo.vercel.app/",
-    logo: "https://zavera-tech-seo.vercel.app/icon.svg",
-    image: "https://zavera-tech-seo.vercel.app/purpose-showcase.jpg",
+    name: "Zavera Tech",
+    url: "https://zavera-tech.vercel.app/",
+    logo: "https://zavera-tech.vercel.app/icon.svg",
+    image: "https://zavera-tech.vercel.app/purpose-showcase.jpg",
     description:
       "Zavera.Tech is an IT company in Abbottabad offering software development, web development, digital marketing and graphic design services.",
     address: {
@@ -179,7 +178,7 @@ export default function HomePage() {
                 Our Purpose
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-snug">
-                Professional Digital Solutions for Modern Businesses
+                Digital Services for Your Business
               </h2>
               <p className="text-neutral-700 leading-relaxed text-base sm:text-lg">
                 Based in Abbottabad, Khyber Pakhtunkhwa, Zavera.Tech operates as a dedicated software house and full-service IT company. We believe transformative digital solutions require both precision software engineering and strategic digital marketing.
@@ -233,7 +232,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="What We Deliver"
-            title="Our Services"
+            title="Web Development Services & Digital Offerings"
             description="As a full-service IT company and software house in Abbottabad, we provide specialized software engineering, web development, digital marketing, and graphic design solutions."
           />
 
@@ -335,7 +334,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Methodology"
-            title="Web Development and Software Solutions for Your Business"
+            title="How to Get Started with Your Project"
             description="A battle-tested 5-stage lifecycle designed to bring custom web apps and digital products from concept to successful launch."
           />
 
@@ -377,7 +376,7 @@ export default function HomePage() {
                 Portfolio
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-                Featured Projects
+                SEO and Digital Marketing Projects
               </h2>
               <p className="mt-2 text-neutral-600 text-base max-w-xl">
                 A selection of digital platforms, web portals, and branding initiatives engineered for our partners.
@@ -409,7 +408,7 @@ export default function HomePage() {
                 Knowledge Hub
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-                Creative Graphic Design and Brand Identity Solutions
+                Graphic Design Services & Knowledge Hub
               </h2>
               <p className="mt-2 text-neutral-600 text-base max-w-xl">
                 Free foundational tutorials covering modern web development, SEO strategies, and visual branding.

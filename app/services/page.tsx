@@ -23,32 +23,25 @@ import FAQAccordion from "@/components/common/FAQAccordion";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Digital Services in Abbottabad | Zavera.Tech",
+  title: "IT & Digital Services in Abbottabad | Zavera Tech",
   description:
-    "Zavera.Tech offers digital services in Abbottabad, including web development, SEO, digital marketing, and graphic design to support your business online.",
+    "Zavera Tech offers digital services for businesses that want to build, manage or improve their online presence. Explore web development, SEO, digital marketing and graphic design.",
   keywords: [
-    "Digital Services in Abbottabad",
-    "Digital Solutions Company in Abbottabad",
-    "Digital Services Company in Pakistan",
-    "Professional Digital Services",
-    "Digital Agency in Abbottabad",
-    "Digital Solutions in Pakistan",
-    "Business Digital Solutions",
-    "Digital Services for Small Businesses",
-    "Complete Digital Solutions for Businesses",
-    "IT and Digital Services in Abbottabad",
-    "Web Development Services",
-    "SEO Services",
-    "Digital Marketing Services",
-    "Graphic Designing Services",
+    "IT services in Abbottabad",
+    "software development services Pakistan",
+    "digital marketing services Abbottabad",
+    "graphic design services Abbottabad",
+    "web development services Abbottabad",
+    "IT solutions for small businesses Abbottabad",
+    "professional digital services in Abbottabad",
   ],
   alternates: {
     canonical: "https://zavera-tech.vercel.app/services",
   },
   openGraph: {
-    title: "Digital Services in Abbottabad | Zavera.Tech",
+    title: "IT & Digital Services in Abbottabad | Zavera Tech",
     description:
-      "Zavera.Tech offers digital services in Abbottabad, including web development, SEO, digital marketing, and graphic design to support your business online.",
+      "Zavera Tech offers digital services for businesses that want to build, manage or improve their online presence. Explore web development, SEO, digital marketing and graphic design.",
     url: "https://zavera-tech.vercel.app/services",
     type: "website",
     images: [
@@ -56,15 +49,15 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Zavera.Tech Digital Services in Abbottabad, Pakistan",
+        alt: "Zavera Tech IT and Digital Services in Abbottabad, Pakistan",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Services in Abbottabad | Zavera.Tech",
+    title: "IT & Digital Services in Abbottabad | Zavera Tech",
     description:
-      "Zavera.Tech offers digital services in Abbottabad, including web development, SEO, digital marketing, and graphic design to support your business online.",
+      "Zavera Tech offers digital services for businesses that want to build, manage or improve their online presence. Explore web development, SEO, digital marketing and graphic design.",
     images: ["/og-image.jpg"],
   },
 };
@@ -243,10 +236,10 @@ export default function ServicesPage() {
             <span>Digital Services in Abbottabad &bull; Zavera.Tech</span>
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight mt-4 mb-6">
-            Digital Services to Help Your Business Grow
+            Our IT and Digital Services
           </h1>
           <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl mx-auto mb-8 font-normal">
-            Zavera.Tech provides professional digital services in Abbottabad, bringing modern web development, data-driven SEO, digital marketing, and creative graphic design together to build your digital presence.
+            Zavera Tech offers digital services for businesses that want to build, manage or improve their online presence. Explore web development, SEO, digital marketing and graphic design. Each service page explains its topic in more detail and can help you choose the right starting point.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -269,7 +262,7 @@ export default function ServicesPage() {
               Overview
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight">
-              Comprehensive Digital Solutions for Businesses
+              Choose the Right Service
             </h2>
             <p className="text-neutral-600 text-base sm:text-lg leading-relaxed">
               At Zavera.Tech, our mission is to deliver practical digital solutions that support communication, functionality, and long-term business growth. Whether you are establishing a new digital footprint or scaling an existing enterprise, our four core service pillars provide the technical architecture and creative foundation you need.
@@ -283,7 +276,7 @@ export default function ServicesPage() {
         <section id="explore-services" className="py-16 border-t border-neutral-200/80 scroll-mt-24">
           <SectionHeading
             badge="Core Offerings"
-            title="Explore Our Digital Services"
+            title="Web Development, SEO, Digital Marketing & Graphic Designing"
             description="Four specialized disciplines engineered to solve complex digital challenges for businesses in Abbottabad and across Pakistan."
           />
 

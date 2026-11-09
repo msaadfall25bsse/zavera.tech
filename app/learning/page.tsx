@@ -6,11 +6,26 @@ import CTASection from "@/components/common/CTASection";
 import { allBootcampCourses } from "@/data/bootcampCourses/index";
 
 export const metadata: Metadata = {
-  title: "Zavera.Tech Learning Hub | Professional Bootcamp Curriculums & Tech Guides",
+  title: "Web Development & Digital Learning | Zavera Tech",
   description:
-    "Explore professional bootcamp-style learning experiences: Modern Web Development, CSS Flexbox & Grid, JavaScript ES6, React, Next.js App Router, TypeScript, Technical SEO, Digital Marketing, and Brand Identity Design.",
+    "Explore learning resources covering modern web development and digital topics. These guides introduce useful concepts, explain how different tools work and help readers build their knowledge step by step.",
+  keywords: [
+    "web development learning resources",
+    "web development tutorials",
+    "programming learning guides",
+    "technology tutorials",
+    "learn modern web development step by step",
+    "web development guides for beginners",
+  ],
   alternates: {
-    canonical: "/learning",
+    canonical: "https://zavera-tech.vercel.app/learning",
+  },
+  openGraph: {
+    title: "Web Development & Digital Learning | Zavera Tech",
+    description:
+      "Explore learning resources covering modern web development and digital topics. These guides introduce useful concepts, explain how different tools work and help readers build their knowledge step by step.",
+    url: "https://zavera-tech.vercel.app/learning",
+    type: "website",
   },
 };
 
@@ -30,11 +45,11 @@ export default function LearningPage() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight mb-6">
-            Bootcamp-Style Curriculums for Modern Tech Disciplines
+            Learning Resources
           </h1>
 
           <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl mx-auto mb-8">
-            Comprehensive, module-based educational roadmaps designed by senior software engineers, technical SEOs, and creative designers. From foundational HTML to Next.js App Router and Technical SEO audits.
+            Explore learning resources covering modern web development and digital topics. These guides introduce useful concepts, explain how different tools work and help readers build their knowledge step by step. Choose a topic and use the explanations to support your learning.
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-left max-w-3xl mx-auto pt-2">

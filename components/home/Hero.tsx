@@ -22,12 +22,12 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-[1.14] mb-6">
-              Your Trusted{" "}
-              <span className="text-[#F07825]">IT Company in Abbottabad</span> for Digital Growth
+              IT and Digital Services for Businesses in{" "}
+              <span className="text-[#F07825]">Abbottabad</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-neutral-600 leading-relaxed mb-8 max-w-2xl font-normal">
-              Zavera.Tech is a premier IT company and software house in Abbottabad. We engineer high-performance web applications, drive organic search rankings, and craft memorable brand identities for businesses across Pakistan.
+              Zavera Tech helps businesses build and improve their online presence. Our services cover web development, SEO, digital marketing and graphic design. Explore our service options to find the right fit for your goals, then get in touch with our team to start your project.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mb-10 w-full sm:w-auto">

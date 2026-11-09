@@ -5,11 +5,26 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import { siteConfig } from "@/data/navigation";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Start a Project or Inquire",
+  title: "Contact Zavera Tech | Abbottabad, Pakistan",
   description:
-    "Get in touch with Zavera.Tech for custom software development, digital marketing, and graphic design projects. Reach out via contact form or direct WhatsApp.",
+    "Have a question or a project to discuss? Get in touch with Zavera Tech about website development, SEO, digital marketing or graphic design. Share a few details about what you need so the team can understand your request and guide you on the next step.",
+  keywords: [
+    "contact Zavera Tech",
+    "contact IT company Abbottabad",
+    "web development consultation Abbottabad",
+    "request a website quote Pakistan",
+    "contact Zavera Tech for digital services",
+    "get a website development consultation in Abbottabad",
+  ],
   alternates: {
-    canonical: "/contact",
+    canonical: "https://zavera-tech.vercel.app/contact",
+  },
+  openGraph: {
+    title: "Contact Zavera Tech | Abbottabad, Pakistan",
+    description:
+      "Have a question or a project to discuss? Get in touch with Zavera Tech about website development, SEO, digital marketing or graphic design. Share a few details about what you need so the team can understand your request and guide you on the next step.",
+    url: "https://zavera-tech.vercel.app/contact",
+    type: "website",
   },
 };
 
@@ -25,10 +40,10 @@ export default function ContactPage() {
             Let&apos;s Connect
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold text-neutral-900 tracking-tight leading-tight mt-4 mb-6">
-            Start a Conversation with Our Team
+            Contact Zavera Tech
           </h1>
           <p className="text-lg text-neutral-600 leading-relaxed">
-            Have a project in mind, need technical guidance, or looking to scale your organic presence? We would love to hear from you.
+            Have a question or a project to discuss? Get in touch with Zavera Tech about website development, SEO, digital marketing or graphic design. Share a few details about what you need so the team can understand your request and guide you on the next step.
           </p>
         </div>
 
@@ -36,6 +51,9 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-20 items-start">
           {/* Left Column: Contact Form */}
           <div className="lg:col-span-7">
+            <h2 className="text-2xl font-bold text-neutral-900 mb-6">
+              Send Us Your Project Details
+            </h2>
             <ContactForm />
           </div>
 
@@ -68,9 +86,9 @@ export default function ContactPage() {
 
             {/* Direct Contact Info */}
             <div className="bg-neutral-50 rounded-2xl border border-neutral-200 p-7 space-y-6">
-              <h3 className="text-lg font-bold text-neutral-900">
-                Official Agency Information
-              </h3>
+              <h2 className="text-lg font-bold text-neutral-900">
+                Where We Work & Official Information
+              </h2>
 
               <div className="space-y-4 text-sm">
                 <div className="flex items-start space-x-3">
