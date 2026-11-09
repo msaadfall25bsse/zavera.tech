@@ -9,25 +9,19 @@ export const servicesCatalogList: SubServiceDetail[] = [
     categorySlug: "web-development",
     categoryTitle: "Web Development",
     title: "Web Development Services",
-    metaTitle: "Web Development Services in Abbottabad | Zavera.Tech",
-    metaDescription: "Explore professional web development services in Abbottabad. Zavera.Tech builds responsive business websites and custom web solutions based on your requirements.",
-    imageAlt: "Zavera.Tech web development engineers building custom business web applications in Abbottabad",
-    shortDesc: "Explore professional web development services in Abbottabad. Zavera.Tech builds responsive business websites and custom web solutions based on your requirements.",
-    heroHeadline: "Professional Web Development Services for Businesses",
-    heroDescription: "We engineer responsive business websites, custom web applications, and modern web platforms tailored to support your business goals locally in Abbottabad and across Pakistan.",
+    metaTitle: "Web Development in Abbottabad | Zavera Tech",
+    metaDescription: "Web Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    imageAlt: "Zavera Tech web development engineers building custom business web applications in Abbottabad",
+    shortDesc: "Web Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "Web Development",
+    heroDescription: "Web Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "/web-dev-hero.jpg",
-    primaryKeyword: "Web Development Services in Abbottabad",
+    primaryKeyword: "web development company Abbottabad",
     secondaryKeywords: [
-      "Web Development Company in Abbottabad",
-      "Website Development Company in Abbottabad",
-      "Professional Web Development Services",
-      "Custom Web Development Services",
-      "Website Design and Development",
-      "Web Development Company in Pakistan",
-      "Business Website Development Services",
-      "Responsive Website Development",
-      "Modern Website Development Services",
-      "Custom Website Development Company"
+      "web development services Pakistan",
+      "custom web development",
+      "web developers Abbottabad",
+      "website development solutions"
     ],
     supportingKeywords: [
       "Full Stack Web Development",
@@ -42,11 +36,8 @@ export const servicesCatalogList: SubServiceDetail[] = [
       "Website Maintenance and Support"
     ],
     longTailKeywords: [
-      "Affordable Website Development Services in Abbottabad",
-      "Professional Business Website Development in Pakistan",
-      "Custom Website Development for Small Businesses",
-      "Responsive Website Development for Businesses",
-      "Custom Web Application Development Company in Pakistan"
+      "hire web developers in Abbottabad",
+      "web development company for small businesses Pakistan"
     ],
     features: [
       { title: "Custom Website Development", description: "Bespoke web architecture engineered around your unique business requirements, ensuring fast loading speeds, zero template bloat, and optimal search visibility." },
@@ -62,23 +53,34 @@ export const servicesCatalogList: SubServiceDetail[] = [
       { step: "05", title: "Deployment & Ongoing Support", desc: "Launching smoothly to production with reliable cloud hosting configuration and ongoing maintenance support." },
     ],
     faqs: [
-      { question: "What technologies does Zavera.Tech use for web development?", answer: "We primarily utilize modern web technologies including Next.js, React, TypeScript, Node.js, and Tailwind CSS. We select frameworks based on the specific requirements of each project." },
+      { question: "What technologies does Zavera Tech use for web development?", answer: "We primarily utilize modern web technologies including Next.js, React, TypeScript, Node.js, and Tailwind CSS. We select frameworks based on the specific requirements of each project." },
       { question: "Why should my business choose custom web development over generic templates?", answer: "Custom website development guarantees clean code without unnecessary plugins, significantly faster page loading speeds, enhanced security, and complete flexibility to scale as your business grows." },
-      { question: "Does Zavera.Tech provide website maintenance and support?", answer: "Yes, we provide website maintenance and support services including security updates, performance monitoring, backup management, and feature enhancements." },
-      { question: "Can startups and small businesses in Abbottabad work with Zavera.Tech?", answer: "Yes! We work with startups, local businesses in Abbottabad and Hazara Division, and established companies across Pakistan to build practical, scalable website solutions." },
+      { question: "Does Zavera Tech provide website maintenance and support?", answer: "Yes, we provide website maintenance and support services including security updates, performance monitoring, backup management, and feature enhancements." },
+      { question: "Can startups and small businesses in Abbottabad work with Zavera Tech?", answer: "Yes! We work with startups, local businesses in Abbottabad and Hazara Division, and established companies across Pakistan to build practical, scalable website solutions." },
     ],
   },
   {
     slug: "website-development",
+    metaTitle: "Website Development in Abbottabad | Zavera Tech",
+    metaDescription: "Website Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     categorySlug: "web-development",
     categoryTitle: "Web Development",
     title: "Website Development",
-    shortDesc: "Corporate, commercial, and promotional website development engineered for optimal brand credibility and client acquisition.",
-    heroHeadline: "Professional Website Development Services in Pakistan",
-    heroDescription: "Build a high-impact corporate website that commands trust, ranks on search engines, and turns casual visitors into qualified customer inquiries.",
+    shortDesc: "Website Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "Website Development",
+    heroDescription: "Website Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "website development services",
-    secondaryKeywords: ["business website development", "corporate website design", "custom website builder", "professional web developers", "mobile friendly website development"],
+    primaryKeyword: "website development company Abbottabad",
+    secondaryKeywords: [
+      "business website development",
+      "professional website development Pakistan",
+      "company website design",
+      "responsive website development"
+    ],
+    longTailKeywords: [
+      "business website developer in Abbottabad",
+      "professional website development for Pakistani businesses"
+    ],
     localKeywords: ["website development Abbottabad", "web developers Pakistan", "corporate web agency KPK"],
     features: [
       { title: "Brand-Aligned UI/UX", description: "Custom visual presentation reflecting your unique corporate identity, color system, and positioning." },
@@ -100,15 +102,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "custom-web-application-development",
+    metaTitle: "Custom Web Application Development | Zavera Tech",
+    metaDescription: "Custom Web Application Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     categorySlug: "web-development",
     categoryTitle: "Web Development",
     title: "Custom Web Application Development",
-    shortDesc: "Tailored web applications, internal tools, customer portals, and SaaS platforms engineered for complex business logic.",
-    heroHeadline: "Custom Web Application Engineering & SaaS Platforms",
-    heroDescription: "Streamline operations and scale your business with bespoke web applications built with modern frontend frameworks and robust cloud backends.",
+    shortDesc: "Custom Web Application Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "Custom Web Application Development",
+    heroDescription: "Custom Web Application Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "custom web application development",
-    secondaryKeywords: ["SaaS web application development", "custom web portal", "enterprise web application", "cloud web app development", "full stack web apps"],
+    secondaryKeywords: [
+      "custom web apps Pakistan",
+      "business web application development",
+      "web application developers",
+      "bespoke web software"
+    ],
+    longTailKeywords: [
+      "custom web application development company Pakistan",
+      "build a custom business web app"
+    ],
     localKeywords: ["custom software development Abbottabad", "web app developers Pakistan", "software agency Abbottabad"],
     features: [
       { title: "Complex Workflow Automation", description: "Automating repetitive operational tasks, invoicing, user management, and reporting." },
@@ -129,15 +142,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "nextjs-development",
+    metaTitle: "Next.js Development | Zavera Tech",
+    metaDescription: "Next.js Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     categorySlug: "web-development",
     categoryTitle: "Web Development",
-    title: "Next.js Development Services",
-    shortDesc: "Modern Next.js App Router applications with Server Components, streaming SSR, and blazing fast performance.",
-    heroHeadline: "Expert Next.js Development Company in Pakistan",
-    heroDescription: "Harness the power of React Server Components, hybrid static generation, and edge performance with our certified Next.js architects.",
+    title: "Next.js Development",
+    shortDesc: "Next.js Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "Next.js Development",
+    heroDescription: "Next.js Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "Next.js development services",
-    secondaryKeywords: ["Next.js App Router developers", "React Server Components agency", "Next.js SEO development", "full stack Next.js company", "hire Next.js developers"],
+    secondaryKeywords: [
+      "Next.js developers Pakistan",
+      "Next.js web development",
+      "Next.js development company",
+      "Next.js website development"
+    ],
+    longTailKeywords: [
+      "hire Next.js developer Pakistan",
+      "custom Next.js development services"
+    ],
     localKeywords: ["Next.js developers Pakistan", "Next.js agency Abbottabad"],
     features: [
       { title: "App Router & Server Components", description: "Minimizing client JavaScript bundle sizes for instant initial page loading." },
@@ -158,15 +182,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "reactjs-development",
+    metaTitle: "React Development | Zavera Tech",
+    metaDescription: "React.js Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     categorySlug: "web-development",
     categoryTitle: "Web Development",
-    title: "React.js Development Services",
-    shortDesc: "Component-driven, highly interactive user interfaces crafted with modern React hooks, state management, and Tailwind CSS.",
-    heroHeadline: "Custom React.js Frontend Development Services",
-    heroDescription: "We engineer fluid, intuitive, and responsive single-page applications and component design systems that delight users.",
+    title: "React.js Development",
+    shortDesc: "React.js Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "React.js Development",
+    heroDescription: "React.js Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1200&q=80",
     primaryKeyword: "React.js development services",
-    secondaryKeywords: ["hire React developers Pakistan", "custom React UI development", "React component design", "frontend web development", "single page application development"],
+    secondaryKeywords: [
+      "React developers Pakistan",
+      "React web application development",
+      "React.js development company",
+      "React frontend development"
+    ],
+    longTailKeywords: [
+      "hire React developer in Pakistan",
+      "React js web application development services"
+    ],
     localKeywords: ["React developers Abbottabad", "frontend developers Pakistan"],
     features: [
       { title: "Modular Component Architecture", description: "Self-contained, reusable UI elements that simplify scaling and maintenance." },
@@ -187,15 +222,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "ecommerce-development",
+    metaTitle: "Ecommerce Development in Abbottabad | Zavera Tech",
+    metaDescription: "Ecommerce Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     categorySlug: "web-development",
     categoryTitle: "Web Development",
-    title: "E-Commerce Website Development",
-    shortDesc: "Scalable online stores with seamless payment gateways, inventory control, and high-converting checkout flows.",
-    heroHeadline: "Scalable E-Commerce Store Development in Pakistan",
-    heroDescription: "Transform your retail catalog into a 24/7 revenue engine with custom shopping carts, secure payment gateways, and friction-free user journeys.",
+    title: "Ecommerce Development",
+    shortDesc: "Ecommerce Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "Ecommerce Development",
+    heroDescription: "Ecommerce Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "/ecommerce-hero.jpg",
     primaryKeyword: "ecommerce website development Abbottabad",
-    secondaryKeywords: ["online store development Pakistan", "custom ecommerce platform", "payment gateway integration Pakistan", "Shopify & Next.js ecommerce", "ecommerce SEO services"],
+    secondaryKeywords: [
+      "ecommerce development Pakistan",
+      "online store development",
+      "ecommerce website design",
+      "custom ecommerce website"
+    ],
+    longTailKeywords: [
+      "ecommerce website development company in Abbottabad",
+      "build an online store Pakistan"
+    ],
     localKeywords: ["ecommerce developers Abbottabad", "online shop builder KPK", "Pakistan online store solutions"],
     features: [
       { title: "Optimized Checkout Experience", description: "Streamlined single-page checkouts designed to minimize cart abandonment and maximize purchase completion rates." },
@@ -216,15 +262,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "full-stack-development",
+    metaTitle: "Full Stack Development | Zavera Tech",
+    metaDescription: "Full Stack Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     categorySlug: "web-development",
     categoryTitle: "Web Development",
-    title: "Full Stack Development Services",
-    shortDesc: "Comprehensive end-to-end engineering combining intuitive frontend user interfaces with robust backend cloud architectures.",
-    heroHeadline: "Full Stack Web Engineering & Cloud Systems",
-    heroDescription: "From database schemas and server APIs to responsive interfaces, our full-stack engineers deliver complete synergy across the entire technology stack.",
+    title: "Full Stack Development",
+    shortDesc: "Full Stack Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "Full Stack Development",
+    heroDescription: "Full Stack Development can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "full stack development services",
-    secondaryKeywords: ["hire full stack developers", "full stack web development Pakistan", "MERN stack developers", "Next.js full stack agency", "end to end software development"],
+    primaryKeyword: "full stack web development services",
+    secondaryKeywords: [
+      "full stack developers Pakistan",
+      "frontend and backend development",
+      "full stack web development company",
+      "database driven web applications"
+    ],
+    longTailKeywords: [
+      "hire a full stack web developer in Pakistan",
+      "full stack development for business applications"
+    ],
     localKeywords: ["full stack developers Abbottabad", "software house Abbottabad"],
     features: [
       { title: "Unified Technology Stacks", description: "TypeScript across frontend and backend for seamless type sharing and reduced errors." },
@@ -245,15 +302,26 @@ export const servicesCatalogList: SubServiceDetail[] = [
   },
   {
     slug: "website-maintenance",
+    metaTitle: "Website Maintenance in Abbottabad | Zavera Tech",
+    metaDescription: "Website Maintenance can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     categorySlug: "web-development",
     categoryTitle: "Web Development",
-    title: "Website Maintenance & Support",
-    shortDesc: "Ongoing technical maintenance, security patches, speed optimization, and feature updates keeping your digital presence flawless.",
-    heroHeadline: "Reliable Website Maintenance & Support Services",
-    heroDescription: "Protect your website investment with 24/7 security monitoring, scheduled data backups, speed audits, and continuous software updates.",
+    title: "Website Maintenance",
+    shortDesc: "Website Maintenance can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
+    heroHeadline: "Website Maintenance",
+    heroDescription: "Website Maintenance can help businesses create or improve their online tools and website experience. Zavera Tech can discuss your project goals, required features and the right scope for the work. Share what you want to build so the requirements can be understood before a solution is planned.",
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
-    primaryKeyword: "website maintenance services",
-    secondaryKeywords: ["website support services Pakistan", "web maintenance packages", "WordPress & Next.js maintenance", "website security updates", "website speed maintenance"],
+    primaryKeyword: "website maintenance services Abbottabad",
+    secondaryKeywords: [
+      "website support Pakistan",
+      "website updates",
+      "website security maintenance",
+      "website performance maintenance"
+    ],
+    longTailKeywords: [
+      "website maintenance company in Abbottabad",
+      "ongoing website support for businesses"
+    ],
     localKeywords: ["website maintenance Abbottabad", "IT support Abbottabad Pakistan"],
     features: [
       { title: "Proactive Security Audits", description: "Automated dependency updates, malware scans, and SSL certificate maintenance." },

@@ -93,7 +93,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
     description: service.shortDesc,
     provider: {
       "@type": "LocalBusiness",
-      name: "Zavera.Tech",
+      name: "Zavera Tech",
       image: `${siteConfig.url}/logo.svg`,
       telephone: siteConfig.phone,
       email: siteConfig.email,
@@ -214,7 +214,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               Core Capabilities
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-              Why Our {service.title} Deliver Superior Results
+              What This Service Covers
             </h2>
             <p className="text-neutral-600 text-base mt-2">
               Engineered with industry-leading standards, strict security, and customer conversion principles.
@@ -250,7 +250,7 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
               Execution Roadmap
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-              Our 5-Stage Delivery Process
+              Planning and Development Process
             </h2>
             <p className="text-neutral-600 text-base mt-2">
               From strategic discovery to live delivery in Abbottabad and beyond.
@@ -349,10 +349,10 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
 
         {/* CTA Section */}
         <CTASection
-          badge="Get in Touch"
-          title={`Ready to Elevate Your Business with ${service.title}?`}
-          description="Contact Zavera.Tech today for a tailored proposal, technical roadmap, and transparent milestone estimate."
-          buttonText="Request a Free Quote"
+          badge="Discuss Your Project"
+          title={`Ready to Discuss Your ${service.title} Project?`}
+          description="Contact Zavera Tech to discuss your requirements and confirm the right scope for your project."
+          buttonText="Contact Zavera Tech"
           buttonHref="/contact"
         />
       </div>
