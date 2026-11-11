@@ -3,13 +3,13 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course6: BootcampCourse = {
   slug: "type-safe-web-applications-with-typescript",
   title: "Type-Safe Web Applications with TypeScript",
-  metaTitle: "Type-Safe Web Applications with TypeScript | Zavera Tech",
-  metaDescription: "This guide introduces type-safe web applications with typescript in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces type-safe web applications with typescript in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaTitle: "Building Type-Safe Web Apps with TypeScript | Zavera Tech",
+  metaDescription: "Learn how to write robust, bug-free web applications using TypeScript and Next.js. Practical guide on type safety, interfaces, and clean frontend architecture.",
+  subtitle: "Eliminate runtime bugs and accelerate development cycles by mastering static typing, interfaces, generics, and strict compiler configurations in TypeScript.",
   category: "TypeScript",
   difficulty: "Intermediate",
   duration: "4 Weeks (Strict Engineering Labs)",
-  summary: "This guide introduces type-safe web applications with typescript in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Eliminate runtime bugs and accelerate development cycles by mastering static typing, interfaces, generics, and strict compiler configurations in TypeScript.",
   image: "/learning-typescript.jpg",
   publishedAt: "2026-03-12",
   primaryKeyword: "TypeScript tutorial",
@@ -137,5 +137,17 @@ export type ContactInput = z.infer<typeof ContactSchema>;`,
     title: "Custom Software Solutions in Abbottabad",
     href: "/services/web-development",
   },
+  relatedServiceLinks: [
+    {
+      title: "Custom Web Application Development",
+      href: "/services/custom-web-application-development",
+      description: "Enterprise-grade type-safe web applications tailored to your business.",
+    },
+    {
+      title: "Full Stack Development Services",
+      href: "/services/full-stack-development",
+      description: "Type-safe frontend and backend architectures prioritizing zero data loss.",
+    },
+  ],
 };
 

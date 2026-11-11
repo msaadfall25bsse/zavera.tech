@@ -4,12 +4,12 @@ export const course9: BootcampCourse = {
   slug: "principles-of-impactful-brand-identity-design",
   title: "Principles of Impactful Brand Identity Design",
   metaTitle: "Principles of Impactful Brand Identity Design | Zavera Tech",
-  metaDescription: "This guide introduces principles of impactful brand identity design in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces principles of impactful brand identity design in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaDescription: "Explore foundational principles of visual brand identity: typography, color theory, logo adaptability, and brand cohesion. Learn from Zavera Tech design leads.",
+  subtitle: "Explore the psychological and visual principles behind enduring brand identities. Learn how color palettes, typographic hierarchies, and logo systems shape brand trust.",
   category: "Graphic Designing",
   difficulty: "Beginner",
   duration: "3 Weeks (Design Studio Labs)",
-  summary: "This guide introduces principles of impactful brand identity design in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Explore the psychological and visual principles behind enduring brand identities. Learn how color palettes, typographic hierarchies, and logo systems shape brand trust.",
   image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-18",
   primaryKeyword: "brand identity design principles",
@@ -128,5 +128,22 @@ export const course9: BootcampCourse = {
     title: "Brand Identity Design Services in Abbottabad",
     href: "/services/brand-identity-design",
   },
+  relatedServiceLinks: [
+    {
+      title: "Custom Banner & Display Ad Design",
+      href: "/services/banner-design",
+      description: "High-converting digital banner designs for Google Display and social ads.",
+    },
+    {
+      title: "Brand Identity Design & Corporate Branding",
+      href: "/services/brand-identity-design",
+      description: "Distinctive corporate logos, vector emblems, and comprehensive brand guidelines.",
+    },
+    {
+      title: "Graphic Designing Services in Abbottabad",
+      href: "/services/graphic-designing",
+      description: "Creative branding, marketing collateral, and UI/UX visual design solutions.",
+    },
+  ],
 };
 

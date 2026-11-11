@@ -2,10 +2,12 @@ import React from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "outline" | "white";
   size?: "sm" | "md" | "lg";
   href?: string;
+  topText?: React.ReactNode;
+  hoverText?: React.ReactNode;
   children: React.ReactNode;
 }
 
@@ -13,44 +15,79 @@ export default function Button({
   variant = "primary",
   size = "md",
   href,
+  topText,
+  hoverText,
   children,
   className,
+  disabled,
   ...props
 }: ButtonProps) {
-  const baseStyles =
-    "inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed";
+  const revealedContent = topText ?? hoverText ?? children;
 
-  const sizeStyles = {
-    sm: "px-4 py-2 text-sm",
-    md: "px-6 py-3 text-base",
-    lg: "px-8 py-4 text-lg",
-  };
+  const sizeClass = {
+    sm: "cube-size-sm",
+    md: "cube-size-md",
+    lg: "cube-size-lg",
+  }[size];
 
-  const variantStyles = {
-    primary:
-      "bg-[#F07825] text-white hover:bg-[#d96517] focus:ring-[#F07825] shadow-sm hover:shadow active:scale-[0.98]",
-    secondary:
-      "bg-neutral-900 text-white hover:bg-neutral-800 focus:ring-neutral-900 shadow-sm active:scale-[0.98]",
-    outline:
-      "border-2 border-neutral-300 text-neutral-800 hover:border-[#F07825] hover:text-[#F07825] bg-transparent focus:ring-[#F07825]",
-    white:
-      "bg-white text-neutral-900 hover:bg-neutral-100 focus:ring-white shadow-sm hover:shadow",
-  };
+  const variantClass = {
+    primary: "cube-variant-primary",
+    secondary: "cube-variant-secondary",
+    outline: "cube-variant-outline",
+    white: "cube-variant-white",
+  }[variant];
 
-  const combinedClasses = cn(baseStyles, sizeStyles[size], variantStyles[variant], className);
+  const isFullWidth = className?.includes("w-full");
+
+  const sceneClasses = cn(
+    "cube-scene group",
+    sizeClass,
+    variantClass,
+    isFullWidth && "w-full",
+    className
+  );
+
+  const cubeInner = (
+    <span className="cube-btn">
+      {/* Hidden sizer element keeping native layout flow and dimensions */}
+      <span className="cube-sizer" aria-hidden="true">
+        {children}
+      </span>
+
+      {/* Front Face (Default) */}
+      <span className="cube-side front">
+        {children}
+      </span>
+
+      {/* Top Face (Revealed on 3D Hover Flip) */}
+      <span className="cube-side top">
+        {revealedContent}
+      </span>
+    </span>
+  );
 
   if (href) {
     return (
-      <Link href={href} className={combinedClasses}>
-        {children}
+      <Link
+        href={href}
+        className={sceneClasses}
+        aria-disabled={disabled}
+        data-disabled={disabled ? "true" : undefined}
+      >
+        {cubeInner}
       </Link>
     );
   }
 
   return (
-    <button className={combinedClasses} {...props}>
-      {children}
+    <button
+      type={props.type || "button"}
+      className={sceneClasses}
+      disabled={disabled}
+      data-disabled={disabled ? "true" : undefined}
+      {...props}
+    >
+      {cubeInner}
     </button>
   );
 }
-

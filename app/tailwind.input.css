@@ -97,3 +97,217 @@ body {
 .animate-counter-spin {
   animation: counterSpin 22s linear infinite;
 }
+
+/* ============================================================== */
+/* 3D CUBE FLIP BUTTONS (ZAVERA.TECH BRAND COMBINATION)           */
+/* ============================================================== */
+
+.cube-scene {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 900px;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.cube-scene:focus-visible {
+  outline: 2px solid #F07825;
+  outline-offset: 4px;
+  border-radius: 0.75rem;
+}
+
+.cube-scene[data-disabled="true"] {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.cube-scene.w-full {
+  display: flex;
+  width: 100%;
+}
+
+.cube-scene.w-full .cube-btn {
+  width: 100%;
+}
+
+.cube-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 9.5em;
+  color: #ccc;
+  cursor: pointer;
+  font-family: inherit;
+  transition: transform 0.75s cubic-bezier(0.17, 0.67, 0.14, 0.93);
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  user-select: none;
+}
+
+/* 3D Rotate -90deg on Hover / Focus */
+.cube-scene:not([data-disabled="true"]):hover .cube-btn,
+.cube-scene:not([data-disabled="true"]):focus-visible .cube-btn {
+  transform: rotateX(-90deg);
+}
+
+/* Sizer element keeping responsive width in layout flow */
+.cube-sizer {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* Cube side faces */
+.cube-side {
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 0.625rem;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+/* Sizes */
+.cube-size-sm {
+  height: 2.5rem;
+}
+.cube-size-sm .cube-btn {
+  height: 2.5rem;
+  min-width: 8em;
+}
+.cube-size-sm .cube-side,
+.cube-size-sm .cube-sizer {
+  height: 2.5rem;
+  font-size: 0.75rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+.cube-size-sm .cube-side.front {
+  transform: translate3d(0, 0, 1.25rem);
+}
+.cube-size-sm .cube-side.top {
+  transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+.cube-size-md {
+  height: 3rem;
+}
+.cube-size-md .cube-btn {
+  height: 3rem;
+  min-width: 9.5em;
+}
+.cube-size-md .cube-side,
+.cube-size-md .cube-sizer {
+  height: 3rem;
+  font-size: 0.84rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+.cube-size-md .cube-side.front {
+  transform: translate3d(0, 0, 1.5rem);
+}
+.cube-size-md .cube-side.top {
+  transform: rotateX(90deg) translate3d(0, 0, 1.5rem);
+}
+
+.cube-size-lg {
+  height: 3.5rem;
+}
+.cube-size-lg .cube-btn {
+  height: 3.5rem;
+  min-width: 10.5em;
+}
+.cube-size-lg .cube-side,
+.cube-size-lg .cube-sizer {
+  height: 3.5rem;
+  font-size: 0.92rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+.cube-size-lg .cube-side.front {
+  transform: translate3d(0, 0, 1.75rem);
+}
+.cube-size-lg .cube-side.top {
+  transform: rotateX(90deg) translate3d(0, 0, 1.75rem);
+}
+
+/* ---------------------------------------------------- */
+/* Variants & Brand Colors (Zavera.Tech: Orange + Dark) */
+/* ---------------------------------------------------- */
+
+/* Primary: Zavera Orange Front -> Tech Dark Charcoal Top */
+.cube-variant-primary .cube-side.front {
+  background: #F07825;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 4px 14px rgba(240, 120, 37, 0.35);
+}
+.cube-variant-primary .cube-side.top {
+  background: #222229;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #F07825, 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
+/* Secondary: Tech Dark Charcoal Front -> Zavera Orange Top */
+.cube-variant-secondary .cube-side.front {
+  background: #222229;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+.cube-variant-secondary .cube-side.top {
+  background: #F07825;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 4px 14px rgba(240, 120, 37, 0.35);
+}
+
+/* Outline: Charcoal Bevel Front -> Zavera Orange Top */
+.cube-variant-outline .cube-side.front {
+  background: #222229;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.cube-variant-outline .cube-side.top {
+  background: #F07825;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 4px 14px rgba(240, 120, 37, 0.35);
+}
+
+/* White: Crisp White Front -> Zavera Orange Top */
+.cube-variant-white .cube-side.front {
+  background: #ffffff;
+  color: #222229;
+  box-shadow: inset 0 0 0 3px #222229, 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.cube-variant-white .cube-side.top {
+  background: #F07825;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 3px #ffffff, 0 4px 14px rgba(240, 120, 37, 0.35);
+}

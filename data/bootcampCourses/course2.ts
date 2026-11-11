@@ -3,13 +3,13 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course2: BootcampCourse = {
   slug: "mastering-css-flexbox-and-grid",
   title: "Mastering CSS Flexbox and Grid",
-  metaTitle: "Mastering CSS Flexbox and Grid | Zavera Tech",
-  metaDescription: "This guide introduces mastering css flexbox and grid in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces mastering css flexbox and grid in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaTitle: "Mastering CSS Flexbox & CSS Grid Tutorial | Zavera Tech",
+  metaDescription: "Master responsive CSS layouts with Flexbox and Grid. Step-by-step layout guide with visual examples and clean code architecture by Zavera Tech engineers.",
+  subtitle: "Gain complete confidence in building multi-column, responsive, and adaptive layouts using modern CSS Flexbox and 2D CSS Grid specifications.",
   category: "HTML & CSS",
   difficulty: "Beginner",
   duration: "3 Weeks (Hands-on Lab Curriculum)",
-  summary: "This guide introduces mastering css flexbox and grid in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Gain complete confidence in building multi-column, responsive, and adaptive layouts using modern CSS Flexbox and 2D CSS Grid specifications.",
   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-03",
   primaryKeyword: "CSS Flexbox and Grid tutorial",
@@ -128,5 +128,17 @@ export const course2: BootcampCourse = {
     title: "Web Development Services in Abbottabad",
     href: "/services/web-development",
   },
+  relatedServiceLinks: [
+    {
+      title: "Responsive Website Development",
+      href: "/services/responsive-website-development",
+      description: "Pixel-perfect multi-device responsiveness for mobile, tablet, and desktop.",
+    },
+    {
+      title: "Frontend Web Development",
+      href: "/services/frontend-development",
+      description: "Interactive, fluid user interfaces engineered with modern CSS and React.",
+    },
+  ],
 };
 

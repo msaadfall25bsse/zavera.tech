@@ -56,5 +56,10 @@ export interface BootcampCourse {
     title: string;
     href: string;
   };
+  relatedServiceLinks?: {
+    title: string;
+    href: string;
+    description?: string;
+  }[];
 }
 

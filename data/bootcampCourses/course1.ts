@@ -3,13 +3,13 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course1: BootcampCourse = {
   slug: "introduction-to-modern-web-development",
   title: "Introduction to Modern Web Development",
-  metaTitle: "Introduction to Modern Web Development | Zavera Tech",
-  metaDescription: "This guide introduces introduction to modern web development in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces introduction to modern web development in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaTitle: "Introduction to Modern Web Development Guide | Zavera Tech",
+  metaDescription: "A foundational roadmap to modern web engineering: HTML5 semantics, responsive CSS, modern JavaScript, and Next.js frameworks explained clearly by Zavera Tech.",
+  subtitle: "Master the core building blocks of modern web engineering. Learn how HTML5, responsive CSS layout systems, and modern JavaScript work together to power interactive web applications.",
   category: "Web Development",
   difficulty: "Beginner",
   duration: "4 Weeks (Self-Paced Curriculum)",
-  summary: "This guide introduces introduction to modern web development in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Master the core building blocks of modern web engineering. Learn how HTML5, responsive CSS layout systems, and modern JavaScript work together to power interactive web applications.",
   image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-01",
   primaryKeyword: "introduction to web development",
@@ -300,5 +300,17 @@ contactForm.addEventListener("submit", (event) => {
     title: "Web Development Services in Abbottabad",
     href: "/services/web-development",
   },
+  relatedServiceLinks: [
+    {
+      title: "Web Development Services in Abbottabad",
+      href: "/services/web-development",
+      description: "Modern, secure website development engineered for businesses in Pakistan.",
+    },
+    {
+      title: "Full Stack Web Development",
+      href: "/services/full-stack-development",
+      description: "End-to-end full stack web architecture with React, Next.js, and TypeScript.",
+    },
+  ],
 };
 

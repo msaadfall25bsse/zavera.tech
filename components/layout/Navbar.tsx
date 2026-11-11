@@ -163,7 +163,7 @@ export default function Navbar() {
 
                         {/* Sub-services link list */}
                         <ul className="space-y-1.5 pt-1">
-                          {cat.subServices.slice(0, 7).map((sub) => (
+                          {cat.subServices.map((sub) => (
                             <li key={sub.slug}>
                               <Link
                                 href={`/services/${sub.slug}`}

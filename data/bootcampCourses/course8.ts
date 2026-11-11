@@ -4,12 +4,12 @@ export const course8: BootcampCourse = {
   slug: "crafting-sustainable-digital-marketing-strategies",
   title: "Crafting Sustainable Digital Marketing Strategies",
   metaTitle: "Crafting Sustainable Digital Marketing Strategies | Zavera Tech",
-  metaDescription: "This guide introduces crafting sustainable digital marketing strategies in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces crafting sustainable digital marketing strategies in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaDescription: "Build long-term organic and paid marketing funnels that convert. Actionable guide on search intent, content marketing, and campaign budgeting by Zavera Tech.",
+  subtitle: "Learn how to align multi-channel organic search, paid advertising, and content marketing funnels with measurable commercial objectives.",
   category: "Digital Marketing",
   difficulty: "Beginner",
   duration: "4 Weeks (Strategy & Growth Labs)",
-  summary: "This guide introduces crafting sustainable digital marketing strategies in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Learn how to align multi-channel organic search, paid advertising, and content marketing funnels with measurable commercial objectives.",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-16",
   primaryKeyword: "digital marketing strategy guide",
@@ -130,5 +130,22 @@ const contentMatrix = {
     title: "Digital Marketing & SEO Services in Abbottabad",
     href: "/services/seo-services",
   },
+  relatedServiceLinks: [
+    {
+      title: "Google Ads Management Services",
+      href: "/services/google-ads",
+      description: "Certified Google Ads search, display, and remarketing campaigns in Pakistan.",
+    },
+    {
+      title: "PPC Advertising & Paid Search Agency",
+      href: "/services/ppc-advertising",
+      description: "High-ROI Pay-Per-Click advertising that scales qualified lead generation.",
+    },
+    {
+      title: "Digital Marketing Agency in Abbottabad",
+      href: "/services/digital-marketing",
+      description: "Strategic multi-channel marketing campaigns tailored for business growth.",
+    },
+  ],
 };
 

@@ -3,13 +3,13 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course5: BootcampCourse = {
   slug: "nextjs-app-router-and-server-components",
   title: "Next.js App Router and Server Components",
-  metaTitle: "Next.js App Router and Server Components | Zavera Tech",
-  metaDescription: "This guide introduces nextjs app router and server components in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces nextjs app router and server components in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaTitle: "Next.js App Router & Server Components Guide | Zavera Tech",
+  metaDescription: "Comprehensive tutorial on Next.js App Router, React Server Components, streaming SSR, and SEO metadata architectures by Zavera Tech developers.",
+  subtitle: "Learn how to build lightning-fast web applications utilizing Next.js App Router, React Server Components (RSC), and edge routing architecture.",
   category: "Next.js",
   difficulty: "Advanced",
   duration: "5 Weeks (Production Full-Stack Curriculum)",
-  summary: "This guide introduces nextjs app router and server components in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Learn how to build lightning-fast web applications utilizing Next.js App Router, React Server Components (RSC), and edge routing architecture.",
   image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-10",
   primaryKeyword: "Next.js App Router tutorial",
@@ -141,5 +141,17 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: "Web Development Services in Abbottabad",
     href: "/services/web-development",
   },
+  relatedServiceLinks: [
+    {
+      title: "Next.js Web Development Services",
+      href: "/services/nextjs-development",
+      description: "Enterprise Next.js development engineered for perfect Core Web Vitals.",
+    },
+    {
+      title: "Custom Web Application Development",
+      href: "/services/custom-web-application-development",
+      description: "Type-safe custom web applications built for business workflows.",
+    },
+  ],
 };
 

@@ -4,12 +4,12 @@ export const course7: BootcampCourse = {
   slug: "actionable-technical-seo-for-modern-websites",
   title: "Actionable Technical SEO for Modern Websites",
   metaTitle: "Actionable Technical SEO for Modern Websites | Zavera Tech",
-  metaDescription: "This guide introduces actionable technical seo for modern websites in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces actionable technical seo for modern websites in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaDescription: "Step-by-step technical SEO guide covering crawlability, indexation, structured data schemas, and Core Web Vitals optimization for high Google rankings.",
+  subtitle: "Understand the core mechanics of search engine crawlers, sitemap hierarchies, canonical resolution, Core Web Vitals, and JSON-LD structured data.",
   category: "SEO",
   difficulty: "Intermediate",
   duration: "4 Weeks (Hands-on SEO Lab Curriculum)",
-  summary: "This guide introduces actionable technical seo for modern websites in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Understand the core mechanics of search engine crawlers, sitemap hierarchies, canonical resolution, Core Web Vitals, and JSON-LD structured data.",
   image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-14",
   primaryKeyword: "technical SEO guide",
@@ -140,5 +140,22 @@ export const course7: BootcampCourse = {
     title: "SEO Services in Abbottabad & Pakistan",
     href: "/services/seo-services",
   },
+  relatedServiceLinks: [
+    {
+      title: "Local SEO Services in Abbottabad",
+      href: "/services/local-seo",
+      description: "Dominate Google Maps, 3-packs, and localized searches in Abbottabad & Pakistan.",
+    },
+    {
+      title: "SEO Content Optimization Services",
+      href: "/services/content-optimization",
+      description: "Transform underperforming web pages into high-converting organic search rankings.",
+    },
+    {
+      title: "Comprehensive SEO Services",
+      href: "/services/seo-services",
+      description: "Full-funnel search engine optimization, technical audits, and link building.",
+    },
+  ],
 };
 

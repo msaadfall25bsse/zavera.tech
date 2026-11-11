@@ -3,13 +3,13 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course4: BootcampCourse = {
   slug: "building-scalable-uis-with-react",
   title: "Building Scalable UIs with React",
-  metaTitle: "Building Scalable UIs with React | Zavera Tech",
-  metaDescription: "This guide introduces building scalable uis with react in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces building scalable uis with react in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaTitle: "Building Scalable UIs with React & Next.js | Zavera Tech",
+  metaDescription: "Master scalable React component architecture, state management patterns, and responsive UI engineering. Comprehensive guide by the Zavera Tech engineering team.",
+  subtitle: "Architect modular, reusable, and high-performance user interfaces using React component design patterns, custom hooks, and modern frontend best practices.",
   category: "React.js",
   difficulty: "Intermediate",
   duration: "5 Weeks (Intensive Bootcamp Curriculum)",
-  summary: "This guide introduces building scalable uis with react in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Architect modular, reusable, and high-performance user interfaces using React component design patterns, custom hooks, and modern frontend best practices.",
   image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-08",
   primaryKeyword: "React JS tutorial",
@@ -146,5 +146,22 @@ export function Counter() {
     title: "Web Development Services in Abbottabad",
     href: "/services/web-development",
   },
+  relatedServiceLinks: [
+    {
+      title: "Custom Web Application Development",
+      href: "/services/custom-web-application-development",
+      description: "Scalable SaaS platforms and web apps engineered with modern React & Next.js.",
+    },
+    {
+      title: "Next.js Web Development Services",
+      href: "/services/nextjs-development",
+      description: "High-performance Server Components and edge-deployed web platforms in Pakistan.",
+    },
+    {
+      title: "Full Stack Development Services",
+      href: "/services/full-stack-development",
+      description: "Complete end-to-end web engineering from frontend UI to database APIs.",
+    },
+  ],
 };
 

@@ -3,13 +3,13 @@ import { BootcampCourse } from "@/data/bootcampCourses";
 export const course3: BootcampCourse = {
   slug: "javascript-es6-and-asynchronous-patterns",
   title: "JavaScript ES6 and Asynchronous Patterns",
-  metaTitle: "JavaScript ES6 and Asynchronous Patterns | Zavera Tech",
-  metaDescription: "This guide introduces javascript es6 and asynchronous patterns in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
-  subtitle: "This guide introduces javascript es6 and asynchronous patterns in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  metaTitle: "Modern JavaScript ES6+ & Async Patterns | Zavera Tech",
+  metaDescription: "Deep dive into modern JavaScript: arrow functions, destructuring, Promises, async/await, and event loop mechanics explained by Zavera Tech.",
+  subtitle: "Master advanced ECMAScript features and asynchronous patterns essential for building modern web applications and API-driven interfaces.",
   category: "JavaScript",
   difficulty: "Intermediate",
   duration: "4 Weeks (Hands-on Coding Labs)",
-  summary: "This guide introduces javascript es6 and asynchronous patterns in a clear and practical way. It explains the main ideas, shows where the topic is useful and gives readers a starting point for further learning. Use the examples and steps on this page to build your understanding and practise the concepts.",
+  summary: "Master advanced ECMAScript features and asynchronous patterns essential for building modern web applications and API-driven interfaces.",
   image: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?auto=format&fit=crop&w=1200&q=80",
   publishedAt: "2026-03-05",
   primaryKeyword: "JavaScript ES6 tutorial",
@@ -136,5 +136,17 @@ console.log(updatedProject);`,
     title: "Custom Software Development in Abbottabad",
     href: "/services/web-development",
   },
+  relatedServiceLinks: [
+    {
+      title: "Custom Web Application Development",
+      href: "/services/custom-web-application-development",
+      description: "Custom SaaS platforms and web applications that automate workflows.",
+    },
+    {
+      title: "Backend API Development",
+      href: "/services/backend-development",
+      description: "Robust APIs, microservices, and database architectures for high throughput.",
+    },
+  ],
 };
 
