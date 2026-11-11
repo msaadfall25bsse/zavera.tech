@@ -16,7 +16,7 @@ export default function CTASection({
   buttonHref = "/contact",
 }: CTASectionProps) {
   return (
-    <section className="relative overflow-hidden py-20 px-6 sm:px-8 bg-neutral-900 text-white rounded-3xl mx-4 sm:mx-8 lg:mx-auto max-w-7xl my-16 shadow-xl">
+    <section className="relative overflow-hidden py-20 px-6 sm:px-8 bg-neutral-900/80 backdrop-blur-md text-white rounded-3xl mx-4 sm:mx-8 lg:mx-auto max-w-7xl my-16 shadow-2xl border border-neutral-800">
       {/* Subtle orange accent background radial */}
       <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#F07825]/20 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#FF8C42]/15 rounded-full blur-3xl pointer-events-none" />

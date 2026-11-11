@@ -92,7 +92,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-white rounded-2xl border border-neutral-200 p-8 sm:p-10 shadow-sm">
+    <div className="bg-neutral-900/80 rounded-2xl border border-neutral-200 p-8 sm:p-10 shadow-sm">
       <h3 className="text-2xl font-bold text-neutral-900 mb-2">Send Us a Message</h3>
       <p className="text-neutral-600 text-sm mb-8">
         Fill out the details below. Our technical and creative leads review all inquiries promptly.
@@ -132,7 +132,7 @@ export default function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Full Name */}
             <div>
-              <label htmlFor="fullName" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+              <label htmlFor="fullName" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
                 Full Name <span className="text-[#F07825]">*</span>
               </label>
               <input
@@ -154,7 +154,7 @@ export default function ContactForm() {
 
             {/* Email Address */}
             <div>
-              <label htmlFor="email" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+              <label htmlFor="email" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
                 Email Address <span className="text-[#F07825]">*</span>
               </label>
               <input
@@ -178,7 +178,7 @@ export default function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Phone Number */}
             <div>
-              <label htmlFor="phone" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+              <label htmlFor="phone" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
                 Phone Number <span className="text-[#F07825]">*</span>
               </label>
               <input
@@ -200,7 +200,7 @@ export default function ContactForm() {
 
             {/* Company Name */}
             <div>
-              <label htmlFor="companyName" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+              <label htmlFor="companyName" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
                 Company Name (Optional)
               </label>
               <input
@@ -210,7 +210,7 @@ export default function ContactForm() {
                 value={formData.companyName}
                 onChange={handleChange}
                 placeholder="Acme Corporation"
-                className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-neutral-700 bg-neutral-900/90 text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors"
               />
             </div>
           </div>
@@ -218,7 +218,7 @@ export default function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Service */}
             <div>
-              <label htmlFor="service" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+              <label htmlFor="service" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
                 Service Interested In <span className="text-[#F07825]">*</span>
               </label>
               <select
@@ -226,7 +226,7 @@ export default function ContactForm() {
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-white transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-neutral-900 text-white transition-colors"
               >
                 <option value="Software Development">Software Development</option>
                 <option value="Digital Marketing & SEO">Digital Marketing & SEO</option>
@@ -237,7 +237,7 @@ export default function ContactForm() {
 
             {/* Project Budget */}
             <div>
-              <label htmlFor="budget" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+              <label htmlFor="budget" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
                 Project Budget (Optional)
               </label>
               <select
@@ -245,7 +245,7 @@ export default function ContactForm() {
                 name="budget"
                 value={formData.budget}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-white transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-neutral-900 text-white transition-colors"
               >
                 <option value="">Select an estimated range</option>
                 <option value="Under $1,000">Under $1,000</option>
@@ -258,7 +258,7 @@ export default function ContactForm() {
 
           {/* Subject */}
           <div>
-            <label htmlFor="subject" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+            <label htmlFor="subject" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
               Subject <span className="text-[#F07825]">*</span>
             </label>
             <input
@@ -280,7 +280,7 @@ export default function ContactForm() {
 
           {/* Message */}
           <div>
-            <label htmlFor="message" className="block text-xs font-bold uppercase tracking-wider text-neutral-700 mb-2">
+            <label htmlFor="message" className="block text-xs font-bold uppercase tracking-wider text-neutral-300 mb-2">
               Message <span className="text-[#F07825]">*</span>
             </label>
             <textarea

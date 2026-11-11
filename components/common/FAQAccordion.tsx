@@ -24,7 +24,7 @@ export default function FAQAccordion({ items, className }: FAQAccordionProps) {
         return (
           <div
             key={idx}
-            className="border border-neutral-200 rounded-2xl overflow-hidden bg-white shadow-sm transition-colors"
+            className="border border-neutral-800 rounded-2xl overflow-hidden bg-neutral-900/80 backdrop-blur-md shadow-sm transition-colors hover:border-neutral-700"
           >
             <button
               type="button"
@@ -32,18 +32,18 @@ export default function FAQAccordion({ items, className }: FAQAccordionProps) {
               className="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none"
               aria-expanded={isOpen}
             >
-              <span className="font-semibold text-lg text-neutral-900 pr-4">
+              <span className="font-semibold text-lg text-white pr-4">
                 {faq.question}
               </span>
               <ChevronDown
                 className={cn(
-                  "w-5 h-5 text-neutral-500 shrink-0 transition-transform duration-200",
+                  "w-5 h-5 text-neutral-400 shrink-0 transition-transform duration-200",
                   isOpen && "transform rotate-180 text-[#F07825]"
                 )}
               />
             </button>
             {isOpen && (
-              <div className="px-6 pb-6 pt-1 text-neutral-600 leading-relaxed border-t border-neutral-100 bg-neutral-50/50">
+              <div className="px-6 pb-6 pt-3 text-neutral-300 leading-relaxed border-t border-neutral-800 bg-neutral-950/60">
                 {faq.answer}
               </div>
             )}
@@ -53,4 +53,3 @@ export default function FAQAccordion({ items, className }: FAQAccordionProps) {
     </div>
   );
 }
-

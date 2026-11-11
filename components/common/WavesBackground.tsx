@@ -9,26 +9,26 @@ const Waves = dynamic(() => import('@/components/ui/Waves'), {
 export default function WavesBackground() {
   return (
     <div
-      className="fixed inset-0 pointer-events-none -z-10 overflow-hidden"
+      className="fixed inset-0 pointer-events-none -z-10 overflow-hidden bg-black"
       aria-hidden="true"
     >
       <Waves
         lineColor="#f07825"
-        accentColor="#ff8c42"
-        backgroundColor="transparent"
-        spacing={6}
-        amplitude={20}
-        twist={0.55}
-        speed={1.6}
-        mouseRadius={70}
-        mouseStrength={0.22}
+        spacing={5}
+        amplitude={24}
+        twist={0.65}
+        speed={2.15}
+        mouseRadius={60}
+        mouseStrength={0.25}
+        accentColor="#f07825"
+        backgroundColor="#000000"
         scale={0.8}
         variation={2}
         bounce={0.2}
         returnDuration={1.7}
-        fade={0.12}
-        opacity={0.35}
-        lightMode={true}
+        fade={0.1}
+        opacity={0.85}
+        lightMode={false}
       />
     </div>
   );

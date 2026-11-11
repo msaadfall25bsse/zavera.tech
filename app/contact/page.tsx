@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-transparent text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "Contact Us" }]} />
 
@@ -39,10 +39,10 @@ export default function ContactPage() {
           <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
             Let&apos;s Connect
           </span>
-          <h1 className="text-4xl sm:text-5xl font-bold text-neutral-900 tracking-tight leading-tight mt-4 mb-6">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight mt-4 mb-6">
             Contact Zavera Tech
           </h1>
-          <p className="text-lg text-neutral-600 leading-relaxed">
+          <p className="text-lg text-neutral-300 leading-relaxed">
             Have a question or a project to discuss? Get in touch with Zavera Tech about website development, SEO, digital marketing or graphic design. Share a few details about what you need so the team can understand your request and guide you on the next step.
           </p>
         </div>
@@ -51,7 +51,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-20 items-start">
           {/* Left Column: Contact Form */}
           <div className="lg:col-span-7">
-            <h2 className="text-2xl font-bold text-neutral-900 mb-6">
+            <h2 className="text-2xl font-bold text-white mb-6">
               Send Us Your Project Details
             </h2>
             <ContactForm />
@@ -60,14 +60,14 @@ export default function ContactPage() {
           {/* Right Column: Information & Alternative Channels */}
           <div className="lg:col-span-5 space-y-8">
             {/* WhatsApp Direct Action Card */}
-            <div className="bg-emerald-50/80 border border-emerald-200 rounded-2xl p-7 shadow-xs">
+            <div className="bg-neutral-900/80 border border-neutral-800 text-white rounded-2xl p-7 shadow-xs">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center">
                   <MessageSquare className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-neutral-900 text-lg">Instant Chat</h3>
-                  <p className="text-xs text-neutral-600">Quick inquiries & consultations</p>
+                  <h3 className="font-bold text-white text-lg">Instant Chat</h3>
+                  <p className="text-xs text-neutral-300">Quick inquiries & consultations</p>
                 </div>
               </div>
               <p className="text-sm text-neutral-700 leading-relaxed mb-6">
@@ -85,8 +85,8 @@ export default function ContactPage() {
             </div>
 
             {/* Direct Contact Info */}
-            <div className="bg-neutral-50 rounded-2xl border border-neutral-200 p-7 space-y-6">
-              <h2 className="text-lg font-bold text-neutral-900">
+            <div className="bg-neutral-50 rounded-2xl border border-neutral-800 p-7 space-y-6">
+              <h2 className="text-lg font-bold text-white">
                 Where We Work & Official Information
               </h2>
 
@@ -97,7 +97,7 @@ export default function ContactPage() {
                     <div className="font-semibold text-neutral-800">Email Inquiries</div>
                     <a
                       href={`mailto:${siteConfig.email}`}
-                      className="text-neutral-600 hover:text-[#F07825] transition-colors"
+                      className="text-neutral-300 hover:text-[#F07825] transition-colors"
                     >
                       {siteConfig.email}
                     </a>
@@ -108,7 +108,7 @@ export default function ContactPage() {
                   <Phone className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
                     <div className="font-semibold text-neutral-800">Telephone / WhatsApp</div>
-                    <span className="text-neutral-600">{siteConfig.phone}</span>
+                    <span className="text-neutral-300">{siteConfig.phone}</span>
                   </div>
                 </div>
 
@@ -116,7 +116,7 @@ export default function ContactPage() {
                   <Clock className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
                     <div className="font-semibold text-neutral-800">Operational Hours</div>
-                    <span className="text-neutral-600">Monday &ndash; Saturday, 9:00 AM &ndash; 7:00 PM (PKT)</span>
+                    <span className="text-neutral-300">Monday &ndash; Saturday, 9:00 AM &ndash; 7:00 PM (PKT)</span>
                   </div>
                 </div>
 
@@ -124,20 +124,20 @@ export default function ContactPage() {
                   <MapPin className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
                     <div className="font-semibold text-neutral-800">Office Location</div>
-                    <span className="text-neutral-600">Abbottabad, Khyber Pakhtunkhwa, Pakistan</span>
+                    <span className="text-neutral-300">Abbottabad, Khyber Pakhtunkhwa, Pakistan</span>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Confidentiality & Commitment Note */}
-            <div className="bg-white rounded-2xl border border-neutral-200 p-6 flex items-start space-x-4">
+            <div className="bg-neutral-900/80 backdrop-blur-md rounded-2xl border border-neutral-800 p-6 flex items-start space-x-4">
               <ShieldCheck className="w-6 h-6 text-[#F07825] shrink-0 mt-0.5" />
               <div>
-                <h4 className="text-sm font-bold text-neutral-900">
+                <h4 className="text-sm font-bold text-white">
                   Privacy & NDA Protection
                 </h4>
-                <p className="text-xs text-neutral-600 leading-relaxed mt-1">
+                <p className="text-xs text-neutral-300 leading-relaxed mt-1">
                   We respect intellectual property. All project discussions and architectural details shared with Zavera.Tech remain strictly confidential.
                 </p>
               </div>

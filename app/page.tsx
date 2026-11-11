@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, CheckCircle2, Search, Sparkles, Target, Compass, Code, Layers, Zap } from "lucide-react";
+import { ArrowRight, Sparkles, Compass, Code, Zap, Search } from "lucide-react";
 import Hero from "@/components/home/Hero";
 import SectionHeading from "@/components/common/SectionHeading";
-import ServiceCard from "@/components/common/ServiceCard";
 import ProjectCard from "@/components/common/ProjectCard";
 import LearningCard from "@/components/common/LearningCard";
 import CTASection from "@/components/common/CTASection";
 import Button from "@/components/ui/Button";
 import FAQAccordion from "@/components/common/FAQAccordion";
-import { servicesData } from "@/data/services";
 import { projectsData } from "@/data/projects";
 import { learningArticles } from "@/data/learning";
 
@@ -99,12 +97,7 @@ export default function HomePage() {
     {
       question: "Does Zavera.Tech provide graphic design?",
       answer:
-        "Yes. We offer professional graphic designing services in Abbottabad, including corporate logo design, complete brand identity kits, marketing collateral, and UI/UX design.",
-    },
-    {
-      question: "How can I contact Zavera.Tech?",
-      answer:
-        "You can easily get in touch with our team through our Contact page, send an email to our project consultants, or request a free quote for your software, web, or marketing project in Abbottabad.",
+        "Yes. Our graphic design services include brand identity design, logo creation, promotional marketing banners, visual collateral, and full UI/UX design systems.",
     },
   ];
 
@@ -112,7 +105,7 @@ export default function HomePage() {
     {
       step: "01",
       name: "Discover",
-      desc: "We analyze your business goals, target audience, technical requirements, and market dynamics to establish clear milestones.",
+      desc: "We analyze your business targets, target audience, local competitors, and technical parameters to establish precise KPIs.",
       icon: Search,
     },
     {
@@ -161,7 +154,7 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full text-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -169,50 +162,50 @@ export default function HomePage() {
       {/* 1. Hero Section */}
       <Hero />
 
-      {/* 2. Brand Introduction Section */}
-      <section className="py-20 bg-neutral-50/60 border-b border-neutral-200/60">
+      {/* 2. Brand Purpose Section */}
+      <section className="py-20 bg-neutral-950/40 backdrop-blur-sm border-b border-neutral-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 space-y-6">
-              <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
+              <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-950/40 border border-orange-500/20 rounded-full">
                 Our Purpose
               </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-snug">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight leading-snug">
                 Digital Services for Your Business
               </h2>
-              <p className="text-neutral-700 leading-relaxed text-base sm:text-lg">
+              <p className="text-neutral-300 leading-relaxed text-base sm:text-lg">
                 Based in Abbottabad, Khyber Pakhtunkhwa, Zavera.Tech operates as a dedicated software house and full-service IT company. We believe transformative digital solutions require both precision software engineering and strategic digital marketing.
               </p>
-              <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
+              <p className="text-neutral-400 leading-relaxed text-sm sm:text-base">
                 As a trusted software development company in Abbottabad, our multidisciplinary engineers, digital marketers, and UI/UX designers collaborate to turn complex business goals into scalable online platforms.
               </p>
-              <div className="grid grid-cols-2 gap-3 pt-2 text-xs font-semibold text-neutral-800">
-                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
-                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Custom Software Development</h3>
-                  <p className="text-neutral-500 font-normal">Robust web apps &amp; systems</p>
+              <div className="grid grid-cols-2 gap-3 pt-2 text-xs font-semibold text-neutral-200">
+                <div className="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 backdrop-blur-md">
+                  <h3 className="font-bold text-white text-sm mb-1">Custom Software Development</h3>
+                  <p className="text-neutral-400 font-normal">Robust web apps &amp; systems</p>
                 </div>
-                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
-                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Modern Website Development</h3>
-                  <p className="text-neutral-500 font-normal">Fast, responsive Next.js sites</p>
+                <div className="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 backdrop-blur-md">
+                  <h3 className="font-bold text-white text-sm mb-1">Modern Website Development</h3>
+                  <p className="text-neutral-400 font-normal">Fast, responsive Next.js sites</p>
                 </div>
-                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
-                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Digital Marketing Solutions</h3>
-                  <p className="text-neutral-500 font-normal">SEO &amp; targeted growth ads</p>
+                <div className="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 backdrop-blur-md">
+                  <h3 className="font-bold text-white text-sm mb-1">Digital Marketing Solutions</h3>
+                  <p className="text-neutral-400 font-normal">SEO &amp; targeted growth ads</p>
                 </div>
-                <div className="p-3 rounded-xl bg-white border border-neutral-200/80">
-                  <h3 className="font-bold text-neutral-900 text-sm mb-1">Creative Graphic Designing</h3>
-                  <p className="text-neutral-500 font-normal">Brand identity &amp; UI design</p>
+                <div className="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 backdrop-blur-md">
+                  <h3 className="font-bold text-white text-sm mb-1">Creative Graphic Designing</h3>
+                  <p className="text-neutral-400 font-normal">Brand identity &amp; UI design</p>
                 </div>
               </div>
               <div className="pt-2">
-                <Button variant="outline" size="md" href="/about">
+                <Button variant="outline" size="md" href="/about" className="border-neutral-700 text-white hover:bg-neutral-850">
                   Learn More About Zavera.Tech
                 </Button>
               </div>
             </div>
 
             <div className="lg:col-span-6 relative flex items-center justify-center">
-              <div className="relative w-full h-[360px] sm:h-[420px] md:h-[460px] rounded-2xl overflow-hidden shadow-xl border border-neutral-200/80 bg-white p-4 flex items-center justify-center">
+              <div className="relative w-full h-[360px] sm:h-[420px] md:h-[460px] rounded-2xl overflow-hidden shadow-2xl border border-neutral-800 bg-neutral-900/90 p-4 flex items-center justify-center backdrop-blur-md">
                 <Image
                   src="/purpose-showcase.jpg"
                   alt="Zavera.Tech - IT Company and Software House in Abbottabad delivering web development and digital marketing"
@@ -228,7 +221,7 @@ export default function HomePage() {
       </section>
 
       {/* 3. Services Overview Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="What We Deliver"
@@ -237,11 +230,11 @@ export default function HomePage() {
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+            <div className="p-6 rounded-2xl bg-neutral-900/80 backdrop-blur-md border border-neutral-800 hover:border-[#F07825]/60 hover:shadow-[0_0_25px_rgba(240,120,37,0.18)] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 01</span>
-                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Software Development Services</h3>
-                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                <h3 className="text-lg font-bold text-white mt-2 mb-3">Software Development Services</h3>
+                <p className="text-neutral-300 text-sm leading-relaxed mb-4">
                   Custom software development, scalable web architectures, and reliable enterprise systems engineered for business efficiency.
                 </p>
               </div>
@@ -250,11 +243,11 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+            <div className="p-6 rounded-2xl bg-neutral-900/80 backdrop-blur-md border border-neutral-800 hover:border-[#F07825]/60 hover:shadow-[0_0_25px_rgba(240,120,37,0.18)] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 02</span>
-                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Web Development Services</h3>
-                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                <h3 className="text-lg font-bold text-white mt-2 mb-3">Web Development Services</h3>
+                <p className="text-neutral-300 text-sm leading-relaxed mb-4">
                   As a leading web development company in Abbottabad, we build responsive Next.js websites and high-converting e-commerce stores.
                 </p>
               </div>
@@ -263,11 +256,11 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+            <div className="p-6 rounded-2xl bg-neutral-900/80 backdrop-blur-md border border-neutral-800 hover:border-[#F07825]/60 hover:shadow-[0_0_25px_rgba(240,120,37,0.18)] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 03</span>
-                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Digital Marketing Services</h3>
-                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                <h3 className="text-lg font-bold text-white mt-2 mb-3">Digital Marketing Services</h3>
+                <p className="text-neutral-300 text-sm leading-relaxed mb-4">
                   Our digital marketing agency in Abbottabad provides technical SEO, local search ranking, Google Ads, and social media campaigns.
                 </p>
               </div>
@@ -276,11 +269,11 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="p-6 rounded-2xl bg-white border border-neutral-200 hover:border-[#F07825] hover:shadow-md transition-all flex flex-col justify-between">
+            <div className="p-6 rounded-2xl bg-neutral-900/80 backdrop-blur-md border border-neutral-800 hover:border-[#F07825]/60 hover:shadow-[0_0_25px_rgba(240,120,37,0.18)] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#F07825] uppercase tracking-wider">Service 04</span>
-                <h3 className="text-lg font-bold text-neutral-900 mt-2 mb-3">Graphic Designing Services</h3>
-                <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                <h3 className="text-lg font-bold text-white mt-2 mb-3">Graphic Designing Services</h3>
+                <p className="text-neutral-300 text-sm leading-relaxed mb-4">
                   Professional graphic designing services in Abbottabad including brand identity, corporate logos, marketing creatives, and UI/UX design.
                 </p>
               </div>
@@ -300,7 +293,7 @@ export default function HomePage() {
       </section>
 
       {/* 4. Why Choose Zavera.Tech Section */}
-      <section className="py-24 bg-neutral-50/70 border-y border-neutral-200/80">
+      <section className="py-24 bg-neutral-950/40 backdrop-blur-sm border-y border-neutral-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="The Zavera Standard"
@@ -312,15 +305,15 @@ export default function HomePage() {
             {whyChooseUs.map((item, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-2xl p-8 border border-neutral-200 shadow-xs hover:border-[#F07825]/40 transition-all duration-300"
+                className="bg-neutral-900/80 backdrop-blur-md rounded-2xl p-8 border border-neutral-800 hover:border-[#F07825]/50 transition-all duration-300"
               >
-                <div className="w-10 h-10 rounded-xl bg-orange-50 border border-orange-100 flex items-center justify-center text-[#F07825] mb-5 font-bold text-sm">
+                <div className="w-10 h-10 rounded-xl bg-orange-950/60 border border-orange-500/30 flex items-center justify-center text-[#F07825] mb-5 font-bold text-sm">
                   0{idx + 1}
                 </div>
-                <h3 className="text-lg font-bold text-neutral-900 mb-2">
+                <h3 className="text-lg font-bold text-white mb-2">
                   {item.title}
                 </h3>
-                <p className="text-neutral-600 text-sm leading-relaxed">
+                <p className="text-neutral-300 text-sm leading-relaxed">
                   {item.desc}
                 </p>
               </div>
@@ -330,7 +323,7 @@ export default function HomePage() {
       </section>
 
       {/* 5. Our Working Process */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Methodology"
@@ -344,19 +337,19 @@ export default function HomePage() {
               return (
                 <div
                   key={idx}
-                  className="relative bg-white rounded-2xl p-6 border border-neutral-200 hover:border-[#F07825]/50 transition-all duration-300 flex flex-col justify-between"
+                  className="relative bg-neutral-900/80 backdrop-blur-md rounded-2xl p-6 border border-neutral-800 hover:border-[#F07825]/50 transition-all duration-300 flex flex-col justify-between"
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
-                      <span className="text-xs font-bold text-[#F07825] bg-orange-50 px-2.5 py-1 rounded-md">
+                      <span className="text-xs font-bold text-[#F07825] bg-orange-950/60 border border-orange-500/30 px-2.5 py-1 rounded-md">
                         STAGE {proc.step}
                       </span>
                       <IconComp className="w-5 h-5 text-neutral-400" />
                     </div>
-                    <h3 className="text-lg font-bold text-neutral-900 mb-2">
+                    <h3 className="text-lg font-bold text-white mb-2">
                       {proc.name}
                     </h3>
-                    <p className="text-neutral-600 text-xs leading-relaxed">
+                    <p className="text-neutral-400 text-xs leading-relaxed">
                       {proc.desc}
                     </p>
                   </div>
@@ -367,18 +360,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Digital Marketing Services to Grow Your Online Presence */}
-      <section className="py-24 bg-neutral-50/70 border-t border-neutral-200/80">
+      {/* 6. Projects Portfolio */}
+      <section className="py-24 bg-neutral-950/40 backdrop-blur-sm border-t border-neutral-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
             <div>
-              <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
+              <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-950/40 border border-orange-500/20 rounded-full">
                 Portfolio
               </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
+              <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-3">
                 SEO and Digital Marketing Projects
               </h2>
-              <p className="mt-2 text-neutral-600 text-base max-w-xl">
+              <p className="mt-2 text-neutral-300 text-base max-w-xl">
                 A selection of digital platforms, web portals, and branding initiatives engineered for our partners.
               </p>
             </div>
@@ -391,7 +384,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 text-center">
-            <Button variant="outline" size="md" href="/services">
+            <Button variant="outline" size="md" href="/services" className="border-neutral-700 text-white hover:bg-neutral-850">
               <span>Discuss Your Next Project</span>
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
@@ -400,22 +393,22 @@ export default function HomePage() {
       </section>
 
       {/* 7. Learning Preview */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
             <div>
-              <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
+              <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-950/40 border border-orange-500/20 rounded-full">
                 Knowledge Hub
               </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
-                Graphic Design Services & Knowledge Hub
+              <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-3">
+                Graphic Design Services &amp; Knowledge Hub
               </h2>
-              <p className="mt-2 text-neutral-600 text-base max-w-xl">
+              <p className="mt-2 text-neutral-300 text-base max-w-xl">
                 Free foundational tutorials covering modern web development, SEO strategies, and visual branding.
               </p>
             </div>
             <div className="mt-6 md:mt-0">
-              <Button variant="outline" size="sm" href="/learning">
+              <Button variant="outline" size="sm" href="/learning" className="border-neutral-700 text-white hover:bg-neutral-850">
                 Browse All Guides
               </Button>
             </div>
@@ -429,66 +422,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 8. Testimonials Architecture (Clearly labeled demo architecture per prompt guidelines) */}
-      <section className="py-20 bg-neutral-50/50 border-t border-neutral-200/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            badge="Regional Reach"
-            title="Serving Businesses in Abbottabad and Across Pakistan"
-            description="We partner closely with local enterprises in Abbottabad and organizations across Pakistan, delivering transparent milestones and measurable business results."
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="bg-white p-7 rounded-2xl border border-neutral-200 shadow-xs flex flex-col justify-between">
-              <p className="text-neutral-700 text-sm leading-relaxed italic mb-6">
-                &ldquo;Zavera.Tech approaches projects with a structured software engineering discipline. Their understanding of Next.js and technical SEO delivered a measurable boost in our site performance.&rdquo;
-              </p>
-              <div className="flex items-center gap-3 pt-4 border-t border-neutral-100">
-                <div className="w-10 h-10 rounded-full bg-orange-100 text-[#F07825] flex items-center justify-center font-bold text-sm">
-                  JS
-                </div>
-                <div>
-                  <div className="text-sm font-bold text-neutral-900">Platform Partner</div>
-                  <div className="text-xs text-neutral-500">Recruitment & Job Platform</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-7 rounded-2xl border border-neutral-200 shadow-xs flex flex-col justify-between">
-              <p className="text-neutral-700 text-sm leading-relaxed italic mb-6">
-                &ldquo;The brand identity and visual assets created for our digital commerce portal gave us the clarity and professionalism needed to launch confidently.&rdquo;
-              </p>
-              <div className="flex items-center gap-3 pt-4 border-t border-neutral-100">
-                <div className="w-10 h-10 rounded-full bg-orange-100 text-[#F07825] flex items-center justify-center font-bold text-sm">
-                  ES
-                </div>
-                <div>
-                  <div className="text-sm font-bold text-neutral-900">E-Commerce Partner</div>
-                  <div className="text-xs text-neutral-500">Digital Retail Platform</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-7 rounded-2xl border border-neutral-200 shadow-xs flex flex-col justify-between">
-              <p className="text-neutral-700 text-sm leading-relaxed italic mb-6">
-                &ldquo;From responsive layouts to rapid query loading, Zavera.Tech proved to be reliable, transparent, and technically rigorous throughout development.&rdquo;
-              </p>
-              <div className="flex items-center gap-3 pt-4 border-t border-neutral-100">
-                <div className="w-10 h-10 rounded-full bg-orange-100 text-[#F07825] flex items-center justify-center font-bold text-sm">
-                  MR
-                </div>
-                <div>
-                  <div className="text-sm font-bold text-neutral-900">Hospitality Partner</div>
-                  <div className="text-xs text-neutral-500">Tour & Travel Experience</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 9. Frequently Asked Questions */}
-      <section className="py-24 bg-white border-t border-neutral-200/80">
+      {/* 8. Frequently Asked Questions */}
+      <section className="py-24 bg-neutral-950/40 backdrop-blur-sm border-t border-neutral-800/80">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Common Queries"
@@ -499,7 +434,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 10. Final CTA */}
+      {/* 9. Final CTA */}
       <CTASection
         badge="Ready to build?"
         title="Ready to Grow Your Business with Zavera.Tech?"

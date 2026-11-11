@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 export default function LearningPage() {
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-transparent text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "Learning Hub" }]} />
 
@@ -44,28 +44,28 @@ export default function LearningPage() {
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight mb-6">
             Learning Resources
           </h1>
 
-          <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl mx-auto mb-8">
+          <p className="text-lg text-neutral-300 leading-relaxed max-w-2xl mx-auto mb-8">
             Explore learning resources covering modern web development and digital topics. These guides introduce useful concepts, explain how different tools work and help readers build their knowledge step by step. Choose a topic and use the explanations to support your learning.
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-left max-w-3xl mx-auto pt-2">
-            <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
+            <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">09</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">Complete Programs</p>
             </div>
-            <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
+            <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">100%</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">Free & Open Source</p>
             </div>
-            <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
+            <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">Labs</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">Hands-On Projects</p>
             </div>
-            <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200">
+            <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">Clean</span>
               <p className="text-xs font-semibold text-neutral-700 mt-0.5">No Generic Fluff</p>
             </div>

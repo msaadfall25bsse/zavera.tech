@@ -58,15 +58,15 @@ export default function Navbar() {
   const getCategoryIcon = (iconName: string) => {
     switch (iconName) {
       case "Code2":
-        return <Code2 className="w-5 h-5 text-[#F07825]" />;
-      case "Search":
-        return <Search className="w-5 h-5 text-[#F07825]" />;
+        return <Code2 className="w-4 h-4 text-[#F07825]" />;
       case "TrendingUp":
-        return <TrendingUp className="w-5 h-5 text-[#F07825]" />;
+        return <TrendingUp className="w-4 h-4 text-[#F07825]" />;
+      case "Search":
+        return <Search className="w-4 h-4 text-[#F07825]" />;
       case "Palette":
-        return <Palette className="w-5 h-5 text-[#F07825]" />;
+        return <Palette className="w-4 h-4 text-[#F07825]" />;
       default:
-        return <Sparkles className="w-5 h-5 text-[#F07825]" />;
+        return <Sparkles className="w-4 h-4 text-[#F07825]" />;
     }
   };
 
@@ -75,8 +75,8 @@ export default function Navbar() {
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
         isScrolled
-          ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-neutral-200/80 py-3"
-          : "bg-white py-4"
+          ? "bg-black/85 backdrop-blur-md shadow-lg border-b border-neutral-800/80 py-3"
+          : "bg-black/60 backdrop-blur-sm border-b border-neutral-800/40 py-4"
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -91,8 +91,8 @@ export default function Navbar() {
               className={cn(
                 "px-3.5 py-2 text-sm font-semibold rounded-lg transition-colors",
                 pathname === "/"
-                  ? "text-[#F07825] bg-orange-50/70"
-                  : "text-neutral-700 hover:text-[#F07825] hover:bg-neutral-50"
+                  ? "text-[#F07825] bg-orange-950/40 border border-orange-500/20"
+                  : "text-neutral-300 hover:text-white hover:bg-neutral-800/60"
               )}
             >
               Home
@@ -103,8 +103,8 @@ export default function Navbar() {
               className={cn(
                 "px-3.5 py-2 text-sm font-semibold rounded-lg transition-colors",
                 pathname.startsWith("/about")
-                  ? "text-[#F07825] bg-orange-50/70"
-                  : "text-neutral-700 hover:text-[#F07825] hover:bg-neutral-50"
+                  ? "text-[#F07825] bg-orange-950/40 border border-orange-500/20"
+                  : "text-neutral-300 hover:text-white hover:bg-neutral-800/60"
               )}
             >
               About
@@ -119,8 +119,8 @@ export default function Navbar() {
                 className={cn(
                   "flex items-center gap-1.5 px-3.5 py-2 text-sm font-semibold rounded-lg transition-colors focus:outline-none",
                   pathname.startsWith("/services") || servicesDropdownOpen
-                    ? "text-[#F07825] bg-orange-50/70"
-                    : "text-neutral-700 hover:text-[#F07825] hover:bg-neutral-50"
+                    ? "text-[#F07825] bg-orange-950/40 border border-orange-500/20"
+                    : "text-neutral-300 hover:text-white hover:bg-neutral-800/60"
                 )}
                 aria-expanded={servicesDropdownOpen}
               >
@@ -137,27 +137,27 @@ export default function Navbar() {
               {servicesDropdownOpen && (
                 <div
                   onMouseLeave={() => setServicesDropdownOpen(false)}
-                  className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[900px] max-w-[95vw] bg-white rounded-3xl border border-neutral-200 shadow-2xl p-6 lg:p-8 animate-in fade-in slide-in-from-top-2 duration-200 z-50"
+                  className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[900px] max-w-[95vw] bg-neutral-900/95 backdrop-blur-xl rounded-3xl border border-neutral-800 shadow-2xl p-6 lg:p-8 animate-in fade-in slide-in-from-top-2 duration-200 z-50 text-white"
                 >
                   {/* Top Category Grid */}
-                  <div className="grid grid-cols-4 gap-6 pb-6 border-b border-neutral-100">
+                  <div className="grid grid-cols-4 gap-6 pb-6 border-b border-neutral-800">
                     {servicesCategoriesData.map((cat) => (
                       <div key={cat.id} className="space-y-3">
                         <div className="flex items-center space-x-2.5">
-                          <div className="w-8 h-8 rounded-lg bg-orange-50 border border-orange-100 flex items-center justify-center">
+                          <div className="w-8 h-8 rounded-lg bg-neutral-800 border border-neutral-700/60 flex items-center justify-center">
                             {getCategoryIcon(cat.icon)}
                           </div>
                           <div>
                             <Link
                               href={`/services/${cat.slug}`}
-                              className="font-bold text-sm text-neutral-900 hover:text-[#F07825] transition-colors leading-tight block"
+                              className="font-bold text-sm text-white hover:text-[#F07825] transition-colors leading-tight block"
                             >
                               {cat.title}
                             </Link>
                           </div>
                         </div>
 
-                        <p className="text-[11px] text-neutral-500 line-clamp-2 leading-relaxed">
+                        <p className="text-[11px] text-neutral-400 line-clamp-2 leading-relaxed">
                           {cat.description}
                         </p>
 
@@ -167,9 +167,9 @@ export default function Navbar() {
                             <li key={sub.slug}>
                               <Link
                                 href={`/services/${sub.slug}`}
-                                className="text-xs text-neutral-600 hover:text-[#F07825] transition-colors flex items-center group py-0.5"
+                                className="text-xs text-neutral-300 hover:text-[#F07825] transition-colors flex items-center group py-0.5"
                               >
-                                <span className="w-1.5 h-1.5 rounded-full bg-neutral-300 group-hover:bg-[#F07825] mr-2 shrink-0 transition-colors" />
+                                <span className="w-1.5 h-1.5 rounded-full bg-neutral-600 group-hover:bg-[#F07825] mr-2 shrink-0 transition-colors" />
                                 <span className="truncate">{sub.title}</span>
                               </Link>
                             </li>
@@ -189,8 +189,8 @@ export default function Navbar() {
                         <span>View All Services & Specializations</span>
                         <ArrowRight className="w-3.5 h-3.5 ml-1" />
                       </Link>
-                      <span className="text-neutral-300">|</span>
-                      <span className="text-neutral-500">
+                      <span className="text-neutral-700">|</span>
+                      <span className="text-neutral-400">
                         Based in Abbottabad, serving clients worldwide
                       </span>
                     </div>
@@ -208,8 +208,8 @@ export default function Navbar() {
               className={cn(
                 "px-3.5 py-2 text-sm font-semibold rounded-lg transition-colors",
                 pathname.startsWith("/learning")
-                  ? "text-[#F07825] bg-orange-50/70"
-                  : "text-neutral-700 hover:text-[#F07825] hover:bg-neutral-50"
+                  ? "text-[#F07825] bg-orange-950/40 border border-orange-500/20"
+                  : "text-neutral-300 hover:text-white hover:bg-neutral-800/60"
               )}
             >
               Learning
@@ -220,8 +220,8 @@ export default function Navbar() {
               className={cn(
                 "px-3.5 py-2 text-sm font-semibold rounded-lg transition-colors",
                 pathname.startsWith("/contact")
-                  ? "text-[#F07825] bg-orange-50/70"
-                  : "text-neutral-700 hover:text-[#F07825] hover:bg-neutral-50"
+                  ? "text-[#F07825] bg-orange-950/40 border border-orange-500/20"
+                  : "text-neutral-300 hover:text-white hover:bg-neutral-800/60"
               )}
             >
               Contact
@@ -241,7 +241,7 @@ export default function Navbar() {
             <button
               type="button"
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg text-neutral-700 hover:text-neutral-900 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-[#F07825]"
+              className="p-2 rounded-lg text-neutral-300 hover:text-white hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-[#F07825]"
               aria-label="Toggle navigation menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -251,12 +251,12 @@ export default function Navbar() {
 
         {/* Mobile Dropdown Menu */}
         {isOpen && (
-          <div className="md:hidden mt-4 pb-6 pt-2 border-t border-neutral-100 flex flex-col space-y-2 animate-in fade-in duration-200">
+          <div className="md:hidden mt-4 pb-6 pt-2 border-t border-neutral-800 flex flex-col space-y-2 animate-in fade-in duration-200 bg-black/95 rounded-2xl p-4">
             <Link
               href="/"
               className={cn(
                 "px-4 py-2.5 text-base font-semibold rounded-xl transition-colors",
-                pathname === "/" ? "text-[#F07825] bg-orange-50" : "text-neutral-800 hover:bg-neutral-50"
+                pathname === "/" ? "text-[#F07825] bg-orange-950/40" : "text-neutral-200 hover:bg-neutral-800/60"
               )}
             >
               Home
@@ -266,30 +266,30 @@ export default function Navbar() {
               href="/about"
               className={cn(
                 "px-4 py-2.5 text-base font-semibold rounded-xl transition-colors",
-                pathname.startsWith("/about") ? "text-[#F07825] bg-orange-50" : "text-neutral-800 hover:bg-neutral-50"
+                pathname.startsWith("/about") ? "text-[#F07825] bg-orange-950/40" : "text-neutral-200 hover:bg-neutral-800/60"
               )}
             >
               About
             </Link>
 
             {/* Mobile Services Accordion */}
-            <div className="rounded-xl border border-neutral-200 overflow-hidden bg-neutral-50/50">
+            <div className="rounded-xl border border-neutral-800 overflow-hidden bg-neutral-900/60">
               <button
                 type="button"
                 onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                className="w-full px-4 py-3 flex items-center justify-between text-base font-semibold text-neutral-900 focus:outline-none"
+                className="w-full px-4 py-3 flex items-center justify-between text-base font-semibold text-white focus:outline-none"
               >
                 <span>Services</span>
                 <ChevronDown
                   className={cn(
-                    "w-4 h-4 text-neutral-500 transition-transform",
+                    "w-4 h-4 text-neutral-400 transition-transform",
                     mobileServicesOpen && "transform rotate-180 text-[#F07825]"
                   )}
                 />
               </button>
 
               {mobileServicesOpen && (
-                <div className="px-4 pb-4 space-y-4 border-t border-neutral-200/80 pt-3 bg-white">
+                <div className="px-4 pb-4 space-y-4 border-t border-neutral-800 pt-3 bg-neutral-950">
                   {servicesCategoriesData.map((cat) => (
                     <div key={cat.id} className="space-y-1.5">
                       <div className="text-xs font-bold uppercase tracking-wider text-[#F07825]">
@@ -300,7 +300,7 @@ export default function Navbar() {
                           <Link
                             key={sub.slug}
                             href={`/services/${sub.slug}`}
-                            className="text-xs text-neutral-700 hover:text-[#F07825] py-1 px-2 rounded-lg hover:bg-neutral-50 transition-colors"
+                            className="text-xs text-neutral-300 hover:text-[#F07825] py-1 px-2 rounded-lg hover:bg-neutral-900 transition-colors"
                           >
                             {sub.title}
                           </Link>
@@ -308,7 +308,7 @@ export default function Navbar() {
                       </div>
                     </div>
                   ))}
-                  <div className="pt-2 border-t border-neutral-100">
+                  <div className="pt-2 border-t border-neutral-800">
                     <Link
                       href="/services"
                       className="text-xs font-bold text-[#F07825] hover:underline block"
@@ -324,7 +324,7 @@ export default function Navbar() {
               href="/learning"
               className={cn(
                 "px-4 py-2.5 text-base font-semibold rounded-xl transition-colors",
-                pathname.startsWith("/learning") ? "text-[#F07825] bg-orange-50" : "text-neutral-800 hover:bg-neutral-50"
+                pathname.startsWith("/learning") ? "text-[#F07825] bg-orange-950/40" : "text-neutral-200 hover:bg-neutral-800/60"
               )}
             >
               Learning
@@ -334,7 +334,7 @@ export default function Navbar() {
               href="/contact"
               className={cn(
                 "px-4 py-2.5 text-base font-semibold rounded-xl transition-colors",
-                pathname.startsWith("/contact") ? "text-[#F07825] bg-orange-50" : "text-neutral-800 hover:bg-neutral-50"
+                pathname.startsWith("/contact") ? "text-[#F07825] bg-orange-950/40" : "text-neutral-200 hover:bg-neutral-800/60"
               )}
             >
               Contact

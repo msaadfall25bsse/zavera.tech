@@ -185,7 +185,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-transparent text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "About Us" }]} />
 
@@ -200,11 +200,11 @@ export default function AboutPage() {
                 <span>About Zavera.Tech &bull; Abbottabad, Pakistan</span>
               </span>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 tracking-tight leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight">
                 About Zavera Tech
               </h1>
 
-              <p className="text-lg text-neutral-600 leading-relaxed max-w-2xl font-normal">
+              <p className="text-lg text-neutral-300 leading-relaxed max-w-2xl font-normal">
                 Zavera Tech is a digital services business based in Abbottabad, Pakistan. Our work covers website development, search engine optimization, digital marketing and graphic design. We aim to understand each project, explain the work clearly and plan around the needs of the business.
               </p>
 
@@ -219,7 +219,7 @@ export default function AboutPage() {
             </div>
 
             <div className="lg:col-span-5 relative flex items-center justify-center">
-              <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[420px] rounded-2xl overflow-hidden shadow-xl border border-neutral-200/80 bg-neutral-900">
+              <div className="relative w-full h-[320px] sm:h-[380px] lg:h-[420px] rounded-2xl overflow-hidden shadow-xl border border-neutral-800 bg-neutral-900">
                 <Image
                   src="/about-team-hero.jpg"
                   alt="Zavera.Tech digital agency team collaborative workspace in Abbottabad"
@@ -236,18 +236,18 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 2. OUR STORY & VISION (H2) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <div className="max-w-4xl mx-auto space-y-6">
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
               Our Journey
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight leading-tight">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight leading-tight">
               Who We Are
             </h2>
-            <p className="text-neutral-600 leading-relaxed text-base sm:text-lg">
+            <p className="text-neutral-300 leading-relaxed text-base sm:text-lg">
               At Zavera.Tech, we believe that technology and creative design play an important role in how businesses connect with people and present themselves online.
             </p>
-            <p className="text-neutral-600 leading-relaxed text-base sm:text-lg">
+            <p className="text-neutral-300 leading-relaxed text-base sm:text-lg">
               Our focus is to bring software development, digital marketing, and creative design together under one digital services platform. By understanding different business requirements, we aim to deliver solutions that are useful, accessible, and aligned with each project&apos;s objectives.
             </p>
           </div>
@@ -256,33 +256,33 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 3. MISSION & VISION (H2 & H3) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
               Purpose & Direction
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-3">
               Our Mission and Vision for Digital Innovation
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-neutral-50 rounded-2xl p-8 sm:p-10 border border-neutral-200/80 space-y-4">
+            <div className="bg-neutral-900/60 rounded-2xl p-8 sm:p-10 border border-neutral-800 space-y-4">
               <div className="w-12 h-12 rounded-xl bg-orange-100 text-[#F07825] flex items-center justify-center">
                 <Target className="w-6 h-6" />
               </div>
-              <h3 className="text-2xl font-bold text-neutral-900">Our Mission</h3>
-              <p className="text-neutral-600 leading-relaxed text-sm sm:text-base font-normal">
+              <h3 className="text-2xl font-bold text-white">Our Mission</h3>
+              <p className="text-neutral-300 leading-relaxed text-sm sm:text-base font-normal">
                 Our mission is to provide practical digital solutions through software development, digital marketing, and graphic design. We aim to understand each project&apos;s requirements and approach them with a focus on quality, usability, and clear communication.
               </p>
             </div>
 
-            <div className="bg-neutral-50 rounded-2xl p-8 sm:p-10 border border-neutral-200/80 space-y-4">
+            <div className="bg-neutral-900/60 rounded-2xl p-8 sm:p-10 border border-neutral-800 space-y-4">
               <div className="w-12 h-12 rounded-xl bg-orange-100 text-[#F07825] flex items-center justify-center">
                 <Eye className="w-6 h-6" />
               </div>
-              <h3 className="text-2xl font-bold text-neutral-900">Our Vision</h3>
-              <p className="text-neutral-600 leading-relaxed text-sm sm:text-base font-normal">
+              <h3 className="text-2xl font-bold text-white">Our Vision</h3>
+              <p className="text-neutral-300 leading-relaxed text-sm sm:text-base font-normal">
                 Our vision is to contribute to the digital development of businesses by making modern technology, creative design, and digital services more accessible and useful.
               </p>
             </div>
@@ -292,7 +292,7 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 4. CORE VALUES (H2 & H3) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <SectionHeading
             badge="Our Foundation"
             title="Our Approach to Projects"
@@ -305,15 +305,15 @@ export default function AboutPage() {
               return (
                 <div
                   key={idx}
-                  className="bg-white rounded-2xl p-6 border border-neutral-200 hover:border-[#F07825]/40 transition-all duration-300 shadow-xs"
+                  className="bg-neutral-900/80 backdrop-blur-md rounded-2xl p-6 border border-neutral-800 hover:border-[#F07825]/40 transition-all duration-300 shadow-xs"
                 >
                   <div className="w-10 h-10 rounded-lg bg-orange-50 text-[#F07825] flex items-center justify-center mb-4">
                     <IconComp className="w-5 h-5" />
                   </div>
-                  <h3 className="text-lg font-bold text-neutral-900 mb-2">
+                  <h3 className="text-lg font-bold text-white mb-2">
                     {val.title}
                   </h3>
-                  <p className="text-neutral-600 text-xs sm:text-sm leading-relaxed">
+                  <p className="text-neutral-300 text-xs sm:text-sm leading-relaxed">
                     {val.desc}
                   </p>
                 </div>
@@ -325,30 +325,30 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 5. OUR EXPERTISE IN SOFTWARE, SEO & DESIGN (H2 & H3) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#F07825] bg-orange-100/70 rounded-full">
               Core Capabilities
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight mt-3">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-3">
               What We Work On
             </h2>
-            <p className="text-neutral-600 text-base mt-2">
+            <p className="text-neutral-300 text-base mt-2">
               Combining software engineering rigor with search engine visibility and creative visual identity.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-neutral-50 rounded-2xl p-8 border border-neutral-200 flex flex-col justify-between">
+            <div className="bg-neutral-900/60 rounded-2xl p-8 border border-neutral-800 flex flex-col justify-between">
               <div className="space-y-3">
-                <h3 className="text-xl font-bold text-neutral-900">
+                <h3 className="text-xl font-bold text-white">
                   Software and Web Development
                 </h3>
-                <p className="text-neutral-600 text-sm leading-relaxed">
+                <p className="text-neutral-300 text-sm leading-relaxed">
                   We work on modern web development solutions, including business websites and custom web applications. Depending on project requirements, our development work can involve technologies such as Next.js, React, JavaScript, and TypeScript.
                 </p>
               </div>
-              <div className="pt-6 border-t border-neutral-200/70 mt-6">
+              <div className="pt-6 border-t border-neutral-800/70 mt-6">
                 <Link
                   href="/services/web-development"
                   className="inline-flex items-center text-xs font-bold text-[#F07825] hover:text-[#d96517]"
@@ -359,16 +359,16 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-neutral-50 rounded-2xl p-8 border border-neutral-200 flex flex-col justify-between">
+            <div className="bg-neutral-900/60 rounded-2xl p-8 border border-neutral-800 flex flex-col justify-between">
               <div className="space-y-3">
-                <h3 className="text-xl font-bold text-neutral-900">
+                <h3 className="text-xl font-bold text-white">
                   Digital Marketing and SEO
                 </h3>
-                <p className="text-neutral-600 text-sm leading-relaxed">
+                <p className="text-neutral-300 text-sm leading-relaxed">
                   We focus on digital marketing and search engine optimization practices that help businesses improve their online presence. This includes relevant SEO strategies and website optimization based on project requirements.
                 </p>
               </div>
-              <div className="pt-6 border-t border-neutral-200/70 mt-6 flex flex-col gap-2">
+              <div className="pt-6 border-t border-neutral-800/70 mt-6 flex flex-col gap-2">
                 <Link
                   href="/services/seo-services"
                   className="inline-flex items-center text-xs font-bold text-[#F07825] hover:text-[#d96517]"
@@ -378,7 +378,7 @@ export default function AboutPage() {
                 </Link>
                 <Link
                   href="/services/digital-marketing"
-                  className="inline-flex items-center text-xs font-bold text-neutral-600 hover:text-[#F07825]"
+                  className="inline-flex items-center text-xs font-bold text-neutral-300 hover:text-[#F07825]"
                 >
                   <span>Explore Digital Marketing</span>
                   <ArrowRight className="w-3.5 h-3.5 ml-1" />
@@ -386,16 +386,16 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-neutral-50 rounded-2xl p-8 border border-neutral-200 flex flex-col justify-between">
+            <div className="bg-neutral-900/60 rounded-2xl p-8 border border-neutral-800 flex flex-col justify-between">
               <div className="space-y-3">
-                <h3 className="text-xl font-bold text-neutral-900">
+                <h3 className="text-xl font-bold text-white">
                   Graphic Designing and Brand Identity
                 </h3>
-                <p className="text-neutral-600 text-sm leading-relaxed">
+                <p className="text-neutral-300 text-sm leading-relaxed">
                   We provide graphic design and visual identity solutions that help businesses communicate their brand message through consistent and thoughtful visual presentation.
                 </p>
               </div>
-              <div className="pt-6 border-t border-neutral-200/70 mt-6">
+              <div className="pt-6 border-t border-neutral-800/70 mt-6">
                 <Link
                   href="/services/graphic-designing"
                   className="inline-flex items-center text-xs font-bold text-[#F07825] hover:text-[#d96517]"
@@ -411,7 +411,7 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 6. HOW WE HELP BUSINESSES BUILD THEIR DIGITAL PRESENCE (H2 & H3) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <SectionHeading
             badge="Practical Solutions"
             title="Who We Help"
@@ -422,22 +422,22 @@ export default function AboutPage() {
             {businessSolutions.map((sol, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-2xl p-8 border border-neutral-200 hover:border-[#F07825]/40 transition-all duration-300 shadow-xs flex flex-col justify-between"
+                className="bg-neutral-900/80 backdrop-blur-md rounded-2xl p-8 border border-neutral-800 hover:border-[#F07825]/40 transition-all duration-300 shadow-xs flex flex-col justify-between"
               >
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3 mb-2">
                     <div className="w-8 h-8 rounded-lg bg-orange-50 text-[#F07825] flex items-center justify-center font-bold text-xs">
                       0{idx + 1}
                     </div>
-                    <h3 className="text-xl font-bold text-neutral-900">
+                    <h3 className="text-xl font-bold text-white">
                       {sol.title}
                     </h3>
                   </div>
-                  <p className="text-neutral-600 text-sm leading-relaxed">
+                  <p className="text-neutral-300 text-sm leading-relaxed">
                     {sol.desc}
                   </p>
                 </div>
-                <div className="pt-4 mt-4 border-t border-neutral-100">
+                <div className="pt-4 mt-4 border-t border-neutral-800">
                   <Link
                     href={sol.href}
                     className="inline-flex items-center text-xs font-bold text-[#F07825] hover:text-[#d96517]"
@@ -454,7 +454,7 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 7. WHY CHOOSE ZAVERA.TECH (H2 & H3) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <div className="bg-neutral-900 text-white rounded-3xl p-8 sm:p-12">
             <div className="max-w-3xl mb-10">
               <span className="px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#FF8C42] bg-[#F07825]/20 rounded-full">
@@ -495,16 +495,16 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 8. SERVING BUSINESSES IN ABBOTTABAD & ACROSS PAKISTAN (H2) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <div className="max-w-4xl mx-auto p-8 sm:p-10 rounded-3xl bg-orange-50/60 border border-orange-200/80 space-y-4">
             <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#F07825]">
               <MapPin className="w-4 h-4" />
               <span>Regional Focus & Impact</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-neutral-900 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
               Serving Businesses in Abbottabad and Across Pakistan
             </h2>
-            <p className="text-neutral-700 leading-relaxed text-sm sm:text-base">
+            <p className="text-neutral-300 leading-relaxed text-sm sm:text-base">
               Zavera.Tech is positioned as a digital services provider in Abbottabad, Pakistan. Our services are intended to support businesses looking for software development, web development, digital marketing, and graphic design solutions.
             </p>
             <div className="pt-2">
@@ -522,7 +522,7 @@ export default function AboutPage() {
         {/* ============================================================== */}
         {/* 9. FREQUENTLY ASKED QUESTIONS (H2 & H3) */}
         {/* ============================================================== */}
-        <section className="py-16 border-t border-neutral-200/80">
+        <section className="py-16 border-t border-neutral-800">
           <SectionHeading
             badge="Common Questions"
             title="Frequently Asked Questions About Zavera.Tech"

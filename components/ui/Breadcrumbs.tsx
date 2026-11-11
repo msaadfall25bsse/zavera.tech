@@ -13,7 +13,7 @@ interface BreadcrumbsProps {
 export default function Breadcrumbs({ items }: BreadcrumbsProps) {
   return (
     <nav aria-label="Breadcrumb" className="py-4">
-      <ol className="flex items-center space-x-2 text-sm text-neutral-500">
+      <ol className="flex items-center space-x-2 text-sm text-neutral-400">
         <li>
           <Link
             href="/"
@@ -27,9 +27,9 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
           const isLast = index === items.length - 1;
           return (
             <li key={index} className="flex items-center space-x-2">
-              <ChevronRight className="w-4 h-4 text-neutral-400 shrink-0" />
+              <ChevronRight className="w-4 h-4 text-neutral-600 shrink-0" />
               {isLast || !item.href ? (
-                <span className="font-semibold text-neutral-900 truncate max-w-xs md:max-w-md">
+                <span className="font-semibold text-white truncate max-w-xs md:max-w-md">
                   {item.label}
                 </span>
               ) : (
@@ -47,4 +47,3 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
     </nav>
   );
 }
-
