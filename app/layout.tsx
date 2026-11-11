@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import WavesBackground from "@/components/common/WavesBackground";
 import { siteConfig } from "@/data/navigation";
 
 export const metadata: Metadata = {
@@ -118,7 +119,8 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased min-h-screen flex flex-col bg-white text-neutral-900 selection:bg-[#F07825] selection:text-white">
+      <body className="antialiased min-h-screen flex flex-col bg-white text-neutral-900 selection:bg-[#F07825] selection:text-white relative">
+        <WavesBackground />
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
