@@ -55,19 +55,19 @@ export default function LearningPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-left max-w-3xl mx-auto pt-2">
             <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">09</span>
-              <p className="text-xs font-semibold text-neutral-700 mt-0.5">Complete Programs</p>
+              <p className="text-xs font-semibold text-neutral-300 mt-0.5">Complete Programs</p>
             </div>
             <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">100%</span>
-              <p className="text-xs font-semibold text-neutral-700 mt-0.5">Free & Open Source</p>
+              <p className="text-xs font-semibold text-neutral-300 mt-0.5">Free & Open Source</p>
             </div>
             <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">Labs</span>
-              <p className="text-xs font-semibold text-neutral-700 mt-0.5">Hands-On Projects</p>
+              <p className="text-xs font-semibold text-neutral-300 mt-0.5">Hands-On Projects</p>
             </div>
             <div className="p-4 rounded-2xl bg-neutral-900/60 border border-neutral-800">
               <span className="text-2xl font-bold text-[#F07825]">Clean</span>
-              <p className="text-xs font-semibold text-neutral-700 mt-0.5">No Generic Fluff</p>
+              <p className="text-xs font-semibold text-neutral-300 mt-0.5">No Generic Fluff</p>
             </div>
           </div>
         </section>

@@ -311,3 +311,84 @@ body {
   color: #ffffff;
   box-shadow: inset 0 0 0 3px #ffffff, 0 4px 14px rgba(240, 120, 37, 0.35);
 }
+
+/* ---------------------------------------------------- */
+/* Mobile Responsiveness for 3D Cube Buttons (<640px)   */
+/* ---------------------------------------------------- */
+@media (max-width: 640px) {
+  .cube-scene {
+    max-width: 100%;
+  }
+
+  .cube-btn {
+    min-width: unset !important;
+    max-width: 100%;
+  }
+
+  .cube-side,
+  .cube-sizer {
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.25;
+    padding-left: 0.85rem !important;
+    padding-right: 0.85rem !important;
+  }
+
+  .cube-size-lg {
+    height: 3.15rem;
+  }
+  .cube-size-lg .cube-btn {
+    height: 3.15rem;
+    min-width: unset;
+  }
+  .cube-size-lg .cube-side,
+  .cube-size-lg .cube-sizer {
+    height: 3.15rem;
+    font-size: 0.82rem;
+  }
+  .cube-size-lg .cube-side.front {
+    transform: translate3d(0, 0, 1.575rem);
+  }
+  .cube-size-lg .cube-side.top {
+    transform: rotateX(90deg) translate3d(0, 0, 1.575rem);
+  }
+
+  .cube-size-md {
+    height: 2.75rem;
+  }
+  .cube-size-md .cube-btn {
+    height: 2.75rem;
+    min-width: unset;
+  }
+  .cube-size-md .cube-side,
+  .cube-size-md .cube-sizer {
+    height: 2.75rem;
+    font-size: 0.78rem;
+  }
+  .cube-size-md .cube-side.front {
+    transform: translate3d(0, 0, 1.375rem);
+  }
+  .cube-size-md .cube-side.top {
+    transform: rotateX(90deg) translate3d(0, 0, 1.375rem);
+  }
+
+  .cube-size-sm {
+    height: 2.35rem;
+  }
+  .cube-size-sm .cube-btn {
+    height: 2.35rem;
+    min-width: unset;
+  }
+  .cube-size-sm .cube-side,
+  .cube-size-sm .cube-sizer {
+    height: 2.35rem;
+    font-size: 0.72rem;
+  }
+  .cube-size-sm .cube-side.front {
+    transform: translate3d(0, 0, 1.175rem);
+  }
+  .cube-size-sm .cube-side.top {
+    transform: rotateX(90deg) translate3d(0, 0, 1.175rem);
+  }
+}
+

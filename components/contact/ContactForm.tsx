@@ -92,9 +92,9 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-neutral-900/80 rounded-2xl border border-neutral-200 p-8 sm:p-10 shadow-sm">
-      <h3 className="text-2xl font-bold text-neutral-900 mb-2">Send Us a Message</h3>
-      <p className="text-neutral-600 text-sm mb-8">
+    <div className="bg-neutral-900/80 backdrop-blur-md rounded-2xl border border-neutral-800 p-6 sm:p-10 shadow-xl">
+      <h3 className="text-2xl font-bold text-white mb-2">Send Us a Message</h3>
+      <p className="text-neutral-300 text-sm mb-8">
         Fill out the details below. Our technical and creative leads review all inquiries promptly.
       </p>
 
@@ -103,8 +103,8 @@ export default function ContactForm() {
           <div className="w-16 h-16 bg-[#F07825] text-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
             <CheckCircle2 className="w-8 h-8" />
           </div>
-          <h4 className="text-2xl font-bold text-neutral-900 mb-2">Thank You!</h4>
-          <p className="text-neutral-700 text-sm max-w-md mx-auto leading-relaxed mb-6">
+          <h4 className="text-2xl font-bold text-white mb-2">Thank You!</h4>
+          <p className="text-neutral-300 text-sm max-w-md mx-auto leading-relaxed mb-6">
             Your inquiry has been received. Our team will review your specifications and get back to you within 24 hours.
           </p>
           <Button
@@ -143,8 +143,8 @@ export default function ContactForm() {
                 value={formData.fullName}
                 onChange={handleChange}
                 placeholder="John Doe"
-                className={`w-full px-4 py-3 rounded-xl border text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
-                  errors.fullName ? "border-red-400 bg-red-50/20" : "border-neutral-200"
+                className={`w-full px-4 py-3 rounded-xl border text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
+                  errors.fullName ? "border-red-400 bg-red-50/20" : "border-neutral-700 bg-neutral-950/80"
                 }`}
               />
               {errors.fullName && (
@@ -165,8 +165,8 @@ export default function ContactForm() {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="john@example.com"
-                className={`w-full px-4 py-3 rounded-xl border text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
-                  errors.email ? "border-red-400 bg-red-50/20" : "border-neutral-200"
+                className={`w-full px-4 py-3 rounded-xl border text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
+                  errors.email ? "border-red-400 bg-red-50/20" : "border-neutral-700 bg-neutral-950/80"
                 }`}
               />
               {errors.email && (
@@ -189,8 +189,8 @@ export default function ContactForm() {
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="+1 (555) 000-0000"
-                className={`w-full px-4 py-3 rounded-xl border text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
-                  errors.phone ? "border-red-400 bg-red-50/20" : "border-neutral-200"
+                className={`w-full px-4 py-3 rounded-xl border text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
+                  errors.phone ? "border-red-400 bg-red-50/20" : "border-neutral-700 bg-neutral-950/80"
                 }`}
               />
               {errors.phone && (
@@ -226,7 +226,7 @@ export default function ContactForm() {
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-neutral-900 text-white transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-neutral-700 bg-neutral-950/80 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-neutral-900 text-white transition-colors"
               >
                 <option value="Software Development">Software Development</option>
                 <option value="Digital Marketing & SEO">Digital Marketing & SEO</option>
@@ -245,7 +245,7 @@ export default function ContactForm() {
                 name="budget"
                 value={formData.budget}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-xl border border-neutral-200 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-neutral-900 text-white transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-neutral-700 bg-neutral-950/80 text-sm text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#F07825] bg-neutral-900 text-white transition-colors"
               >
                 <option value="">Select an estimated range</option>
                 <option value="Under $1,000">Under $1,000</option>
@@ -269,8 +269,8 @@ export default function ContactForm() {
               value={formData.subject}
               onChange={handleChange}
               placeholder="e.g. Website Redesign & SEO Growth"
-              className={`w-full px-4 py-3 rounded-xl border text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
-                errors.subject ? "border-red-400 bg-red-50/20" : "border-neutral-200"
+              className={`w-full px-4 py-3 rounded-xl border text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors ${
+                errors.subject ? "border-red-400 bg-red-50/20" : "border-neutral-700 bg-neutral-950/80"
               }`}
             />
             {errors.subject && (
@@ -291,8 +291,8 @@ export default function ContactForm() {
               value={formData.message}
               onChange={handleChange}
               placeholder="Please describe your project, timeline, and key requirements..."
-              className={`w-full px-4 py-3 rounded-xl border text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors resize-y ${
-                errors.message ? "border-red-400 bg-red-50/20" : "border-neutral-200"
+              className={`w-full px-4 py-3 rounded-xl border text-sm text-white placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#F07825] transition-colors resize-y ${
+                errors.message ? "border-red-400 bg-red-50/20" : "border-neutral-700 bg-neutral-950/80"
               }`}
             />
             {errors.message && (

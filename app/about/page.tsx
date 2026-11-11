@@ -208,11 +208,11 @@ export default function AboutPage() {
                 Zavera Tech is a digital services business based in Abbottabad, Pakistan. Our work covers website development, search engine optimization, digital marketing and graphic design. We aim to understand each project, explain the work clearly and plan around the needs of the business.
               </p>
 
-              <div className="flex flex-wrap gap-4 pt-2">
-                <Button variant="primary" size="md" href="/services">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 w-full sm:w-auto">
+                <Button variant="primary" size="md" href="/services" className="w-full sm:w-auto">
                   Our Services
                 </Button>
-                <Button variant="outline" size="md" href="/contact">
+                <Button variant="outline" size="md" href="/contact" className="w-full sm:w-auto">
                   Start a Conversation
                 </Button>
               </div>

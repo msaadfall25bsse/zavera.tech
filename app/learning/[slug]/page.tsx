@@ -398,7 +398,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
 
                 </span>
 
-                <span className="px-3 py-1 rounded-md bg-neutral-100 text-neutral-800">
+                <span className="px-3 py-1 rounded-md bg-neutral-800 text-neutral-200 border border-neutral-700">
 
                   {course.difficulty} Level
 
@@ -440,13 +440,13 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
 
 
 
-              <div className="flex flex-wrap items-center gap-4 pt-2">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 pt-2 w-full sm:w-auto">
 
                 <a
 
                   href="#curriculum"
 
-                  className="px-6 py-3.5 rounded-xl bg-[#F07825] text-white font-semibold text-sm hover:bg-[#d96517] transition-all shadow-sm active:scale-95 flex items-center"
+                  className="px-6 py-3.5 rounded-xl bg-[#F07825] text-white font-semibold text-sm hover:bg-[#d96517] transition-all shadow-sm active:scale-95 flex items-center justify-center"
 
                 >
 
@@ -460,7 +460,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
 
                   href="#overview"
 
-                  className="px-6 py-3.5 rounded-xl border border-neutral-300 text-neutral-800 font-semibold text-sm hover:border-[#F07825] hover:text-[#F07825] transition-all"
+                  className="px-6 py-3.5 rounded-xl border border-neutral-700 text-neutral-300 font-semibold text-sm hover:border-[#F07825] hover:text-[#F07825] transition-all flex items-center justify-center text-center"
 
                 >
 
@@ -528,7 +528,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
 
               </h2>
 
-              <p className="text-neutral-700 text-base leading-relaxed">
+              <p className="text-neutral-300 text-base leading-relaxed">
 
                 {course.overview.about}
 
@@ -542,7 +542,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
 
                 </h3>
 
-                <p className="text-sm text-neutral-700 leading-relaxed">
+                <p className="text-sm text-neutral-300 leading-relaxed">
 
                   {course.overview.whyItMatters}
 
@@ -570,7 +570,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
 
                       key={idx}
 
-                      className="p-4 rounded-xl bg-neutral-900/60 border border-neutral-800 text-xs sm:text-sm text-neutral-700 flex items-start space-x-2.5"
+                      className="p-4 rounded-xl bg-neutral-900/60 border border-neutral-800 text-xs sm:text-sm text-neutral-300 flex items-start space-x-2.5"
 
                     >
 
@@ -888,7 +888,7 @@ export default async function BootcampCourseDetailPage({ params }: PageProps) {
 
                     <div className="absolute top-3 left-3">
 
-                      <span className="px-2.5 py-0.5 rounded-full bg-neutral-900/80 backdrop-blur-md/95 backdrop-blur-md text-[11px] font-bold text-neutral-800 shadow-xs uppercase tracking-wider">
+                      <span className="px-2.5 py-0.5 rounded-full bg-neutral-900/90 backdrop-blur-md text-[11px] font-bold text-white shadow-xs uppercase tracking-wider">
 
                         {rel.category}
 

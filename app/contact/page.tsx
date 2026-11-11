@@ -70,7 +70,7 @@ export default function ContactPage() {
                   <p className="text-xs text-neutral-300">Quick inquiries & consultations</p>
                 </div>
               </div>
-              <p className="text-sm text-neutral-700 leading-relaxed mb-6">
+              <p className="text-sm text-neutral-300 leading-relaxed mb-6">
                 Prefer direct messaging? Connect directly with our team on WhatsApp for prompt responses to initial inquiries.
               </p>
               <a
@@ -85,7 +85,7 @@ export default function ContactPage() {
             </div>
 
             {/* Direct Contact Info */}
-            <div className="bg-neutral-50 rounded-2xl border border-neutral-800 p-7 space-y-6">
+            <div className="bg-neutral-900/80 backdrop-blur-md rounded-2xl border border-neutral-800 p-6 sm:p-7 space-y-6">
               <h2 className="text-lg font-bold text-white">
                 Where We Work & Official Information
               </h2>
@@ -94,7 +94,7 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-3">
                   <Mail className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-semibold text-neutral-800">Email Inquiries</div>
+                    <div className="font-semibold text-white">Email Inquiries</div>
                     <a
                       href={`mailto:${siteConfig.email}`}
                       className="text-neutral-300 hover:text-[#F07825] transition-colors"
@@ -107,7 +107,7 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-3">
                   <Phone className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-semibold text-neutral-800">Telephone / WhatsApp</div>
+                    <div className="font-semibold text-white">Telephone / WhatsApp</div>
                     <span className="text-neutral-300">{siteConfig.phone}</span>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-3">
                   <Clock className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-semibold text-neutral-800">Operational Hours</div>
+                    <div className="font-semibold text-white">Operational Hours</div>
                     <span className="text-neutral-300">Monday &ndash; Saturday, 9:00 AM &ndash; 7:00 PM (PKT)</span>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-5 h-5 text-[#F07825] shrink-0 mt-0.5" />
                   <div>
-                    <div className="font-semibold text-neutral-800">Office Location</div>
+                    <div className="font-semibold text-white">Office Location</div>
                     <span className="text-neutral-300">Abbottabad, Khyber Pakhtunkhwa, Pakistan</span>
                   </div>
                 </div>

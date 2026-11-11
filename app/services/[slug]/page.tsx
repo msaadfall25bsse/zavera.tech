@@ -476,17 +476,17 @@ export default async function DedicatedServicePage({ params }: ServicePageProps)
 
 
 
-              <div className="flex flex-wrap gap-4 pt-2">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 w-full sm:w-auto">
 
-                <Button variant="primary" size="lg" href="/contact">
+                <Button variant="primary" size="lg" href="/contact" className="w-full sm:w-auto">
 
-                  <span>Get a Free Quote for {service.title}</span>
+                  <span>Get a Free Quote</span>
 
                   <ArrowRight className="w-4 h-4 ml-2" />
 
                 </Button>
 
-                <Button variant="outline" size="lg" href="/services">
+                <Button variant="outline" size="lg" href="/services" className="w-full sm:w-auto">
 
                   View All Services
 

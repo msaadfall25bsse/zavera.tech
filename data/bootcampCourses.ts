@@ -12,6 +12,12 @@ export interface LessonItem {
   commonMistakes: string[];
   exercise: string;
   takeaways: string[];
+  quizQuestion?: {
+    question: string;
+    options: string[];
+    correctAnswer: string;
+    explanation: string;
+  };
 }
 
 export interface ModuleItem {

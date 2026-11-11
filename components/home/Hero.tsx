@@ -21,19 +21,19 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-[1.14] mb-6">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-[1.14] mb-6 break-words">
               IT and Digital Services for Businesses in{" "}
               <span className="text-[#F07825]">Abbottabad</span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed mb-8 max-w-2xl font-normal">
+            <p className="text-base sm:text-xl text-neutral-300 leading-relaxed mb-8 max-w-2xl font-normal">
               Zavera Tech helps businesses build and improve their online presence. Our services cover web development, SEO, digital marketing and graphic design. Explore our service options to find the right fit for your goals, then get in touch with our team to start your project.
             </p>
 
-            <div className="flex flex-wrap items-center gap-4 mb-10 w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-10 w-full sm:w-auto">
               <Button variant="primary" size="lg" href="/services" className="w-full sm:w-auto shadow-md">
-                <span>Explore Our Services</span>
-                <ArrowRight className="w-5 h-5 ml-2" />
+                <span>Explore Services</span>
+                <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
               <Button variant="outline" size="lg" href="/contact" className="w-full sm:w-auto border-neutral-700 text-white hover:bg-neutral-850">
                 Let&apos;s Talk
@@ -41,7 +41,7 @@ export default function Hero() {
             </div>
 
             {/* Quality assurances badge */}
-            <div className="pt-6 border-t border-neutral-800 w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs font-medium text-neutral-300">
+            <div className="pt-6 border-t border-neutral-800 w-full grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 text-xs font-medium text-neutral-300">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#F07825] shrink-0" />
                 <span>Modern Tech Stack</span>

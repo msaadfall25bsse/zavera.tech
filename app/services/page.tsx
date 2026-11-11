@@ -648,9 +648,9 @@ export default function ServicesPage() {
 
 
 
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full sm:w-auto">
 
-            <Button variant="primary" size="lg" href="/contact">
+            <Button variant="primary" size="lg" href="/contact" className="w-full sm:w-auto">
 
               <span>Start a Project</span>
 
@@ -658,7 +658,7 @@ export default function ServicesPage() {
 
             </Button>
 
-            <Button variant="outline" size="lg" href="#explore-services">
+            <Button variant="outline" size="lg" href="#explore-services" className="w-full sm:w-auto">
 
               Explore All Services
 

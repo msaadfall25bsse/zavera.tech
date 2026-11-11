@@ -21,7 +21,6 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
   const handleSelectLesson = (lesson: LessonItem, moduleId: string) => {
     setActiveLesson(lesson);
     setOpenModuleId(moduleId);
-    // Smooth scroll down to lesson detail view if on small screens
     const el = document.getElementById("active-lesson-view");
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -29,7 +28,7 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
   };
 
   return (
-    <div id="curriculum" className="scroll-mt-24 space-y-8">
+    <div id="curriculum" className="scroll-mt-24 space-y-8 max-w-full overflow-hidden">
       {/* Curriculum Accordion List */}
       <div className="space-y-4">
         {modules.map((module) => {
@@ -37,31 +36,31 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
           return (
             <div
               key={module.id}
-              className="border border-neutral-200 rounded-2xl overflow-hidden bg-white shadow-xs transition-colors"
+              className="border border-neutral-800 rounded-2xl overflow-hidden bg-neutral-900/80 backdrop-blur-md shadow-xs transition-colors"
             >
               {/* Module Header Bar */}
               <button
                 type="button"
                 onClick={() => toggleModule(module.id)}
-                className="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none hover:bg-neutral-50/70 transition-colors"
+                className="w-full px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between text-left focus:outline-none hover:bg-neutral-800/60 transition-colors"
                 aria-expanded={isOpen}
               >
-                <div className="flex items-center space-x-4">
-                  <span className="w-9 h-9 rounded-xl bg-orange-100 text-[#F07825] font-bold text-xs flex items-center justify-center shrink-0">
+                <div className="flex items-center space-x-3 sm:space-x-4 min-w-0 pr-2">
+                  <span className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-orange-950/60 border border-orange-500/30 text-[#F07825] font-bold text-xs flex items-center justify-center shrink-0">
                     M{module.moduleNumber}
                   </span>
-                  <div>
-                    <h3 className="font-bold text-lg text-neutral-900 leading-snug">
+                  <div className="min-w-0">
+                    <h3 className="font-bold text-base sm:text-lg text-white leading-snug truncate">
                       Module {module.moduleNumber} &mdash; {module.title}
                     </h3>
-                    <p className="text-xs text-neutral-500 mt-0.5 line-clamp-1">
+                    <p className="text-xs text-neutral-400 mt-0.5 line-clamp-1">
                       {module.description}
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4 shrink-0">
-                  <span className="text-xs font-semibold text-neutral-500 hidden sm:inline-block">
+                <div className="flex items-center space-x-3 sm:space-x-4 shrink-0">
+                  <span className="text-xs font-semibold text-neutral-400 hidden sm:inline-block">
                     {module.lessons.length} {module.lessons.length === 1 ? "Lesson" : "Lessons"}
                   </span>
                   <ChevronDown
@@ -75,7 +74,7 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
 
               {/* Module Lessons Dropdown */}
               {isOpen && (
-                <div className="border-t border-neutral-100 bg-neutral-50/50 p-3 sm:p-4 space-y-2">
+                <div className="border-t border-neutral-800 bg-neutral-950/70 p-3 sm:p-4 space-y-2">
                   {module.lessons.map((lesson, idx) => {
                     const isSelected = activeLesson?.id === lesson.id;
                     return (
@@ -83,27 +82,27 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
                         key={lesson.id}
                         onClick={() => handleSelectLesson(lesson, module.id)}
                         className={cn(
-                          "flex items-center justify-between p-3.5 rounded-xl cursor-pointer transition-all border",
+                          "flex items-center justify-between p-3 sm:p-3.5 rounded-xl cursor-pointer transition-all border",
                           isSelected
-                            ? "bg-white border-[#F07825] shadow-xs"
-                            : "bg-white/70 border-neutral-200/80 hover:bg-white hover:border-neutral-300"
+                            ? "bg-neutral-900 border-[#F07825] shadow-xs text-white"
+                            : "bg-neutral-900/60 border-neutral-800 hover:bg-neutral-900 hover:border-neutral-700 text-neutral-300"
                         )}
                       >
-                        <div className="flex items-center space-x-3">
+                        <div className="flex items-center space-x-2.5 sm:space-x-3 min-w-0 pr-2">
                           <PlayCircle
                             className={cn(
                               "w-4 h-4 shrink-0",
-                              isSelected ? "text-[#F07825]" : "text-neutral-400"
+                              isSelected ? "text-[#F07825]" : "text-neutral-500"
                             )}
                           />
-                          <div>
-                            <span className="text-xs text-neutral-400 font-bold mr-2">
+                          <div className="min-w-0">
+                            <span className="text-xs text-neutral-500 font-bold mr-1.5 sm:mr-2">
                               0{idx + 1}
                             </span>
                             <span
                               className={cn(
-                                "text-sm font-semibold",
-                                isSelected ? "text-[#F07825]" : "text-neutral-800"
+                                "text-xs sm:text-sm font-semibold truncate",
+                                isSelected ? "text-[#F07825]" : "text-neutral-200"
                               )}
                             >
                               {lesson.title}
@@ -111,7 +110,7 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
                           </div>
                         </div>
 
-                        <div className="flex items-center space-x-2 text-xs text-neutral-500 shrink-0">
+                        <div className="flex items-center space-x-1.5 sm:space-x-2 text-xs text-neutral-400 shrink-0">
                           <Clock className="w-3.5 h-3.5" />
                           <span>{lesson.duration}</span>
                         </div>
@@ -129,19 +128,19 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
       {activeLesson && (
         <div
           id="active-lesson-view"
-          className="mt-12 bg-white rounded-3xl border-2 border-orange-200 p-6 sm:p-10 shadow-lg scroll-mt-24"
+          className="mt-8 sm:mt-12 bg-neutral-900/90 rounded-2xl sm:rounded-3xl border border-[#F07825]/40 p-4 sm:p-8 md:p-10 shadow-2xl scroll-mt-24 text-white"
         >
           {/* Header */}
-          <div className="flex flex-wrap items-center justify-between gap-3 pb-6 border-b border-neutral-200">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-6 border-b border-neutral-800">
             <div>
-              <span className="px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#F07825] bg-orange-100 rounded-full">
+              <span className="px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#F07825] bg-orange-950/60 border border-orange-500/30 rounded-full inline-block">
                 Interactive Lesson Experience
               </span>
-              <h3 className="text-2xl sm:text-3xl font-bold text-neutral-900 mt-2">
+              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mt-2">
                 {activeLesson.title}
               </h3>
             </div>
-            <div className="flex items-center text-xs font-semibold text-neutral-500 bg-neutral-100 px-3 py-1.5 rounded-lg">
+            <div className="flex items-center text-xs font-semibold text-neutral-300 bg-neutral-800/80 border border-neutral-700/60 px-3 py-1.5 rounded-lg self-start sm:self-auto">
               <Clock className="w-4 h-4 mr-1.5 text-[#F07825]" />
               <span>Duration: {activeLesson.duration}</span>
             </div>
@@ -149,18 +148,18 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
 
           {/* Introduction & Objectives */}
           <div className="py-6 space-y-6">
-            <p className="text-base text-neutral-700 leading-relaxed font-medium">
+            <p className="text-sm sm:text-base text-neutral-300 leading-relaxed font-normal">
               {activeLesson.introduction}
             </p>
 
-            <div className="p-5 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <h4 className="text-sm font-bold text-neutral-900 mb-3 flex items-center">
+            <div className="p-4 sm:p-5 rounded-2xl bg-neutral-950/80 border border-neutral-800">
+              <h4 className="text-sm font-bold text-white mb-3 flex items-center">
                 <BookOpen className="w-4 h-4 text-[#F07825] mr-2" />
                 Lesson Learning Objectives
               </h4>
               <ul className="space-y-2">
                 {activeLesson.objectives.map((obj, i) => (
-                  <li key={i} className="flex items-start text-xs sm:text-sm text-neutral-700">
+                  <li key={i} className="flex items-start text-xs sm:text-sm text-neutral-300">
                     <CheckCircle2 className="w-4 h-4 text-[#F07825] mr-2 mt-0.5 shrink-0" />
                     <span>{obj}</span>
                   </li>
@@ -169,8 +168,8 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
             </div>
 
             {/* Deep Explanation */}
-            <div className="space-y-4 text-neutral-700 text-sm sm:text-base leading-relaxed">
-              <h4 className="text-lg font-bold text-neutral-900">
+            <div className="space-y-3 sm:space-y-4 text-neutral-300 text-sm sm:text-base leading-relaxed">
+              <h4 className="text-base sm:text-lg font-bold text-white">
                 Detailed Concept Breakdown
               </h4>
               <p>{activeLesson.explanation}</p>
@@ -181,7 +180,7 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
               {activeLesson.concepts.map((concept, i) => (
                 <div
                   key={i}
-                  className="bg-orange-50/50 border border-orange-200/60 p-3.5 rounded-xl text-xs font-semibold text-neutral-800 flex items-center space-x-2"
+                  className="bg-neutral-950/70 border border-neutral-800 p-3 sm:p-3.5 rounded-xl text-xs font-semibold text-neutral-200 flex items-center space-x-2"
                 >
                   <Lightbulb className="w-4 h-4 text-[#F07825] shrink-0" />
                   <span>{concept}</span>
@@ -191,19 +190,19 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
 
             {/* Code / Visual Example Block */}
             {activeLesson.codeSnippet && (
-              <div className="space-y-2 pt-2">
-                <div className="flex items-center justify-between text-xs font-bold text-neutral-500 uppercase">
+              <div className="space-y-2 pt-2 max-w-full">
+                <div className="flex items-center justify-between text-xs font-bold text-neutral-400 uppercase">
                   <span className="flex items-center">
                     <Code2 className="w-4 h-4 mr-1 text-[#F07825]" />
                     Hands-On Code Example ({activeLesson.codeLanguage || "code"})
                   </span>
                 </div>
-                <div className="rounded-2xl overflow-hidden bg-neutral-950 text-neutral-100 p-5 font-mono text-xs sm:text-sm shadow-inner overflow-x-auto">
-                  <pre>{activeLesson.codeSnippet}</pre>
+                <div className="rounded-2xl overflow-hidden bg-black text-neutral-100 p-4 sm:p-5 font-mono text-xs sm:text-sm shadow-inner border border-neutral-800 overflow-x-auto">
+                  <pre className="whitespace-pre-wrap break-all sm:whitespace-pre sm:break-normal">{activeLesson.codeSnippet}</pre>
                 </div>
                 {activeLesson.expectedOutput && (
-                  <div className="p-3.5 rounded-xl bg-neutral-100 border border-neutral-200 text-xs text-neutral-700">
-                    <strong className="text-neutral-900">Expected Result: </strong>
+                  <div className="p-3.5 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-neutral-300">
+                    <strong className="text-white">Expected Result: </strong>
                     {activeLesson.expectedOutput}
                   </div>
                 )}
@@ -212,14 +211,14 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
 
             {/* Common Mistakes */}
             {activeLesson.commonMistakes && activeLesson.commonMistakes.length > 0 && (
-              <div className="p-5 rounded-2xl bg-amber-50/60 border border-amber-200 space-y-2">
-                <h4 className="text-xs sm:text-sm font-bold text-amber-900 flex items-center">
-                  <AlertTriangle className="w-4 h-4 text-amber-600 mr-2 shrink-0" />
+              <div className="p-4 sm:p-5 rounded-2xl bg-amber-950/30 border border-amber-800/50 space-y-2">
+                <h4 className="text-xs sm:text-sm font-bold text-amber-300 flex items-center">
+                  <AlertTriangle className="w-4 h-4 text-amber-500 mr-2 shrink-0" />
                   Common Beginner Mistakes to Avoid
                 </h4>
                 <ul className="space-y-1.5">
                   {activeLesson.commonMistakes.map((mistake, i) => (
-                    <li key={i} className="text-xs text-amber-800 leading-relaxed list-disc list-inside">
+                    <li key={i} className="text-xs text-amber-200/90 leading-relaxed list-disc list-inside">
                       {mistake}
                     </li>
                   ))}
@@ -227,37 +226,36 @@ export default function CurriculumAccordion({ modules, courseTitle }: Curriculum
               </div>
             )}
 
-            {/* Actionable Exercise */}
-            <div className="p-5 rounded-2xl bg-emerald-50/60 border border-emerald-200 space-y-2">
-              <h4 className="text-xs sm:text-sm font-bold text-emerald-900 flex items-center">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600 mr-2 shrink-0" />
-                Practical Lab Exercise
-              </h4>
-              <p className="text-xs sm:text-sm text-emerald-800 leading-relaxed">
-                {activeLesson.exercise}
-              </p>
-            </div>
-
-            {/* Key Takeaways */}
-            <div className="pt-4 border-t border-neutral-200">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-neutral-500 mb-3">
-                Key Lesson Takeaways
-              </h4>
-              <div className="flex flex-wrap gap-2">
-                {activeLesson.takeaways.map((point, i) => (
-                  <span
-                    key={i}
-                    className="text-xs font-medium px-3 py-1.5 bg-neutral-100 text-neutral-800 rounded-lg"
-                  >
-                    &bull; {point}
-                  </span>
-                ))}
+            {/* Quick Self-Check Question */}
+            {activeLesson.quizQuestion && (
+              <div className="p-4 sm:p-6 rounded-2xl bg-neutral-950 border border-neutral-800 space-y-3">
+                <h4 className="text-sm font-bold text-white flex items-center">
+                  <span className="w-2 h-2 rounded-full bg-[#F07825] mr-2" />
+                  Quick Concept Self-Check
+                </h4>
+                <p className="text-xs sm:text-sm text-neutral-200 font-semibold">
+                  {activeLesson.quizQuestion.question}
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                  {activeLesson.quizQuestion.options.map((opt: string, i: number) => (
+                    <div
+                      key={i}
+                      className="p-3 rounded-xl border border-neutral-800 text-xs text-neutral-300 bg-neutral-900/60"
+                    >
+                      <span className="font-bold text-[#F07825] mr-2">{String.fromCharCode(65 + i)}.</span>
+                      {opt}
+                    </div>
+                  ))}
+                </div>
+                <div className="pt-2 text-xs text-neutral-400 border-t border-neutral-800">
+                  <span className="font-semibold text-[#F07825]">Correct Answer: </span>
+                  Option {activeLesson.quizQuestion.correctAnswer} &mdash; {activeLesson.quizQuestion.explanation}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       )}
     </div>
   );
 }
-
